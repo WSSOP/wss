@@ -1,0 +1,37 @@
+{
+  "version": "PJ_SUITABILITY_V1",
+  "functional_roles": {
+    "YOGAKARAKA": {"base_tier": 4, "derive_when": "owns 5 or 9 and also owns 4 or 10; registered ascendant exceptions may override"},
+    "LAGNA_LORD": {"base_tier": 4, "derive_when": "owns house 1; secondary difficult-house ownership is retained as qualifier"},
+    "TRIKONA_LORD": {"base_tier": 3, "derive_when": "owns 5 or 9 without registered difficult mixed ownership"},
+    "MIXED_BENEFIC": {"base_tier": 2, "derive_when": "owns 5 or 9 plus 6, 8, 12, 2, or 7 and is not Lagna lord or Yogakaraka"},
+    "KENDRA_ONLY": {"base_tier": 2, "derive_when": "owns 4 or 10 without a higher role"},
+    "NEUTRAL": {"base_tier": 1, "derive_when": "no higher role and not only a registered difficult role"},
+    "MARAKA_ONLY": {"base_tier": 0, "derive_when": "owns 2 or 7 without a higher role"},
+    "DUSTHANA_ONLY": {"base_tier": 0, "derive_when": "owns 6, 8, or 12 without a higher role"},
+    "UPACHAYA_ONLY": {"base_tier": 0, "derive_when": "owns 3 or 11 without a higher role"}
+  },
+  "shadbala_bands": {
+    "LOW": {"max_exclusive": 0.75, "vote_permission": "VALIDATING_ONLY"},
+    "NORMAL": {"min_inclusive": 0.75, "max_inclusive": 1.25, "vote_permission": "QUALIFIER_ONLY"},
+    "SATURATED": {"min_exclusive": 1.25, "vote_permission": "DOWNGRADE_ONLY_WITH_MATCHING_CONFLICT"}
+  },
+  "modifiers": {
+    "DIGNITY_STABLE": {"conditions": ["EXALTED", "MOOLATRIKONA", "OWN_SIGN"], "support_modifier": 2, "can_establish_root": false},
+    "DIGNITY_DEBILITATED": {"downgrade_penalty": 2, "gemstone_review": true, "can_establish_root": false},
+    "COMBUSTION": {"downgrade_penalty": 2, "blocks_gemstone_if_other_risk": true, "can_establish_root": false},
+    "RETROGRADE": {"downgrade_penalty": 0, "permission": "STYLE_QUALIFIER_ONLY", "can_establish_root": false},
+    "NODE_EXACT_CONJUNCTION": {"downgrade_penalty": 3, "blocks_gemstone": true, "yantra_requires_base_tier": 3, "manual_review_flag": true},
+    "ECLIPSE_AXIS": {"downgrade_penalty": 4, "blocks_gemstone": true, "yantra_requires_base_tier": 3, "manual_review_flag": true},
+    "SEVERE_RISK_ROOT": {"downgrade_penalty": 3, "two_independent_roots_block_all_auto": true},
+    "LOW_SHADBALA": {"support_modifier": 1, "requires_base_tier_min": 2, "can_establish_root": false},
+    "SATURATED_SHADBALA": {"downgrade_penalty": 1, "blocks_all_when_overexpression_conflict": true, "can_establish_root": false},
+    "DASHA_ACTIVE_SUITABLE": {"dasha_tiebreaker": 2, "requires_base_tier_min": 2, "can_override_block": false},
+    "D9_VALIDATION": {"support_modifier": 1, "requires_d1_root": true, "can_establish_root": false}
+  },
+  "data_quality": {
+    "FULL_CHART": {"allowed_birth_time_quality": ["RECTIFIED", "DOCUMENTED", "DECLARED_EXACT"], "requires_ascendant_stable": true, "requires": ["D1_LORDSHIPS", "D1_PLANET_STATES", "SHADBALA", "DASHA"]},
+    "PARTIAL_CHART": {"allowed_birth_time_quality": ["APPROXIMATE", "UNKNOWN_STABILITY"], "gemstone_allowed": false},
+    "INSUFFICIENT_CHART": {"allowed_birth_time_quality": ["NO_TIME"], "chart_personalized_claim_allowed": false, "gemstone_allowed": false}
+  }
+}

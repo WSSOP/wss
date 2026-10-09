@@ -1,0 +1,479 @@
+{
+ "version": "V1.9",
+ "nakshatras": [
+  {
+   "order": 1,
+   "nakshatra_en": "Aswini",
+   "nakshatra_cn": "娄宿",
+   "keyword_1": "迅捷",
+   "keyword_2": "疗愈",
+   "keyword_3": "启程",
+   "daily_core_sentence": "适合先动起来，边做边调整节奏，也别忘了给自己留一点恢复空间。",
+   "transition_action": "快速启动、边走边调"
+  },
+  {
+   "order": 2,
+   "nakshatra_en": "Bharani",
+   "nakshatra_cn": "胃宿",
+   "keyword_1": "承载",
+   "keyword_2": "约束",
+   "keyword_3": "蜕变",
+   "daily_core_sentence": "先稳住边界，把该承担的事情处理好，再为下一步腾出空间。",
+   "transition_action": "稳住边界、承担该做的"
+  },
+  {
+   "order": 3,
+   "nakshatra_en": "Krittika",
+   "nakshatra_cn": "昴宿",
+   "keyword_1": "切割",
+   "keyword_2": "净化",
+   "keyword_3": "决断",
+   "daily_core_sentence": "把不必要的部分清理掉，让真正重要的选择变得更明确。",
+   "transition_action": "清掉杂项、明确取舍"
+  },
+  {
+   "order": 4,
+   "nakshatra_en": "Rohini",
+   "nakshatra_cn": "毕宿",
+   "keyword_1": "滋养",
+   "keyword_2": "丰盛",
+   "keyword_3": "吸引",
+   "daily_core_sentence": "把注意力放在滋养自己和稳步积累上，让好的东西慢慢长出来。",
+   "transition_action": "照顾当下、稳步积累"
+  },
+  {
+   "order": 5,
+   "nakshatra_en": "Mrigashira",
+   "nakshatra_cn": "觜宿",
+   "keyword_1": "探索",
+   "keyword_2": "好奇",
+   "keyword_3": "寻觅",
+   "daily_core_sentence": "保持好奇，继续寻找新的线索和可能，暂时不用急着下结论。",
+   "transition_action": "保持好奇、继续探寻"
+  },
+  {
+   "order": 6,
+   "nakshatra_en": "Ardra",
+   "nakshatra_cn": "参宿",
+   "keyword_1": "震荡",
+   "keyword_2": "突破",
+   "keyword_3": "重塑",
+   "daily_core_sentence": "变化出现时先别抗拒，把旧压力释放掉，再重新整理方向。",
+   "transition_action": "释放压力、重新整理"
+  },
+  {
+   "order": 7,
+   "nakshatra_en": "Punarvasu",
+   "nakshatra_cn": "井宿",
+   "keyword_1": "回归",
+   "keyword_2": "修复",
+   "keyword_3": "重建",
+   "daily_core_sentence": "回到熟悉的节奏，修补没处理好的部分，再重新开始。",
+   "transition_action": "回到原点、修补重启"
+  },
+  {
+   "order": 8,
+   "nakshatra_en": "Pushya",
+   "nakshatra_cn": "鬼宿",
+   "keyword_1": "滋养",
+   "keyword_2": "守护",
+   "keyword_3": "稳固",
+   "daily_core_sentence": "把精力放在照顾、支持和稳定积累上，先让基础变得可靠。",
+   "transition_action": "照顾基础、稳住节奏"
+  },
+  {
+   "order": 9,
+   "nakshatra_en": "Ashlesha",
+   "nakshatra_cn": "柳宿",
+   "keyword_1": "缠绕",
+   "keyword_2": "洞察",
+   "keyword_3": "边界",
+   "daily_core_sentence": "多观察一层，分清真正的感受和边界，再决定如何回应。",
+   "transition_action": "看清感受、守好边界"
+  },
+  {
+   "order": 10,
+   "nakshatra_en": "Magha",
+   "nakshatra_cn": "星宿",
+   "keyword_1": "祖先",
+   "keyword_2": "传承",
+   "keyword_3": "尊荣",
+   "daily_core_sentence": "回看自己的根基和来路，稳住位置，再决定今天要承担什么。",
+   "transition_action": "回看根基、稳住位置"
+  },
+  {
+   "order": 11,
+   "nakshatra_en": "Purva Phalguni",
+   "nakshatra_cn": "张宿",
+   "keyword_1": "欢愉",
+   "keyword_2": "魅力",
+   "keyword_3": "浪漫",
+   "daily_core_sentence": "让自己轻松一点，享受喜欢的人和事，也给关系多一点温度。",
+   "transition_action": "放松享受、增加温度"
+  },
+  {
+   "order": 12,
+   "nakshatra_en": "Uttara Phalguni",
+   "nakshatra_cn": "翼宿",
+   "keyword_1": "契约",
+   "keyword_2": "互助",
+   "keyword_3": "责任",
+   "daily_core_sentence": "把承诺和分工说清楚，可靠的合作比一时热情更重要。",
+   "transition_action": "说清承诺、落实分工"
+  },
+  {
+   "order": 13,
+   "nakshatra_en": "Hasta",
+   "nakshatra_cn": "轸宿",
+   "keyword_1": "技艺",
+   "keyword_2": "创造",
+   "keyword_3": "落实",
+   "daily_core_sentence": "动手去做，把想法拆成具体步骤，一点点变成看得见的成果。",
+   "transition_action": "动手实践、逐步落实"
+  },
+  {
+   "order": 14,
+   "nakshatra_en": "Chitra",
+   "nakshatra_cn": "角宿",
+   "keyword_1": "审美",
+   "keyword_2": "设计",
+   "keyword_3": "塑造",
+   "daily_core_sentence": "重新调整结构和呈现方式，把真正重要的部分做得更清楚。",
+   "transition_action": "调整结构、优化呈现"
+  },
+  {
+   "order": 15,
+   "nakshatra_en": "Swati",
+   "nakshatra_cn": "亢宿",
+   "keyword_1": "独立",
+   "keyword_2": "灵活",
+   "keyword_3": "流动",
+   "daily_core_sentence": "给自己多一点空间，顺着变化调整节奏，不必急着把事情定死。",
+   "transition_action": "保持弹性、顺势调整"
+  },
+  {
+   "order": 16,
+   "nakshatra_en": "Vishakha",
+   "nakshatra_cn": "氐宿",
+   "keyword_1": "目标",
+   "keyword_2": "决心",
+   "keyword_3": "进取",
+   "daily_core_sentence": "选定一个真正重要的目标，把分散的精力集中起来持续推进。",
+   "transition_action": "聚焦目标、持续推进"
+  },
+  {
+   "order": 17,
+   "nakshatra_en": "Anuradha",
+   "nakshatra_cn": "房宿",
+   "keyword_1": "友谊",
+   "keyword_2": "忠诚",
+   "keyword_3": "和谐",
+   "daily_core_sentence": "把注意力放在值得维护的关系上，真诚合作比单打独斗更容易走远。",
+   "transition_action": "维护连接、真诚合作"
+  },
+  {
+   "order": 18,
+   "nakshatra_en": "Jyeshtha",
+   "nakshatra_cn": "心宿",
+   "keyword_1": "权威",
+   "keyword_2": "守护",
+   "keyword_3": "担当",
+   "daily_core_sentence": "稳住自己的位置，处理该承担的责任，也守好必要的边界。",
+   "transition_action": "承担责任、守住边界"
+  },
+  {
+   "order": 19,
+   "nakshatra_en": "Mula",
+   "nakshatra_cn": "尾宿",
+   "keyword_1": "寻根",
+   "keyword_2": "真相",
+   "keyword_3": "重构",
+   "daily_core_sentence": "往问题根源多看一层，先弄清真正原因，再决定哪些部分需要重来。",
+   "transition_action": "追到根源、重新梳理"
+  },
+  {
+   "order": 20,
+   "nakshatra_en": "Purva Ashadha",
+   "nakshatra_cn": "箕宿",
+   "keyword_1": "净化",
+   "keyword_2": "奋进",
+   "keyword_3": "说服",
+   "daily_core_sentence": "先清理杂乱和旧情绪，再把信心放回真正想推进的方向上。",
+   "transition_action": "清理旧状态、重新出发"
+  },
+  {
+   "order": 21,
+   "nakshatra_en": "Uttara Ashadha",
+   "nakshatra_cn": "斗宿",
+   "keyword_1": "正道",
+   "keyword_2": "坚守",
+   "keyword_3": "成就",
+   "daily_core_sentence": "坚持正确而长期的选择，不必急着求快，把该做的事情做稳。",
+   "transition_action": "坚持方向、稳步完成"
+  },
+  {
+   "order": 22,
+   "nakshatra_en": "Shravana",
+   "nakshatra_cn": "女宿",
+   "keyword_1": "聆听",
+   "keyword_2": "学习",
+   "keyword_3": "传承",
+   "daily_core_sentence": "多听一点、多理解一点，真正有用的信息往往藏在认真倾听之后。",
+   "transition_action": "认真聆听、吸收信息"
+  },
+  {
+   "order": 23,
+   "nakshatra_en": "Dhanishta",
+   "nakshatra_cn": "虚宿",
+   "keyword_1": "节奏",
+   "keyword_2": "丰盛",
+   "keyword_3": "协作",
+   "daily_core_sentence": "找到适合自己的节奏，再和他人协调配合，很多事情会更容易推进。",
+   "transition_action": "找到节奏、协调配合"
+  },
+  {
+   "order": 24,
+   "nakshatra_en": "Shatabhisha",
+   "nakshatra_cn": "危宿",
+   "keyword_1": "疗愈",
+   "keyword_2": "探究",
+   "keyword_3": "独处",
+   "daily_core_sentence": "留一点独处空间，把问题看深一些，也让自己慢慢恢复。",
+   "transition_action": "留出空间、深入探究"
+  },
+  {
+   "order": 25,
+   "nakshatra_en": "Purva Bhadrapada",
+   "nakshatra_cn": "室宿",
+   "keyword_1": "觉醒",
+   "keyword_2": "炽烈",
+   "keyword_3": "转化",
+   "daily_core_sentence": "把强烈的感受转成清晰行动，别让一时情绪把方向带偏。",
+   "transition_action": "收束情绪、完成转化"
+  },
+  {
+   "order": 26,
+   "nakshatra_en": "Uttara Bhadrapada",
+   "nakshatra_cn": "壁宿",
+   "keyword_1": "沉静",
+   "keyword_2": "稳固",
+   "keyword_3": "智慧",
+   "daily_core_sentence": "慢下来沉淀，把复杂的事情放稳，再从更长远的角度判断。",
+   "transition_action": "放慢节奏、沉淀判断"
+  },
+  {
+   "order": 27,
+   "nakshatra_en": "Revati",
+   "nakshatra_cn": "奎宿",
+   "keyword_1": "引导",
+   "keyword_2": "守护",
+   "keyword_3": "圆满",
+   "daily_core_sentence": "把该收尾的事情温和完成，照顾好自己，也为下一段路留出空间。",
+   "transition_action": "温和收尾、准备启程"
+  }
+ ],
+ "signs": [
+  {
+   "sign_en": "Aries",
+   "sign_cn": "白羊座",
+   "sign_transition_phrase": "马上行动、加快推进"
+  },
+  {
+   "sign_en": "Taurus",
+   "sign_cn": "金牛座",
+   "sign_transition_phrase": "放慢一点、稳住现实节奏"
+  },
+  {
+   "sign_en": "Gemini",
+   "sign_cn": "双子座",
+   "sign_transition_phrase": "交换信息、灵活处理"
+  },
+  {
+   "sign_en": "Cancer",
+   "sign_cn": "巨蟹座",
+   "sign_transition_phrase": "照顾感受、回到熟悉节奏"
+  },
+  {
+   "sign_en": "Leo",
+   "sign_cn": "狮子座",
+   "sign_transition_phrase": "表达立场、主动展现"
+  },
+  {
+   "sign_en": "Virgo",
+   "sign_cn": "处女座",
+   "sign_transition_phrase": "整理细节、把事情落实"
+  },
+  {
+   "sign_en": "Libra",
+   "sign_cn": "天秤座",
+   "sign_transition_phrase": "协调关系、重新找平衡"
+  },
+  {
+   "sign_en": "Scorpio",
+   "sign_cn": "天蝎座",
+   "sign_transition_phrase": "深入判断、处理隐性问题"
+  },
+  {
+   "sign_en": "Sagittarius",
+   "sign_cn": "射手座",
+   "sign_transition_phrase": "打开视野、尝试新方向"
+  },
+  {
+   "sign_en": "Capricorn",
+   "sign_cn": "摩羯座",
+   "sign_transition_phrase": "明确责任、完成现实目标"
+  },
+  {
+   "sign_en": "Aquarius",
+   "sign_cn": "水瓶座",
+   "sign_transition_phrase": "跳出惯性、从整体重新看"
+  },
+  {
+   "sign_en": "Pisces",
+   "sign_cn": "双鱼座",
+   "sign_transition_phrase": "放慢节奏、跟随内在感受"
+  }
+ ],
+ "domain_sentences": [
+  {
+   "domain": "career",
+   "score_min": 20,
+   "score_max": 39,
+   "level_key": "LOW",
+   "template_text": "今天工作推进感偏弱，先守住重点，重要决定尽量别赶。"
+  },
+  {
+   "domain": "career",
+   "score_min": 40,
+   "score_max": 49,
+   "level_key": "WATCH",
+   "template_text": "工作里容易多一点阻力，先理顺优先级，再处理关键事项。"
+  },
+  {
+   "domain": "career",
+   "score_min": 50,
+   "score_max": 59,
+   "level_key": "STEADY",
+   "template_text": "事业节奏整体平稳，按计划把手头事务做好就可以。"
+  },
+  {
+   "domain": "career",
+   "score_min": 60,
+   "score_max": 74,
+   "level_key": "GOOD",
+   "template_text": "今天适合推进工作，把精力集中到最重要的任务上。"
+  },
+  {
+   "domain": "career",
+   "score_min": 75,
+   "score_max": 95,
+   "level_key": "STRONG",
+   "template_text": "事业推进感比较突出，适合主动争取机会、推动关键事项。"
+  },
+  {
+   "domain": "love",
+   "score_min": 20,
+   "score_max": 39,
+   "level_key": "LOW",
+   "template_text": "关系里更容易敏感或起摩擦，重要话题别在情绪最重时谈。"
+  },
+  {
+   "domain": "love",
+   "score_min": 40,
+   "score_max": 49,
+   "level_key": "WATCH",
+   "template_text": "今天相处要多一点耐心，把话说清楚比反复猜测更有用。"
+  },
+  {
+   "domain": "love",
+   "score_min": 50,
+   "score_max": 59,
+   "level_key": "STEADY",
+   "template_text": "关系节奏比较平稳，保持自然互动，不必刻意推动进度。"
+  },
+  {
+   "domain": "love",
+   "score_min": 60,
+   "score_max": 74,
+   "level_key": "GOOD",
+   "template_text": "今天适合沟通和靠近，真诚表达更容易得到回应。"
+  },
+  {
+   "domain": "love",
+   "score_min": 75,
+   "score_max": 95,
+   "level_key": "STRONG",
+   "template_text": "关系互动感比较突出，适合主动表达心意、推进重要互动。"
+  },
+  {
+   "domain": "study",
+   "score_min": 20,
+   "score_max": 39,
+   "level_key": "LOW",
+   "template_text": "今天注意力比较容易散，先缩小任务范围，一件一件完成。"
+  },
+  {
+   "domain": "study",
+   "score_min": 40,
+   "score_max": 49,
+   "level_key": "WATCH",
+   "template_text": "学习状态有些起伏，把任务拆小、减少干扰会更顺。"
+  },
+  {
+   "domain": "study",
+   "score_min": 50,
+   "score_max": 59,
+   "level_key": "STEADY",
+   "template_text": "学习节奏比较稳定，适合按计划复习、整理和完成任务。"
+  },
+  {
+   "domain": "study",
+   "score_min": 60,
+   "score_max": 74,
+   "level_key": "GOOD",
+   "template_text": "今天比较容易进入状态，适合集中处理重点和难点。"
+  },
+  {
+   "domain": "study",
+   "score_min": 75,
+   "score_max": 95,
+   "level_key": "STRONG",
+   "template_text": "学习吸收力比较突出，适合深度理解、训练和高强度输入。"
+  },
+  {
+   "domain": "growth",
+   "score_min": 20,
+   "score_max": 39,
+   "level_key": "LOW",
+   "template_text": "今天容易被旧情绪或惯性带着走，先看清自己为什么不舒服。"
+  },
+  {
+   "domain": "growth",
+   "score_min": 40,
+   "score_max": 49,
+   "level_key": "WATCH",
+   "template_text": "今天适合先观察再调整，有些问题不需要马上找到答案。"
+  },
+  {
+   "domain": "growth",
+   "score_min": 50,
+   "score_max": 59,
+   "level_key": "STEADY",
+   "template_text": "内在状态比较平稳，适合按自己的节奏整理感受和想法。"
+  },
+  {
+   "domain": "growth",
+   "score_min": 60,
+   "score_max": 74,
+   "level_key": "GOOD",
+   "template_text": "今天容易想通一些事情，适合整理思路、调整旧习惯。"
+  },
+  {
+   "domain": "growth",
+   "score_min": 75,
+   "score_max": 95,
+   "level_key": "STRONG",
+   "template_text": "自我调整和理解会更明显，适合面对变化、做出更适合自己的选择。"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wenxingdu.local/schemas/planetary-jewelry/engine-output-v1.json",
+  "title": "Planetary Jewelry Engine Output V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["assessment_id", "assessment_mode", "resolution_status", "goal_summary", "recommendations", "suppressed_candidates", "audit", "versions", "resolved_at"],
+  "properties": {
+    "assessment_id": {"type": "string"},
+    "assessment_mode": {"enum": ["SELF_ASSESSMENT", "GIFT_BLESSING"]},
+    "resolution_status": {"enum": ["TWO_RECOMMENDATIONS", "ONE_RECOMMENDATION", "NO_AUTOMATIC_RECOMMENDATION"]},
+    "goal_summary": {"type": "array", "minItems": 1, "maxItems": 2, "items": {"type": "string"}},
+    "recommendations": {
+      "type": "array",
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["rank", "planet_code", "modality", "confidence", "goal_bridge", "score_breakdown", "evidence", "suppressed_upgrades", "catalog_query_tags"],
+        "properties": {
+          "rank": {"enum": ["PRIMARY", "SECONDARY"]},
+          "planet_code": {"enum": ["SUN", "MOON", "MARS", "MERCURY", "JUPITER", "VENUS", "SATURN"]},
+          "modality": {"enum": ["GEMSTONE_ELIGIBLE", "YANTRA_PREFERRED", "YANTRA_ONLY", "BLESSING_THEME_ONLY"]},
+          "confidence": {"enum": ["HIGH", "MEDIUM", "LOW"]},
+          "goal_bridge": {"type": "string", "minLength": 1},
+          "score_breakdown": {
+            "type": "object",
+            "required": ["raw_goal_score", "base_tier", "structural_bonus", "support_modifier", "dasha_tiebreaker", "downgrade_penalty", "rank_score"],
+            "properties": {
+              "raw_goal_score": {"type": "number"},
+              "base_tier": {"type": "integer", "minimum": 0, "maximum": 4},
+              "structural_bonus": {"type": "integer", "minimum": 0, "maximum": 8},
+              "support_modifier": {"type": "integer", "minimum": 0, "maximum": 4},
+              "dasha_tiebreaker": {"type": "integer", "minimum": 0, "maximum": 2},
+              "downgrade_penalty": {"type": "integer", "minimum": 0, "maximum": 6},
+              "rank_score": {"type": "number"}
+            }
+          },
+          "evidence": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["code", "polarity", "priority"], "properties": {"code": {"type": "string"}, "polarity": {"enum": ["SUPPORT", "DOWNGRADE", "VALIDATE"]}, "priority": {"enum": ["PRIMARY", "SUPPORTING", "VALIDATING"]}}}},
+          "suppressed_upgrades": {"type": "array", "items": {"type": "string"}},
+          "catalog_query_tags": {"type": "object", "required": ["planet_code", "allowed_remedy_types"], "properties": {"planet_code": {"type": "string"}, "allowed_remedy_types": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["YANTRA", "GEMSTONE"]}}}}
+        }
+      }
+    },
+    "suppressed_candidates": {"type": "array", "items": {"type": "object", "required": ["planet_code", "reason_codes"], "properties": {"planet_code": {"type": "string"}, "reason_codes": {"type": "array", "minItems": 1, "items": {"type": "string"}}}}},
+    "audit": {"type": "object"},
+    "versions": {"type": "object"},
+    "resolved_at": {"type": "string", "format": "date-time"}
+  }
+}

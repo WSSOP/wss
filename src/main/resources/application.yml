@@ -1,0 +1,31 @@
+# 问星渡后端服务｜公共基础配置
+#
+# 通过 spring.profiles.active 切换环境：
+#   -dev（开发）  默认激活，本地开发直接用
+#   -prod（生产）打包时指定：java -jar zpback.jar --spring.profiles.active=prod
+#
+# 各环境差异配置（数据库、Redis、密钥、AI Key）全部在 application-dev.yml / application-prod.yml 中。
+
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: zpback
+  profiles:
+    active: dev
+
+  jackson:
+    date-format: yyyy-MM-dd'T'HH:mm:ssXXX
+    time-zone: GMT+8
+    default-property-inclusion: non_null
+
+# MyBatis 公共配置
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: cn.dct.zpback.entity
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: true

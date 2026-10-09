@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+    问星渡｜商城购物车
+
+    契约来源：《【我的】页面开发文档》§7、§12.1。
+
+    §12.1 规定购物车数量 = 有效可结算 SKU 行。
+    该口径「为什么不剔除缺货行」的完整理由写在
+    MallCartMapper#countSettleableRows 的 Javadoc 里，不要在别处另写一份。
+-->
+<mapper namespace="cn.dct.zpback.mapper.MallCartMapper">
+
+    <sql id="cols">
+        cart_item_id, user_id, sku_id, product_id,
+        quantity, selected, item_status, created_at, updated_at
+    </sql>
+
+    <!-- §12.1：计数口径。走 idx_mall_cart_user_status，不回表、不联表 -->
+    <select id="countSettleableRows" resultType="int">
+        SELECT COUNT(*) FROM mall_cart_item
+        WHERE user_id = #{userId}
+          AND item_status = 'ACTIVE'
+          AND selected = 1
+          AND quantity &gt; 0
+    </select>
+
+    <select id="countActiveRows" resultType="int">
+        SELECT COUNT(*) FROM mall_cart_item
+        WHERE user_id = #{userId}
+          AND item_status = 'ACTIVE'
+    </select>
+
+    <select id="findActiveByUser" resultType="cn.dct.zpback.entity.MallCartItem">
+        SELECT <include refid="cols"/> FROM mall_cart_item
+        WHERE user_id = #{userId}
+          AND item_status = 'ACTIVE'
+        ORDER BY created_at ASC
+    </select>
+
+    <!-- 所有权校验：userId 与 skuId 同时匹配，防越权改他人购物车（§16.3） -->
+    <select id="findByUserAndSku" resultType="cn.dct.zpback.entity.MallCartItem">
+        SELECT <include refid="cols"/> FROM mall_cart_item
+        WHERE user_id = #{userId}
+          AND sku_id = #{skuId}
+          AND item_status = 'ACTIVE'
+        LIMIT 1
+    </select>
+
+    <!--
+        加购：依赖唯一键 uk_mall_cart_user_sku。
+        已存在则累加并恢复 ACTIVE——用户删掉后再次加购应当回来，
+        而不该被那条 ACTIVE=REMOVED 的旧行卡住。
+        数量上限不在 SQL 里校验，业务上限见 MallCartService。
+    -->
+    <insert id="upsertIncrement" parameterType="cn.dct.zpback.entity.MallCartItem">
+        INSERT INTO mall_cart_item
+            (cart_item_id, user_id, sku_id, product_id, quantity, selected, item_status)
+        VALUES
+            (#{cartItemId}, #{userId}, #{skuId}, #{productId},
+             #{quantity}, 1, 'ACTIVE')
+        ON DUPLICATE KEY UPDATE
+            quantity    = quantity + #{quantity},
+            selected    = 1,
+            item_status = 'ACTIVE',
+            product_id  = VALUES(product_id),
+            updated_at  = CURRENT_TIMESTAMP
+    </insert>
+
+    <update id="updateQuantity">
+        UPDATE mall_cart_item
+        SET quantity = #{quantity}, updated_at = CURRENT_TIMESTAMP
+        WHERE user_id = #{userId} AND sku_id = #{skuId} AND item_status = 'ACTIVE'
+    </update>
+
+    <update id="updateSelected">
+        UPDATE mall_cart_item
+        SET selected = #{selected}, updated_at = CURRENT_TIMESTAMP
+        WHERE user_id = #{userId} AND sku_id = #{skuId} AND item_status = 'ACTIVE'
+    </update>
+
+    <update id="updateSelectedAll">
+        UPDATE mall_cart_item
+        SET selected = #{selected}, updated_at = CURRENT_TIMESTAMP
+        WHERE user_id = #{userId} AND item_status = 'ACTIVE'
+    </update>
+
+    <!-- 软删而非 DELETE：订单与历史引用需保留，与商品 ARCHIVED 终态保持一致 -->
+    <update id="softRemove">
+        UPDATE mall_cart_item
+        SET item_status = 'REMOVED', selected = 0, updated_at = CURRENT_TIMESTAMP
+        WHERE user_id = #{userId} AND sku_id = #{skuId} AND item_status = 'ACTIVE'
+    </update>
+
+    <update id="softRemoveSelected">
+        UPDATE mall_cart_item
+        SET item_status = 'REMOVED', selected = 0, updated_at = CURRENT_TIMESTAMP
+        WHERE user_id = #{userId} AND selected = 1 AND item_status = 'ACTIVE'
+    </update>
+
+</mapper>

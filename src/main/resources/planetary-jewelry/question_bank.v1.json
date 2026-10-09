@@ -1,0 +1,205 @@
+{
+  "version": "PJ_QUESTIONNAIRE_V1",
+  "candidate_planets": ["SUN", "MOON", "MARS", "MERCURY", "JUPITER", "VENUS", "SATURN"],
+  "rules": {
+    "max_goal_candidates_before_chart_gate": 4,
+    "candidate_raw_score_min": 8,
+    "max_active_branch_questions": 2,
+    "scores_are_hidden_from_user": true,
+    "product_preferences_are_post_result": true
+  },
+  "modes": {
+    "SELF_ASSESSMENT": {
+      "required_question_ids": ["S01", "S02", "S03", "S04", "S05", "S06"],
+      "questions": [
+        {
+          "id": "S01",
+          "type": "MULTI_SELECT",
+          "max_select": 2,
+          "prompt": "最近1—3个月，你最想优先改善哪两个方面？",
+          "options": [
+            {"id": "SELF_DECISION", "label": "更相信自己的判断，敢于做决定", "planet_weights": {"SUN": 4, "JUPITER": 2, "MERCURY": 1}, "goal_tags": ["SELF_AUTHORITY"]},
+            {"id": "SELF_EMOTIONAL", "label": "减少情绪消耗，恢复内在稳定", "planet_weights": {"MOON": 4, "VENUS": 1, "SATURN": 1}, "goal_tags": ["EMOTIONAL_STEADINESS"]},
+            {"id": "SELF_ACTION", "label": "更有行动力，也更敢建立边界", "planet_weights": {"MARS": 4, "SUN": 2, "SATURN": 1}, "goal_tags": ["ACTION_BOUNDARY"]},
+            {"id": "SELF_CLARITY", "label": "让思路、学习和表达更清晰", "planet_weights": {"MERCURY": 4, "JUPITER": 1, "SATURN": 1}, "goal_tags": ["CLARITY_EXPRESSION"]},
+            {"id": "SELF_RELATION", "label": "改善关系互动与自我接纳", "planet_weights": {"VENUS": 4, "MOON": 2, "MERCURY": 1}, "goal_tags": ["RELATION_RECEIVING"]},
+            {"id": "SELF_GROWTH", "label": "找到方向，拓展成长与机会", "planet_weights": {"JUPITER": 4, "SUN": 1, "MERCURY": 1}, "goal_tags": ["GROWTH_WISDOM"]},
+            {"id": "SELF_STRUCTURE", "label": "建立纪律、耐心和稳定节奏", "planet_weights": {"SATURN": 4, "MARS": 1, "MOON": 1}, "goal_tags": ["STRUCTURE_CONSISTENCY"]}
+          ]
+        },
+        {
+          "id": "S02",
+          "type": "SINGLE_SELECT",
+          "prompt": "目前最常卡住你的情况是哪一种？",
+          "options": [
+            {"id": "DELAY_START", "label": "知道要做什么，却迟迟无法开始", "planet_weights": {"MARS": 4, "SUN": 2, "MERCURY": 1}},
+            {"id": "CANNOT_SUSTAIN", "label": "开始得不慢，但很难持续", "planet_weights": {"SATURN": 4, "MARS": 2, "MOON": 1}},
+            {"id": "FEAR_DECISION", "label": "担心做错决定，所以反复犹豫", "planet_weights": {"SUN": 3, "JUPITER": 3, "MERCURY": 2}},
+            {"id": "SCATTERED", "label": "想法和任务太多，不知道先做什么", "planet_weights": {"MERCURY": 4, "SATURN": 2, "JUPITER": 1}},
+            {"id": "EMOTIONAL_DRAIN", "label": "容易受情绪或他人的反应影响", "planet_weights": {"MOON": 4, "SATURN": 2, "VENUS": 1}},
+            {"id": "OVERGIVE", "label": "关系里容易过度付出，忽略自己", "planet_weights": {"VENUS": 3, "MOON": 2, "SUN": 2, "MARS": 1}},
+            {"id": "NO_DIRECTION", "label": "努力不少，却不确定方向是否适合", "planet_weights": {"JUPITER": 4, "SUN": 2, "MERCURY": 1}}
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "SINGLE_SELECT",
+          "prompt": "以下哪种状态是你已经不希望继续增加的？",
+          "options": [
+            {"id": "TOO_IMPULSIVE", "label": "着急、冲动或容易硬碰硬", "planet_weights": {"MARS": -4, "SUN": -1}},
+            {"id": "TOO_MUCH_THINKING", "label": "想得太多，反复分析", "planet_weights": {"MERCURY": -4}},
+            {"id": "TOO_MUCH_PRESSURE", "label": "对自己要求过高，生活太紧绷", "planet_weights": {"SATURN": -4, "SUN": -1}},
+            {"id": "TOO_SENSITIVE", "label": "情绪过度敏感，很难抽离", "planet_weights": {"MOON": -4, "VENUS": -1}},
+            {"id": "TOO_PLEASING", "label": "过度顾及关系与他人感受", "planet_weights": {"VENUS": -3, "MOON": -1}},
+            {"id": "TOO_SELF_ASSERTIVE", "label": "过度坚持自己，不容易听取意见", "planet_weights": {"SUN": -3, "JUPITER": -1}},
+            {"id": "TOO_EXPANSIVE", "label": "目标铺得太大，承诺超过现实能力", "planet_weights": {"JUPITER": -3}},
+            {"id": "NO_OVEREXPRESSION", "label": "目前没有特别明显的这一类状态", "planet_weights": {}}
+          ]
+        },
+        {
+          "id": "S04",
+          "type": "MULTI_SELECT",
+          "max_select": 2,
+          "prompt": "如果未来三个月能发生改变，你最希望自己更接近哪种状态？",
+          "options": [
+            {"id": "OUTCOME_CONFIDENT", "label": "更自信、果断，也更敢表达立场", "planet_weights": {"SUN": 4, "MARS": 1}},
+            {"id": "OUTCOME_STEADY", "label": "内心更稳定，懂得照顾自己", "planet_weights": {"MOON": 4, "VENUS": 1}},
+            {"id": "OUTCOME_ACT", "label": "更快开始行动并守住边界", "planet_weights": {"MARS": 4, "SUN": 1}},
+            {"id": "OUTCOME_CLEAR", "label": "思路清晰，表达和学习更顺畅", "planet_weights": {"MERCURY": 4, "JUPITER": 1}},
+            {"id": "OUTCOME_CONNECTED", "label": "更能接纳自己，也更自在地连接他人", "planet_weights": {"VENUS": 4, "MOON": 1}},
+            {"id": "OUTCOME_DIRECTION", "label": "对未来更有方向感与判断力", "planet_weights": {"JUPITER": 4, "SUN": 1}},
+            {"id": "OUTCOME_PERSIST", "label": "稳定坚持，把计划逐步落地", "planet_weights": {"SATURN": 4, "MARS": 1}}
+          ]
+        },
+        {
+          "id": "S05",
+          "type": "SINGLE_SELECT",
+          "prompt": "这个状态大约持续了多久？",
+          "copy_only": true,
+          "options": [
+            {"id": "UNDER_ONE_MONTH", "label": "不到1个月"},
+            {"id": "ONE_TO_THREE_MONTHS", "label": "1—3个月"},
+            {"id": "THREE_TO_TWELVE_MONTHS", "label": "3—12个月"},
+            {"id": "OVER_ONE_YEAR", "label": "超过1年"}
+          ]
+        },
+        {
+          "id": "S06",
+          "type": "SINGLE_SELECT",
+          "prompt": "你更偏好哪种佩戴体验？",
+          "modality_preference_only": true,
+          "options": [
+            {"id": "GENTLE_DAILY", "label": "温和、适合日常提醒", "modality_preference": "YANTRA"},
+            {"id": "OPEN_TO_GEMSTONE", "label": "如果星盘适合，也愿意考虑天然宝石", "modality_preference": "GEMSTONE_IF_ELIGIBLE"},
+            {"id": "NO_PREFERENCE", "label": "没有偏好，以测试结果为准", "modality_preference": "NONE"}
+          ]
+        }
+      ],
+      "branch_questions": [
+        {"id": "SB_AUTHORITY", "trigger_option_ids": ["SELF_DECISION"], "type": "SINGLE_SELECT", "prompt": "关于自信与判断，你更希望改善哪一点？", "options": [
+          {"id": "AUTH_DECIDE", "label": "更敢自己做决定", "planet_weights": {"SUN": 5, "JUPITER": 2}},
+          {"id": "AUTH_VISIBLE", "label": "更敢被看见和表达立场", "planet_weights": {"SUN": 5, "MERCURY": 2}},
+          {"id": "AUTH_JUDGE", "label": "提高判断与长远眼光", "planet_weights": {"JUPITER": 5, "SUN": 2}}
+        ]},
+        {"id": "SB_EMOTION", "trigger_option_ids": ["SELF_EMOTIONAL"], "type": "SINGLE_SELECT", "prompt": "你更希望获得哪种内在支持？", "options": [
+          {"id": "EMO_SAFE", "label": "情绪更稳定、有安全感", "planet_weights": {"MOON": 5, "SATURN": 1}},
+          {"id": "EMO_NOURISH", "label": "更会照顾和接纳自己", "planet_weights": {"MOON": 4, "VENUS": 3}},
+          {"id": "EMO_BOUNDARY", "label": "不再轻易被外界情绪带走", "planet_weights": {"MOON": 3, "SATURN": 3, "MARS": 1}}
+        ]},
+        {"id": "SB_ACTION", "trigger_option_ids": ["SELF_ACTION"], "type": "SINGLE_SELECT", "prompt": "关于行动力，你最想改变的是？", "options": [
+          {"id": "ACT_START", "label": "减少拖延，更快开始", "planet_weights": {"MARS": 5, "SUN": 2}},
+          {"id": "ACT_BOUNDARY", "label": "更敢拒绝并守住边界", "planet_weights": {"MARS": 5, "SUN": 2}},
+          {"id": "ACT_PERSIST", "label": "开始后能够持续", "planet_weights": {"SATURN": 5, "MARS": 2}}
+        ]},
+        {"id": "SB_CLARITY", "trigger_option_ids": ["SELF_CLARITY"], "type": "SINGLE_SELECT", "prompt": "关于思考与表达，你更希望改善？", "options": [
+          {"id": "CLEAR_THINK", "label": "整理思路和信息", "planet_weights": {"MERCURY": 5, "SATURN": 1}},
+          {"id": "CLEAR_SPEAK", "label": "更准确地表达和沟通", "planet_weights": {"MERCURY": 5, "VENUS": 1}},
+          {"id": "CLEAR_LEARN", "label": "提高学习理解与判断", "planet_weights": {"MERCURY": 4, "JUPITER": 3}}
+        ]},
+        {"id": "SB_RELATION", "trigger_option_ids": ["SELF_RELATION"], "type": "SINGLE_SELECT", "prompt": "在关系中，你更希望获得？", "options": [
+          {"id": "REL_RECEIVE", "label": "更自在地接受爱与善意", "planet_weights": {"VENUS": 5, "MOON": 2}},
+          {"id": "REL_HARMONY", "label": "更有分寸地建立和谐互动", "planet_weights": {"VENUS": 4, "MERCURY": 2, "MOON": 1}},
+          {"id": "REL_SELF", "label": "更重视自己的价值与选择", "planet_weights": {"VENUS": 3, "SUN": 3, "MARS": 1}}
+        ]},
+        {"id": "SB_GROWTH", "trigger_option_ids": ["SELF_GROWTH"], "type": "SINGLE_SELECT", "prompt": "关于成长，你更希望获得？", "options": [
+          {"id": "GROW_DIRECTION", "label": "更清楚长期方向", "planet_weights": {"JUPITER": 5, "SUN": 2}},
+          {"id": "GROW_OPPORTUNITY", "label": "更愿意学习并拓展机会", "planet_weights": {"JUPITER": 5, "MERCURY": 2}},
+          {"id": "GROW_MEANING", "label": "建立更稳定的价值判断", "planet_weights": {"JUPITER": 5, "SATURN": 1}}
+        ]},
+        {"id": "SB_STRUCTURE", "trigger_option_ids": ["SELF_STRUCTURE"], "type": "SINGLE_SELECT", "prompt": "关于稳定与坚持，你最想改善？", "options": [
+          {"id": "STR_ROUTINE", "label": "建立规律和秩序", "planet_weights": {"SATURN": 5, "MOON": 1}},
+          {"id": "STR_PERSIST", "label": "长期坚持，不轻易放弃", "planet_weights": {"SATURN": 5, "MARS": 2}},
+          {"id": "STR_RESPONSIBLE", "label": "更稳妥地承担责任与落地计划", "planet_weights": {"SATURN": 5, "JUPITER": 1}}
+        ]}
+      ]
+    },
+    "GIFT_BLESSING": {
+      "required_question_ids": ["G01", "G02", "G03", "G04"],
+      "questions": [
+        {
+          "id": "G01",
+          "type": "MULTI_SELECT",
+          "max_select": 2,
+          "prompt": "你最想把哪两方面的祝福送给TA？",
+          "options": [
+            {"id": "GIFT_CONFIDENCE", "label": "愿TA自信坚定，相信自己的选择", "planet_weights": {"SUN": 4, "JUPITER": 2, "MERCURY": 1}, "goal_tags": ["SELF_AUTHORITY"]},
+            {"id": "GIFT_PEACE", "label": "愿TA内心安稳，被温柔滋养", "planet_weights": {"MOON": 4, "VENUS": 2, "SATURN": 1}, "goal_tags": ["EMOTIONAL_STEADINESS"]},
+            {"id": "GIFT_COURAGE", "label": "愿TA勇敢行动，坚定向前", "planet_weights": {"MARS": 4, "SUN": 2, "SATURN": 1}, "goal_tags": ["ACTION_BOUNDARY"]},
+            {"id": "GIFT_CLARITY", "label": "愿TA思路清晰，表达顺畅", "planet_weights": {"MERCURY": 4, "JUPITER": 1, "SATURN": 1}, "goal_tags": ["CLARITY_EXPRESSION"]},
+            {"id": "GIFT_LOVE", "label": "愿TA被爱包围，关系和谐", "planet_weights": {"VENUS": 4, "MOON": 2, "MERCURY": 1}, "goal_tags": ["RELATION_RECEIVING"]},
+            {"id": "GIFT_GROWTH", "label": "愿TA拥有成长、智慧与机会", "planet_weights": {"JUPITER": 4, "SUN": 1, "MERCURY": 1}, "goal_tags": ["GROWTH_WISDOM"]},
+            {"id": "GIFT_STABILITY", "label": "愿TA稳定积累，走得长远", "planet_weights": {"SATURN": 4, "MARS": 1, "MOON": 1}, "goal_tags": ["STRUCTURE_CONSISTENCY"]}
+          ]
+        },
+        {"id": "G02", "type": "SINGLE_SELECT", "prompt": "TA与你是什么关系？", "copy_only": true, "options": [
+          {"id": "PARTNER", "label": "伴侣／喜欢的人"}, {"id": "FAMILY", "label": "家人"}, {"id": "FRIEND", "label": "朋友"}, {"id": "COLLEAGUE", "label": "同事／合作伙伴"}, {"id": "OTHER", "label": "其他重要的人"}
+        ]},
+        {"id": "G03", "type": "SINGLE_SELECT", "prompt": "这份礼物准备在什么时刻送出？", "copy_only": true, "options": [
+          {"id": "BIRTHDAY", "label": "生日"}, {"id": "ANNIVERSARY", "label": "纪念日"}, {"id": "MILESTONE", "label": "升学／工作／人生新阶段"}, {"id": "ENCOURAGEMENT", "label": "想为TA加油"}, {"id": "DAILY_GIFT", "label": "日常心意"}
+        ]},
+        {"id": "G04", "type": "SINGLE_SELECT", "prompt": "你更希望这份礼物呈现怎样的支持感？", "modality_preference_only": true, "options": [
+          {"id": "GIFT_GENTLE", "label": "温和、适合日常陪伴", "modality_preference": "YANTRA"},
+          {"id": "GIFT_GEMSTONE_OPEN", "label": "如果星盘条件充分，也可以考虑天然宝石", "modality_preference": "GEMSTONE_IF_ELIGIBLE"},
+          {"id": "GIFT_RESULT_FIRST", "label": "以测试结果为准", "modality_preference": "NONE"}
+        ]}
+      ],
+      "branch_questions": [
+        {"id": "GB_CONFIDENCE", "trigger_option_ids": ["GIFT_CONFIDENCE"], "type": "SINGLE_SELECT", "prompt": "关于自信，你更想祝福TA？", "options": [
+          {"id": "GB_DECIDE", "label": "相信自己的选择", "planet_weights": {"SUN": 5, "JUPITER": 2}},
+          {"id": "GB_VISIBLE", "label": "勇敢表达并被看见", "planet_weights": {"SUN": 5, "MERCURY": 2}},
+          {"id": "GB_JUDGMENT", "label": "拥有长远判断与方向", "planet_weights": {"JUPITER": 5, "SUN": 2}}
+        ]},
+        {"id": "GB_PEACE", "trigger_option_ids": ["GIFT_PEACE"], "type": "SINGLE_SELECT", "prompt": "关于内在安稳，你更想祝福TA？", "options": [
+          {"id": "GB_SAFE", "label": "内心安定、有安全感", "planet_weights": {"MOON": 5, "SATURN": 1}},
+          {"id": "GB_NOURISH", "label": "被温柔照顾，也懂得照顾自己", "planet_weights": {"MOON": 4, "VENUS": 3}},
+          {"id": "GB_RESILIENT", "label": "稳定面对变化，不轻易被影响", "planet_weights": {"MOON": 3, "SATURN": 3}}
+        ]},
+        {"id": "GB_COURAGE", "trigger_option_ids": ["GIFT_COURAGE"], "type": "SINGLE_SELECT", "prompt": "关于勇气与行动，你更想祝福TA？", "options": [
+          {"id": "GB_START", "label": "勇敢开始新计划", "planet_weights": {"MARS": 5, "SUN": 2}},
+          {"id": "GB_BOUNDARY", "label": "坚定表达并守住边界", "planet_weights": {"MARS": 5, "SUN": 2}},
+          {"id": "GB_PERSIST", "label": "把重要的事长期坚持下去", "planet_weights": {"SATURN": 5, "MARS": 2}}
+        ]},
+        {"id": "GB_CLARITY", "trigger_option_ids": ["GIFT_CLARITY"], "type": "SINGLE_SELECT", "prompt": "关于清晰与表达，你更想祝福TA？", "options": [
+          {"id": "GB_THINK", "label": "思路清晰、整理有序", "planet_weights": {"MERCURY": 5, "SATURN": 1}},
+          {"id": "GB_SPEAK", "label": "表达顺畅、沟通准确", "planet_weights": {"MERCURY": 5, "VENUS": 1}},
+          {"id": "GB_LEARN", "label": "学习顺利、理解深入", "planet_weights": {"MERCURY": 4, "JUPITER": 3}}
+        ]},
+        {"id": "GB_LOVE", "trigger_option_ids": ["GIFT_LOVE"], "type": "SINGLE_SELECT", "prompt": "关于爱与关系，你更想祝福TA？", "options": [
+          {"id": "GB_RECEIVE", "label": "自在地接受爱与善意", "planet_weights": {"VENUS": 5, "MOON": 2}},
+          {"id": "GB_HARMONY", "label": "拥有和谐、有分寸的关系", "planet_weights": {"VENUS": 4, "MERCURY": 2, "MOON": 1}},
+          {"id": "GB_SELF_WORTH", "label": "珍惜自己的价值与选择", "planet_weights": {"VENUS": 3, "SUN": 3}}
+        ]},
+        {"id": "GB_GROWTH", "trigger_option_ids": ["GIFT_GROWTH"], "type": "SINGLE_SELECT", "prompt": "关于成长与机会，你更想祝福TA？", "options": [
+          {"id": "GB_DIRECTION", "label": "看清长期方向", "planet_weights": {"JUPITER": 5, "SUN": 2}},
+          {"id": "GB_OPPORTUNITY", "label": "持续学习、拓展机会", "planet_weights": {"JUPITER": 5, "MERCURY": 2}},
+          {"id": "GB_WISDOM", "label": "拥有稳定的价值判断", "planet_weights": {"JUPITER": 5, "SATURN": 1}}
+        ]},
+        {"id": "GB_STABILITY", "trigger_option_ids": ["GIFT_STABILITY"], "type": "SINGLE_SELECT", "prompt": "关于稳定与积累，你更想祝福TA？", "options": [
+          {"id": "GB_ROUTINE", "label": "生活规律、内在有序", "planet_weights": {"SATURN": 5, "MOON": 1}},
+          {"id": "GB_LONG_TERM", "label": "耐心积累、走得长远", "planet_weights": {"SATURN": 5, "MARS": 2}},
+          {"id": "GB_GROUNDED", "label": "把计划稳妥落到现实", "planet_weights": {"SATURN": 5, "JUPITER": 1}}
+        ]}
+      ]
+    }
+  }
+}

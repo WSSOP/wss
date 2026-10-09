@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.dct.zpback.mapper.MallOrderItemMapper">
+
+    <sql id="cols">
+        item_id, order_id, sku_id, product_id, product_title, sku_variant,
+        trade_group, batch, price, quantity, subtotal
+    </sql>
+
+    <insert id="insert" parameterType="cn.dct.zpback.entity.MallOrderItem">
+        INSERT INTO mall_order_item (
+            item_id, order_id, sku_id, product_id, product_title, sku_variant,
+            trade_group, batch, price, quantity, subtotal
+        ) VALUES (
+            #{itemId}, #{orderId}, #{skuId}, #{productId}, #{productTitle}, #{skuVariant},
+            #{tradeGroup}, #{batch}, #{price}, #{quantity}, #{subtotal}
+        )
+    </insert>
+
+    <select id="listByOrder" resultType="cn.dct.zpback.entity.MallOrderItem">
+        SELECT <include refid="cols"/> FROM mall_order_item
+        WHERE order_id = #{orderId}
+        ORDER BY item_id
+    </select>
+
+</mapper>

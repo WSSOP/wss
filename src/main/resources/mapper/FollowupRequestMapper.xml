@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.dct.zpback.mapper.FollowupRequestMapper">
+
+    <resultMap id="BaseResultMap" type="cn.dct.zpback.entity.FollowupRequest">
+        <id column="request_id" property="requestId"/>
+        <result column="idempotency_key" property="idempotencyKey"/>
+        <result column="user_id" property="userId"/>
+        <result column="conversation_id" property="conversationId"/>
+        <result column="source_context" property="sourceContext"/>
+        <result column="report_instance_id" property="reportInstanceId"/>
+        <result column="question" property="question"/>
+        <result column="requested_mode" property="requestedMode"/>
+        <result column="answer_mode" property="answerMode"/>
+        <result column="intent" property="intent"/>
+        <result column="request_status" property="requestStatus"/>
+        <result column="answer_status" property="answerStatus"/>
+        <result column="block_reason" property="blockReason"/>
+        <result column="route_target" property="routeTarget"/>
+        <result column="quote_token" property="quoteToken"/>
+        <result column="entitlement_source" property="entitlementSource"/>
+        <result column="ledger_status" property="ledgerStatus"/>
+        <result column="consumed" property="consumed"/>
+        <result column="star_cost" property="starCost"/>
+        <result column="retry_count" property="retryCount"/>
+        <result column="created_at" property="createdAt"/>
+        <result column="completed_at" property="completedAt"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        request_id, idempotency_key, user_id, conversation_id, source_context,
+        report_instance_id, question, requested_mode, answer_mode, intent,
+        request_status, answer_status, block_reason, route_target, quote_token,
+        entitlement_source, ledger_status, consumed, star_cost, retry_count,
+        created_at, completed_at
+    </sql>
+
+    <select id="selectById" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List"/>
+        FROM followup_request WHERE request_id = #{requestId}
+    </select>
+
+    <select id="selectByIdempotencyKey" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List"/>
+        FROM followup_request WHERE idempotency_key = #{idempotencyKey}
+    </select>
+
+    <select id="selectByConversationId" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List"/>
+        FROM followup_request
+        WHERE conversation_id = #{conversationId}
+        ORDER BY created_at ASC
+    </select>
+
+    <insert id="insert" parameterType="cn.dct.zpback.entity.FollowupRequest">
+        INSERT INTO followup_request (request_id, idempotency_key, user_id, conversation_id, source_context,
+            report_instance_id, question, requested_mode, intent, request_status,
+            route_target, quote_token, entitlement_source, consumed, star_cost)
+        VALUES (#{requestId}, #{idempotencyKey}, #{userId}, #{conversationId}, #{sourceContext},
+            #{reportInstanceId}, #{question}, #{requestedMode}, #{intent}, #{requestStatus},
+            #{routeTarget}, #{quoteToken}, #{entitlementSource}, #{consumed}, #{starCost})
+    </insert>
+
+    <update id="updateStatus">
+        UPDATE followup_request
+        SET request_status = #{requestStatus},
+            answer_status = #{answerStatus}
+        WHERE request_id = #{requestId}
+    </update>
+
+    <update id="updateAnswer">
+        UPDATE followup_request
+        SET answer_content = #{answerContent},
+            answer_status = #{answerStatus},
+            completed_at = NOW()
+        WHERE request_id = #{requestId}
+    </update>
+
+</mapper>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.dct.zpback.mapper.MallAddressMapper">
+
+    <sql id="cols">
+        address_id, user_id, name, phone, province, city, district, detail,
+        is_default, created_at, updated_at
+    </sql>
+
+    <insert id="insert" parameterType="cn.dct.zpback.entity.MallAddress">
+        INSERT INTO mall_address (
+            address_id, user_id, name, phone, province, city, district, detail, is_default
+        ) VALUES (
+            #{addressId}, #{userId}, #{name}, #{phone}, #{province}, #{city},
+            #{district}, #{detail}, <choose><when test="isDefault != null and isDefault">1</when><otherwise>0</otherwise></choose>
+        )
+    </insert>
+
+    <select id="listByUser" resultType="cn.dct.zpback.entity.MallAddress">
+        SELECT <include refid="cols"/> FROM mall_address
+        WHERE user_id = #{userId}
+        ORDER BY is_default DESC, created_at ASC
+    </select>
+
+    <!-- 按 userId + addressId 双重校验：只能查到 / 删到自己的地址（§16.3 所有权） -->
+    <select id="findById" resultType="cn.dct.zpback.entity.MallAddress">
+        SELECT <include refid="cols"/> FROM mall_address
+        WHERE user_id = #{userId} AND address_id = #{addressId} LIMIT 1
+    </select>
+
+    <delete id="deleteByUserAndId">
+        DELETE FROM mall_address
+        WHERE user_id = #{userId} AND address_id = #{addressId}
+    </delete>
+
+    <update id="clearDefault">
+        UPDATE mall_address SET is_default = 0 WHERE user_id = #{userId}
+    </update>
+
+    <update id="setDefault">
+        UPDATE mall_address SET is_default = 1
+        WHERE user_id = #{userId} AND address_id = #{addressId}
+    </update>
+
+</mapper>

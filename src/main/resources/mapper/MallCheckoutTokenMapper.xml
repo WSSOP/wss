@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.dct.zpback.mapper.MallCheckoutTokenMapper">
+
+    <sql id="cols">
+        token, user_id, trade_group, group_key, sku_list, expires_at, created_at
+    </sql>
+
+    <insert id="insert" parameterType="cn.dct.zpback.entity.MallCheckoutToken">
+        INSERT INTO mall_checkout_token
+            (token, user_id, trade_group, group_key, sku_list, expires_at)
+        VALUES
+            (#{token}, #{userId}, #{tradeGroup}, #{groupKey}, #{skuList}, #{expiresAt})
+    </insert>
+
+    <!-- 取「尚未过期」的 token；过期返回 null，让结算直接失效 -->
+    <select id="findValid" resultType="cn.dct.zpback.entity.MallCheckoutToken">
+        SELECT <include refid="cols"/> FROM mall_checkout_token
+        WHERE token = #{token} AND expires_at &gt; NOW()
+        LIMIT 1
+    </select>
+
+</mapper>

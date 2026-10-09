@@ -1,0 +1,252 @@
+{
+  "registry_version": "1.0.0",
+  "ayanamsa": "LAHIRI",
+  "source_point": "D1_MOON_SIDEREAL_LONGITUDE",
+  "count": 27,
+  "boundary_policy": "LEFT_CLOSED_RIGHT_OPEN",
+  "entries": [
+    {
+      "nakshatra_id": "NK01",
+      "index": 1,
+      "english": "Aswini",
+      "chinese": "娄宿",
+      "start_arcminutes_inclusive": 0,
+      "end_arcminutes_exclusive": 800,
+      "degree_range_display": "白羊座0度～白羊座13度20分"
+    },
+    {
+      "nakshatra_id": "NK02",
+      "index": 2,
+      "english": "Bharani",
+      "chinese": "胃宿",
+      "start_arcminutes_inclusive": 800,
+      "end_arcminutes_exclusive": 1600,
+      "degree_range_display": "白羊座13度20分～白羊座26度40分"
+    },
+    {
+      "nakshatra_id": "NK03",
+      "index": 3,
+      "english": "Krittika",
+      "chinese": "昴宿",
+      "start_arcminutes_inclusive": 1600,
+      "end_arcminutes_exclusive": 2400,
+      "degree_range_display": "白羊座26度40分～金牛座10度"
+    },
+    {
+      "nakshatra_id": "NK04",
+      "index": 4,
+      "english": "Rohini",
+      "chinese": "毕宿",
+      "start_arcminutes_inclusive": 2400,
+      "end_arcminutes_exclusive": 3200,
+      "degree_range_display": "金牛座10度～金牛座23度20分"
+    },
+    {
+      "nakshatra_id": "NK05",
+      "index": 5,
+      "english": "Mrigashira",
+      "chinese": "觜宿",
+      "start_arcminutes_inclusive": 3200,
+      "end_arcminutes_exclusive": 4000,
+      "degree_range_display": "金牛座23度20分～双子座6度40分"
+    },
+    {
+      "nakshatra_id": "NK06",
+      "index": 6,
+      "english": "Ardra",
+      "chinese": "参宿",
+      "start_arcminutes_inclusive": 4000,
+      "end_arcminutes_exclusive": 4800,
+      "degree_range_display": "双子座6度40分～双子座20度"
+    },
+    {
+      "nakshatra_id": "NK07",
+      "index": 7,
+      "english": "Purnavasu",
+      "chinese": "井宿",
+      "start_arcminutes_inclusive": 4800,
+      "end_arcminutes_exclusive": 5600,
+      "degree_range_display": "双子座20度～巨蟹座3度20分"
+    },
+    {
+      "nakshatra_id": "NK08",
+      "index": 8,
+      "english": "Pushya",
+      "chinese": "鬼宿",
+      "start_arcminutes_inclusive": 5600,
+      "end_arcminutes_exclusive": 6400,
+      "degree_range_display": "巨蟹座3度20分～巨蟹座16度40分"
+    },
+    {
+      "nakshatra_id": "NK09",
+      "index": 9,
+      "english": "Ashlesha",
+      "chinese": "柳宿",
+      "start_arcminutes_inclusive": 6400,
+      "end_arcminutes_exclusive": 7200,
+      "degree_range_display": "巨蟹座16度40分～巨蟹座30度"
+    },
+    {
+      "nakshatra_id": "NK10",
+      "index": 10,
+      "english": "Magha",
+      "chinese": "星宿",
+      "start_arcminutes_inclusive": 7200,
+      "end_arcminutes_exclusive": 8000,
+      "degree_range_display": "狮子座0度～狮子座13度20分"
+    },
+    {
+      "nakshatra_id": "NK11",
+      "index": 11,
+      "english": "Purva Phalguni",
+      "chinese": "张宿",
+      "start_arcminutes_inclusive": 8000,
+      "end_arcminutes_exclusive": 8800,
+      "degree_range_display": "狮子座13度20分～狮子座26度40分"
+    },
+    {
+      "nakshatra_id": "NK12",
+      "index": 12,
+      "english": "Uttara Phalguni",
+      "chinese": "翼宿",
+      "start_arcminutes_inclusive": 8800,
+      "end_arcminutes_exclusive": 9600,
+      "degree_range_display": "狮子座26度40分～处女座10度"
+    },
+    {
+      "nakshatra_id": "NK13",
+      "index": 13,
+      "english": "Hasta",
+      "chinese": "轸宿",
+      "start_arcminutes_inclusive": 9600,
+      "end_arcminutes_exclusive": 10400,
+      "degree_range_display": "处女座10度～处女座23度20分"
+    },
+    {
+      "nakshatra_id": "NK14",
+      "index": 14,
+      "english": "Chitra",
+      "chinese": "角宿",
+      "start_arcminutes_inclusive": 10400,
+      "end_arcminutes_exclusive": 11200,
+      "degree_range_display": "处女座23度20分～天秤座6度40分"
+    },
+    {
+      "nakshatra_id": "NK15",
+      "index": 15,
+      "english": "Swati",
+      "chinese": "亢宿",
+      "start_arcminutes_inclusive": 11200,
+      "end_arcminutes_exclusive": 12000,
+      "degree_range_display": "天秤座6度40分～天秤座20度"
+    },
+    {
+      "nakshatra_id": "NK16",
+      "index": 16,
+      "english": "Vishakha",
+      "chinese": "氐宿",
+      "start_arcminutes_inclusive": 12000,
+      "end_arcminutes_exclusive": 12800,
+      "degree_range_display": "天秤座20度～天蝎座3度20分"
+    },
+    {
+      "nakshatra_id": "NK17",
+      "index": 17,
+      "english": "Anuradha",
+      "chinese": "房宿",
+      "start_arcminutes_inclusive": 12800,
+      "end_arcminutes_exclusive": 13600,
+      "degree_range_display": "天蝎座3度20分～天蝎座16度40分"
+    },
+    {
+      "nakshatra_id": "NK18",
+      "index": 18,
+      "english": "Jyeshtha",
+      "chinese": "心宿",
+      "start_arcminutes_inclusive": 13600,
+      "end_arcminutes_exclusive": 14400,
+      "degree_range_display": "天蝎座16度40分～天蝎座30度"
+    },
+    {
+      "nakshatra_id": "NK19",
+      "index": 19,
+      "english": "Mula",
+      "chinese": "尾宿",
+      "start_arcminutes_inclusive": 14400,
+      "end_arcminutes_exclusive": 15200,
+      "degree_range_display": "射手座0度～射手座13度20分"
+    },
+    {
+      "nakshatra_id": "NK20",
+      "index": 20,
+      "english": "Purva Ashadha",
+      "chinese": "箕宿",
+      "start_arcminutes_inclusive": 15200,
+      "end_arcminutes_exclusive": 16000,
+      "degree_range_display": "射手座13度20分～射手座26度40分"
+    },
+    {
+      "nakshatra_id": "NK21",
+      "index": 21,
+      "english": "Uttara Ashadha",
+      "chinese": "斗宿",
+      "start_arcminutes_inclusive": 16000,
+      "end_arcminutes_exclusive": 16800,
+      "degree_range_display": "射手座26度40分～摩羯座10度"
+    },
+    {
+      "nakshatra_id": "NK22",
+      "index": 22,
+      "english": "Shravana",
+      "chinese": "女宿",
+      "start_arcminutes_inclusive": 16800,
+      "end_arcminutes_exclusive": 17600,
+      "degree_range_display": "摩羯座10度～摩羯座23度20分"
+    },
+    {
+      "nakshatra_id": "NK23",
+      "index": 23,
+      "english": "Dhanishta",
+      "chinese": "虚宿",
+      "start_arcminutes_inclusive": 17600,
+      "end_arcminutes_exclusive": 18400,
+      "degree_range_display": "摩羯座23度20分～水瓶座6度40分"
+    },
+    {
+      "nakshatra_id": "NK24",
+      "index": 24,
+      "english": "Shatabhisha",
+      "chinese": "危宿",
+      "start_arcminutes_inclusive": 18400,
+      "end_arcminutes_exclusive": 19200,
+      "degree_range_display": "水瓶座6度40分～水瓶座20度"
+    },
+    {
+      "nakshatra_id": "NK25",
+      "index": 25,
+      "english": "Purva Bhadrapada",
+      "chinese": "室宿",
+      "start_arcminutes_inclusive": 19200,
+      "end_arcminutes_exclusive": 20000,
+      "degree_range_display": "水瓶座20度～双鱼座3度20分"
+    },
+    {
+      "nakshatra_id": "NK26",
+      "index": 26,
+      "english": "Uttara Bhadrapada",
+      "chinese": "壁宿",
+      "start_arcminutes_inclusive": 20000,
+      "end_arcminutes_exclusive": 20800,
+      "degree_range_display": "双鱼座3度20分～双鱼座16度40分"
+    },
+    {
+      "nakshatra_id": "NK27",
+      "index": 27,
+      "english": "Revati",
+      "chinese": "奎宿",
+      "start_arcminutes_inclusive": 20800,
+      "end_arcminutes_exclusive": 21600,
+      "degree_range_display": "双鱼座16度40分～双鱼座30度"
+    }
+  ]
+}

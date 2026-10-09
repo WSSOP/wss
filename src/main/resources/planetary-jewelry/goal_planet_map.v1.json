@@ -1,0 +1,16 @@
+{
+  "version": "PJ_GOAL_PLANET_MAP_V1",
+  "planets": {
+    "SUN": {"primary_functions": ["自我主导", "判断与决定", "自信表达", "被看见"], "allowed_goal_tags": ["SELF_AUTHORITY", "ACTION_BOUNDARY", "GROWTH_WISDOM"], "forbidden_shortcut": "低自信不能单独建立太阳佩戴资格"},
+    "MOON": {"primary_functions": ["情绪稳定", "滋养与安全感", "内在节律", "接受支持"], "allowed_goal_tags": ["EMOTIONAL_STEADINESS", "RELATION_RECEIVING", "STRUCTURE_CONSISTENCY"], "forbidden_shortcut": "情绪敏感不能单独建立月亮佩戴资格"},
+    "MARS": {"primary_functions": ["启动行动", "勇气", "边界", "推进与执行"], "allowed_goal_tags": ["ACTION_BOUNDARY", "SELF_AUTHORITY", "STRUCTURE_CONSISTENCY"], "forbidden_shortcut": "行动力不足不能直接映射火星Gemstone"},
+    "MERCURY": {"primary_functions": ["思考整理", "学习理解", "沟通表达", "信息组织"], "allowed_goal_tags": ["CLARITY_EXPRESSION", "GROWTH_WISDOM", "RELATION_RECEIVING"], "forbidden_shortcut": "思绪混乱不能单独建立水星佩戴资格"},
+    "JUPITER": {"primary_functions": ["方向感", "价值判断", "成长与学习", "长远视角"], "allowed_goal_tags": ["GROWTH_WISDOM", "SELF_AUTHORITY", "CLARITY_EXPRESSION"], "forbidden_shortcut": "想要好运不能单独建立木星佩戴资格"},
+    "VENUS": {"primary_functions": ["关系连接", "接受爱与善意", "自我价值", "舒适与协调"], "allowed_goal_tags": ["RELATION_RECEIVING", "EMOTIONAL_STEADINESS", "CLARITY_EXPRESSION"], "forbidden_shortcut": "想改善感情不能直接映射金星Gemstone"},
+    "SATURN": {"primary_functions": ["纪律", "长期坚持", "结构与秩序", "责任与稳定"], "allowed_goal_tags": ["STRUCTURE_CONSISTENCY", "ACTION_BOUNDARY", "EMOTIONAL_STEADINESS"], "forbidden_shortcut": "拖延不能单独建立土星佩戴资格"}
+  },
+  "nodes": {
+    "RAHU": {"candidate_allowed": false, "modifier_only": true},
+    "KETU": {"candidate_allowed": false, "modifier_only": true}
+  }
+}

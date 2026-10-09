@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.dct.zpback.mapper.UserMapper">
+
+    <resultMap id="BaseResultMap" type="cn.dct.zpback.entity.User">
+        <id column="user_id" property="userId"/>
+        <result column="phone" property="phone"/>
+        <result column="nickname" property="nickname"/>
+        <result column="avatar" property="avatar"/>
+        <result column="gender" property="gender"/>
+        <result column="star_balance" property="starBalance"/>
+        <result column="level" property="level"/>
+        <result column="vip_expire_at" property="vipExpireAt"/>
+        <result column="daily_free_remaining" property="dailyFreeRemaining"/>
+        <result column="extra_pack_remaining" property="extraPackRemaining"/>
+        <result column="created_at" property="createdAt"/>
+        <result column="updated_at" property="updatedAt"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        user_id, phone, nickname, avatar, gender, star_balance, level,
+        vip_expire_at, daily_free_remaining, extra_pack_remaining, created_at, updated_at
+    </sql>
+
+    <select id="selectById" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List"/>
+        FROM user WHERE user_id = #{userId}
+    </select>
+
+    <select id="selectByPhone" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List"/>
+        FROM user WHERE phone = #{phone}
+    </select>
+
+    <insert id="insert" parameterType="cn.dct.zpback.entity.User">
+        INSERT INTO user (user_id, phone, nickname, avatar, gender, star_balance, level,
+                          daily_free_remaining, extra_pack_remaining)
+        VALUES (#{userId}, #{phone}, #{nickname}, #{avatar}, #{gender}, #{starBalance}, #{level},
+                #{dailyFreeRemaining}, #{extraPackRemaining})
+    </insert>
+
+    <update id="update" parameterType="cn.dct.zpback.entity.User">
+        UPDATE user
+        <set>
+            <if test="nickname != null">nickname = #{nickname},</if>
+            <if test="avatar != null">avatar = #{avatar},</if>
+            <if test="gender != null">gender = #{gender},</if>
+            <if test="starBalance != null">star_balance = #{starBalance},</if>
+            <if test="level != null">level = #{level},</if>
+            <if test="vipExpireAt != null">vip_expire_at = #{vipExpireAt},</if>
+            <if test="dailyFreeRemaining != null">daily_free_remaining = #{dailyFreeRemaining},</if>
+            <if test="extraPackRemaining != null">extra_pack_remaining = #{extraPackRemaining},</if>
+        </set>
+        WHERE user_id = #{userId}
+    </update>
+
+    <update id="updateStarBalance">
+        UPDATE user SET star_balance = star_balance + #{delta}
+        WHERE user_id = #{userId}
+    </update>
+
+    <update id="updateDailyFree">
+        UPDATE user SET daily_free_remaining = #{remaining}
+        WHERE user_id = #{userId}
+    </update>
+
+</mapper>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.dct.zpback.mapper.EntitlementLedgerMapper">
+
+    <resultMap id="BaseResultMap" type="cn.dct.zpback.entity.EntitlementLedger">
+        <id column="id" property="id"/>
+        <result column="request_id" property="requestId"/>
+        <result column="user_id" property="userId"/>
+        <result column="report_instance_id" property="reportInstanceId"/>
+        <result column="ledger_action_type" property="ledgerActionType"/>
+        <result column="entitlement_source" property="entitlementSource"/>
+        <result column="ledger_status" property="ledgerStatus"/>
+        <result column="star_amount" property="starAmount"/>
+        <result column="balance_before" property="balanceBefore"/>
+        <result column="balance_after" property="balanceAfter"/>
+        <result column="remark" property="remark"/>
+        <result column="created_at" property="createdAt"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id, request_id, user_id, report_instance_id, ledger_action_type,
+        entitlement_source, ledger_status, star_amount, balance_before, balance_after,
+        remark, created_at
+    </sql>
+
+    <select id="selectById" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List"/>
+        FROM entitlement_ledger WHERE id = #{id}
+    </select>
+
+    <select id="selectByRequestId" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List"/>
+        FROM entitlement_ledger
+        WHERE request_id = #{requestId}
+        ORDER BY created_at ASC
+    </select>
+
+    <insert id="insert" parameterType="cn.dct.zpback.entity.EntitlementLedger">
+        INSERT INTO entitlement_ledger (request_id, user_id, report_instance_id, ledger_action_type,
+            entitlement_source, ledger_status, star_amount, balance_before, balance_after, remark)
+        VALUES (#{requestId}, #{userId}, #{reportInstanceId}, #{ledgerActionType},
+            #{entitlementSource}, #{ledgerStatus}, #{starAmount}, #{balanceBefore}, #{balanceAfter}, #{remark})
+    </insert>
+
+</mapper>

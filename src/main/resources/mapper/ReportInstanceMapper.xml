@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.dct.zpback.mapper.ReportInstanceMapper">
+
+    <resultMap id="BaseResultMap" type="cn.dct.zpback.entity.ReportInstance">
+        <id column="report_instance_id" property="reportInstanceId"/>
+        <result column="user_id" property="userId"/>
+        <result column="report_type" property="reportType"/>
+        <result column="report_title" property="reportTitle"/>
+        <result column="subject_label" property="subjectLabel"/>
+        <result column="report_version" property="reportVersion"/>
+        <result column="source_skill" property="sourceSkill"/>
+        <result column="skill_version" property="skillVersion"/>
+        <result column="schema_version" property="schemaVersion"/>
+        <result column="renderer_version" property="rendererVersion"/>
+        <result column="data_snapshot_id" property="dataSnapshotId"/>
+        <result column="chart_id" property="chartId"/>
+        <result column="secondary_chart_id" property="secondaryChartId"/>
+        <result column="generated_at" property="generatedAt"/>
+        <result column="status" property="status"/>
+        <result column="followup_available" property="followupAvailable"/>
+        <result column="final_payload" property="finalPayload"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        report_instance_id, user_id, report_type, report_title, subject_label,
+        report_version, source_skill, skill_version, schema_version, renderer_version,
+        data_snapshot_id, chart_id, secondary_chart_id, generated_at, status, followup_available,
+        final_payload
+    </sql>
+
+    <select id="selectById" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List"/>
+        FROM report_instance WHERE report_instance_id = #{reportInstanceId}
+    </select>
+
+    <select id="selectFollowupAvailable" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List"/>
+        FROM report_instance
+        WHERE user_id = #{userId} AND followup_available = 1
+        ORDER BY generated_at DESC
+    </select>
+
+    <select id="selectByUserId" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List"/>
+        FROM report_instance
+        WHERE user_id = #{userId}
+        ORDER BY generated_at DESC
+        LIMIT #{limit} OFFSET #{offset}
+    </select>
+
+    <insert id="insert" parameterType="cn.dct.zpback.entity.ReportInstance">
+        INSERT INTO report_instance (report_instance_id, user_id, report_type, report_title, subject_label,
+            report_version, source_skill, skill_version, schema_version, renderer_version,
+            data_snapshot_id, chart_id, secondary_chart_id, generated_at, status, followup_available,
+            final_payload)
+        VALUES (#{reportInstanceId}, #{userId}, #{reportType}, #{reportTitle}, #{subjectLabel},
+            #{reportVersion}, #{sourceSkill}, #{skillVersion}, #{schemaVersion}, #{rendererVersion},
+            #{dataSnapshotId}, #{chartId}, #{secondaryChartId}, #{generatedAt}, #{status}, #{followupAvailable},
+            #{finalPayload})
+    </insert>
+
+    <update id="update" parameterType="cn.dct.zpback.entity.ReportInstance">
+        UPDATE report_instance
+        <set>
+            <if test="status != null">status = #{status},</if>
+            <if test="followupAvailable != null">followup_available = #{followupAvailable},</if>
+        </set>
+        WHERE report_instance_id = #{reportInstanceId}
+    </update>
+
+</mapper>

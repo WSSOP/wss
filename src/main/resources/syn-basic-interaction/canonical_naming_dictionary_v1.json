@@ -1,0 +1,439 @@
+{
+  "contract": "STEP SYN-CHART-LIB2｜Canonical Naming Dictionary & Source Normalization V1",
+  "version": "1.0.0",
+  "status": "PASS_LOCK",
+  "planet_ids": [
+    "MOON",
+    "VENUS",
+    "MARS",
+    "MERCURY"
+  ],
+  "signs": [
+    {
+      "order": 1,
+      "id": "SIGN_ARIES",
+      "canonical_en": "Aries",
+      "display_zh": "白羊座",
+      "aliases": [
+        "aries"
+      ]
+    },
+    {
+      "order": 2,
+      "id": "SIGN_TAURUS",
+      "canonical_en": "Taurus",
+      "display_zh": "金牛座",
+      "aliases": [
+        "taurus"
+      ]
+    },
+    {
+      "order": 3,
+      "id": "SIGN_GEMINI",
+      "canonical_en": "Gemini",
+      "display_zh": "双子座",
+      "aliases": [
+        "gemini"
+      ]
+    },
+    {
+      "order": 4,
+      "id": "SIGN_CANCER",
+      "canonical_en": "Cancer",
+      "display_zh": "巨蟹座",
+      "aliases": [
+        "cancer"
+      ]
+    },
+    {
+      "order": 5,
+      "id": "SIGN_LEO",
+      "canonical_en": "Leo",
+      "display_zh": "狮子座",
+      "aliases": [
+        "leo"
+      ]
+    },
+    {
+      "order": 6,
+      "id": "SIGN_VIRGO",
+      "canonical_en": "Virgo",
+      "display_zh": "处女座",
+      "aliases": [
+        "virgo"
+      ]
+    },
+    {
+      "order": 7,
+      "id": "SIGN_LIBRA",
+      "canonical_en": "Libra",
+      "display_zh": "天秤座",
+      "aliases": [
+        "libra"
+      ]
+    },
+    {
+      "order": 8,
+      "id": "SIGN_SCORPIO",
+      "canonical_en": "Scorpio",
+      "display_zh": "天蝎座",
+      "aliases": [
+        "scorpio"
+      ]
+    },
+    {
+      "order": 9,
+      "id": "SIGN_SAGITTARIUS",
+      "canonical_en": "Sagittarius",
+      "display_zh": "射手座",
+      "aliases": [
+        "sagittarius",
+        "saggitarius"
+      ]
+    },
+    {
+      "order": 10,
+      "id": "SIGN_CAPRICORN",
+      "canonical_en": "Capricorn",
+      "display_zh": "摩羯座",
+      "aliases": [
+        "capricorn"
+      ]
+    },
+    {
+      "order": 11,
+      "id": "SIGN_AQUARIUS",
+      "canonical_en": "Aquarius",
+      "display_zh": "水瓶座",
+      "aliases": [
+        "aquarius"
+      ]
+    },
+    {
+      "order": 12,
+      "id": "SIGN_PISCES",
+      "canonical_en": "Pisces",
+      "display_zh": "双鱼座",
+      "aliases": [
+        "pisces"
+      ]
+    }
+  ],
+  "nakshatras": [
+    {
+      "order": 1,
+      "id": "NAK_01_ASHWINI",
+      "canonical_en": "Ashwini",
+      "display_zh": "娄宿",
+      "aliases": [
+        "ashwini",
+        "aswini"
+      ]
+    },
+    {
+      "order": 2,
+      "id": "NAK_02_BHARANI",
+      "canonical_en": "Bharani",
+      "display_zh": "胃宿",
+      "aliases": [
+        "bharani"
+      ]
+    },
+    {
+      "order": 3,
+      "id": "NAK_03_KRITTIKA",
+      "canonical_en": "Krittika",
+      "display_zh": "昴宿",
+      "aliases": [
+        "krittika"
+      ]
+    },
+    {
+      "order": 4,
+      "id": "NAK_04_ROHINI",
+      "canonical_en": "Rohini",
+      "display_zh": "毕宿",
+      "aliases": [
+        "rohini"
+      ]
+    },
+    {
+      "order": 5,
+      "id": "NAK_05_MRIGASHIRA",
+      "canonical_en": "Mrigashira",
+      "display_zh": "觜宿",
+      "aliases": [
+        "mrigashira"
+      ]
+    },
+    {
+      "order": 6,
+      "id": "NAK_06_ARDRA",
+      "canonical_en": "Ardra",
+      "display_zh": "参宿",
+      "aliases": [
+        "ardra"
+      ]
+    },
+    {
+      "order": 7,
+      "id": "NAK_07_PUNARVASU",
+      "canonical_en": "Punarvasu",
+      "display_zh": "井宿",
+      "aliases": [
+        "punarvasu",
+        "purnavasu"
+      ]
+    },
+    {
+      "order": 8,
+      "id": "NAK_08_PUSHYA",
+      "canonical_en": "Pushya",
+      "display_zh": "鬼宿",
+      "aliases": [
+        "pushya"
+      ]
+    },
+    {
+      "order": 9,
+      "id": "NAK_09_ASHLESHA",
+      "canonical_en": "Ashlesha",
+      "display_zh": "柳宿",
+      "aliases": [
+        "ashlesha"
+      ]
+    },
+    {
+      "order": 10,
+      "id": "NAK_10_MAGHA",
+      "canonical_en": "Magha",
+      "display_zh": "星宿",
+      "aliases": [
+        "magha"
+      ]
+    },
+    {
+      "order": 11,
+      "id": "NAK_11_PURVA_PHALGUNI",
+      "canonical_en": "Purva Phalguni",
+      "display_zh": "张宿",
+      "aliases": [
+        "purva phalguni"
+      ]
+    },
+    {
+      "order": 12,
+      "id": "NAK_12_UTTARA_PHALGUNI",
+      "canonical_en": "Uttara Phalguni",
+      "display_zh": "翼宿",
+      "aliases": [
+        "uttara phalguni"
+      ]
+    },
+    {
+      "order": 13,
+      "id": "NAK_13_HASTA",
+      "canonical_en": "Hasta",
+      "display_zh": "轸宿",
+      "aliases": [
+        "hasta"
+      ]
+    },
+    {
+      "order": 14,
+      "id": "NAK_14_CHITRA",
+      "canonical_en": "Chitra",
+      "display_zh": "角宿",
+      "aliases": [
+        "chitra"
+      ]
+    },
+    {
+      "order": 15,
+      "id": "NAK_15_SWATI",
+      "canonical_en": "Swati",
+      "display_zh": "亢宿",
+      "aliases": [
+        "swati"
+      ]
+    },
+    {
+      "order": 16,
+      "id": "NAK_16_VISHAKHA",
+      "canonical_en": "Vishakha",
+      "display_zh": "氐宿",
+      "aliases": [
+        "vishakha"
+      ]
+    },
+    {
+      "order": 17,
+      "id": "NAK_17_ANURADHA",
+      "canonical_en": "Anuradha",
+      "display_zh": "房宿",
+      "aliases": [
+        "anuradha",
+        "anurada"
+      ]
+    },
+    {
+      "order": 18,
+      "id": "NAK_18_JYESHTHA",
+      "canonical_en": "Jyeshtha",
+      "display_zh": "心宿",
+      "aliases": [
+        "jyeshtha"
+      ]
+    },
+    {
+      "order": 19,
+      "id": "NAK_19_MULA",
+      "canonical_en": "Mula",
+      "display_zh": "尾宿",
+      "aliases": [
+        "mula"
+      ]
+    },
+    {
+      "order": 20,
+      "id": "NAK_20_PURVA_ASHADHA",
+      "canonical_en": "Purva Ashadha",
+      "display_zh": "箕宿",
+      "aliases": [
+        "purva ashadha"
+      ]
+    },
+    {
+      "order": 21,
+      "id": "NAK_21_UTTARA_ASHADHA",
+      "canonical_en": "Uttara Ashadha",
+      "display_zh": "斗宿",
+      "aliases": [
+        "uttara ashadha"
+      ]
+    },
+    {
+      "order": 22,
+      "id": "NAK_22_SHRAVANA",
+      "canonical_en": "Shravana",
+      "display_zh": "女宿",
+      "aliases": [
+        "shravana"
+      ]
+    },
+    {
+      "order": 23,
+      "id": "NAK_23_DHANISHTA",
+      "canonical_en": "Dhanishta",
+      "display_zh": "虚宿",
+      "aliases": [
+        "dhanishta"
+      ]
+    },
+    {
+      "order": 24,
+      "id": "NAK_24_SHATABHISHA",
+      "canonical_en": "Shatabhisha",
+      "display_zh": "危宿",
+      "aliases": [
+        "shatabhisha"
+      ]
+    },
+    {
+      "order": 25,
+      "id": "NAK_25_PURVA_BHADRAPADA",
+      "canonical_en": "Purva Bhadrapada",
+      "display_zh": "室宿",
+      "aliases": [
+        "purva bhadrapada"
+      ]
+    },
+    {
+      "order": 26,
+      "id": "NAK_26_UTTARA_BHADRAPADA",
+      "canonical_en": "Uttara Bhadrapada",
+      "display_zh": "壁宿",
+      "aliases": [
+        "uttara bhadrapada"
+      ]
+    },
+    {
+      "order": 27,
+      "id": "NAK_27_REVATI",
+      "canonical_en": "Revati",
+      "display_zh": "奎宿",
+      "aliases": [
+        "revati"
+      ]
+    }
+  ],
+  "normalization": {
+    "matching": "case-insensitive; trim surrounding whitespace; collapse repeated internal whitespace; accept spaces/hyphens/underscores as separators before alias lookup",
+    "no_fuzzy_autocorrect": true,
+    "display_binding": "UI Chinese/English labels must be generated from canonical dictionary after ID resolution; raw backend display strings must not be trusted as canonical labels.",
+    "precedence": [
+      "stable_id",
+      "canonical_english",
+      "explicit_alias",
+      "canonical_chinese_display"
+    ],
+    "unknown_behavior": "return UNKNOWN_ENUM_VALUE / telemetry; do not guess nearest name"
+  },
+  "hard_assertions": [
+    {
+      "assert": "NAK_21_UTTARA_ASHADHA.display_zh == 斗宿"
+    },
+    {
+      "assert": "NAK_23_DHANISHTA.display_zh == 虚宿"
+    },
+    {
+      "assert": "Dhanishta must never render as 斗宿"
+    },
+    {
+      "assert": "Uttara Ashadha must never render as 虚宿"
+    },
+    {
+      "assert": "all 12 sign IDs are unique"
+    },
+    {
+      "assert": "all 27 nakshatra IDs are unique"
+    },
+    {
+      "assert": "aliases cannot resolve to more than one canonical ID"
+    }
+  ],
+  "legacy_migration": [
+    {
+      "legacy": "Aswini",
+      "canonical_id": "NAK_01_ASHWINI",
+      "action": "normalize"
+    },
+    {
+      "legacy": "Purnavasu",
+      "canonical_id": "NAK_07_PUNARVASU",
+      "action": "normalize"
+    },
+    {
+      "legacy": "Anurada",
+      "canonical_id": "NAK_17_ANURADHA",
+      "action": "normalize"
+    },
+    {
+      "legacy": "Saggitarius",
+      "canonical_id": "SIGN_SAGITTARIUS",
+      "action": "normalize"
+    },
+    {
+      "legacy_pair": {
+        "english": "Dhanishta",
+        "chinese": "斗宿"
+      },
+      "action": "CONFLICT_ERROR_OR_ID_OVERRIDE",
+      "canonical_id": "NAK_23_DHANISHTA",
+      "canonical_display_zh": "虚宿"
+    }
+  ],
+  "source_status_original": "PASS_LOCK_CANDIDATE",
+  "runtime_role": "AUTHORITATIVE_NAMING_DICTIONARY",
+  "content_library_version": "syn-chart-basic-interaction-156-1.0.0"
+}

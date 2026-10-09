@@ -1,0 +1,728 @@
+{
+  "content_version": "zh-CN_2.0.0",
+  "contract_version": "2.0.0",
+  "locale": "zh-CN",
+  "content_mode": "PREGENERATED_COPY_REGISTRY",
+  "template_count": 27,
+  "family_explainers": {
+    "SAME": "「命之星」是星宿关系中的名称，这里的“命”不代表命中注定，也不代表你们一定适合恋爱、长期相处或走向某种固定结果。它更多描述的是：你们在一些反应方式、关注点或相处节奏上，比较容易产生熟悉感。",
+    "KARMA_WOMB": "「业」「胎」是星宿关系中的互动角色，不代表谁欠谁、谁来偿还谁，也不代表这段关系一定来自所谓“前世业力”。「业」在这段互动里，更容易让一些原本可以继续模糊、拖着不处理的问题变得具体；「胎」则更容易在这些互动里重新审视自己过去的反应方式，并调整边界、选择或相处方法。",
+    "GLORY_KIN": "「荣」「亲」是星宿关系中的互动角色，不代表“荣”更优秀、更高位，也不代表“亲”就应该一直照顾、迁就对方。「荣」在这段关系里更容易留意：自己的表达有没有被对方真正接住、理解和认可；「亲」则更容易主动进入互动，通过联系、回应、实际行动或调整相处方式，让连接继续发生。",
+    "FRIEND_DECLINE": "「友」「衰」是星宿关系中的互动角色，不代表“友”更成熟、更强，也不代表“衰”弱势、倒霉或会给关系带来衰运。「友」在这段关系里更容易让互动保持平等、自然、可商量，不过度规定彼此应该怎样；「衰」则更容易在这样的相处里少一点自我修饰，把更自然、不确定或没那么完美的一面表现出来。",
+    "STABILITY_DISRUPTION": "「安」「坏」是星宿关系里的互动角色，不代表谁好、谁坏，也不是对一个人整体性格的评价。「安」在这段关系里更重视稳定、边界和可预期的节奏；「坏」则更容易推动变化，让原来的相处方式发生调整。",
+    "DANGER_COMPLETION": "「危」「成」是星宿关系里的互动角色，不代表“危”就是危险的人，也不代表“成”一定会让这段关系成功或得到某种结果。「危」在这段关系里更容易先注意那些还没有说清楚、还没有确定的部分；「成」则更容易把悬着的问题带回现实，想一想接下来具体怎么处理。"
+  },
+  "family_boundary_notes": {
+    "SAME": "很像，不代表必须一直一致。真正的默契，是能理解彼此，也允许彼此拥有不同的选择。",
+    "KARMA_WOMB": "“这段关系让我学到了很多”与“这段关系值得继续”，是两件不同的事。",
+    "GLORY_KIN": null,
+    "FRIEND_DECLINE": null,
+    "STABILITY_DISRUPTION": null,
+    "DANGER_COMPLETION": null
+  },
+  "disclaimer_short": "以上内容描述的是星宿关系中的互动倾向，不等于对整段关系的完整判断；更完整的关系分析还需要结合双方星盘。",
+  "entries": [
+    {
+      "template_key": "offset_00",
+      "forward_offset": 0,
+      "family_code": "SAME",
+      "distance_code": "NONE",
+      "role_a_code": "LIFE",
+      "role_a_label": "命",
+      "role_b_code": "LIFE",
+      "role_b_label": "命",
+      "influence_mode": "MUTUAL",
+      "content": {
+        "summary": "你们之间比较容易出现一种“有些东西不用从头解释，对方就能大概明白”的熟悉感。相似的反应方式会让理解变得更快，但也可能让两个人在同一种问题上使用类似的方法，于是一起卡住。",
+        "relationship_tone": "你们之间比较容易出现一种“我好像不用从头解释，你大概就知道我为什么会这样”的感觉。可能是面对压力时都会先自己消化，也可能是对某些细节都比较敏感，或者处理事情时习惯用差不多的节奏。这样的相似会减少一些理解成本，但比较像，不等于一定合适。两个人现实里的价值观、边界、责任分配和沟通方式，仍然是另外一回事。",
+        "mutual_resonance": "{{name_a}}和{{name_b}}比较容易在某些反应上互相产生熟悉感。有时对方只说到一半，你可能已经大概知道他为什么纠结；遇到某类事情，也可能出现“原来你也是这样”的感觉。但熟悉有一个很容易被忽略的问题：猜得准几次以后，人就很容易不再问。“我大概懂你”可以减少解释成本，但不能自动变成“我已经知道你到底怎么想”。",
+        "mutual_blindspot": "两个人处理问题的方法比较像时，也可能一起缺少另一种做法。比如两个人都习惯先忍着，就可能一直没人先开口；两个人都喜欢赶快解决，可能还没真正听清楚，就开始找办法；两个人都很在意同一类细节，一个小问题也可能被双方一起放大。所以需要留意的不是“我们是不是太像”，而是“这一次，我们是不是又用了同一种办法，然后一起卡住了？”",
+        "relationship_key": "熟悉感最好用来帮助理解，而不是代替确认。当你觉得“我知道他为什么这样”的时候，可以再多问一句；当你们发现一个问题反复发生，也可以刻意试试和平时不一样的处理方式。很像，不代表必须一直一致。真正的默契，是能理解彼此，也允许彼此有不同的选择。"
+      },
+      "character_counts": {
+        "summary": 84,
+        "relationship_tone": 150,
+        "mutual_resonance": 160,
+        "mutual_blindspot": 157,
+        "relationship_key": 118,
+        "body_total": 669
+      }
+    },
+    {
+      "template_key": "offset_01",
+      "forward_offset": 1,
+      "family_code": "GLORY_KIN",
+      "distance_code": "NEAR",
+      "role_a_code": "KIN",
+      "role_a_label": "亲",
+      "role_b_code": "GLORY",
+      "role_b_label": "荣",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "{{name_a}}更容易主动靠近和回应，{{name_b}}也更容易很快感受到这些互动有没有真正接住自己。因为是近距离，双方通常比较早就能感觉到“这个人愿不愿意回应我”。",
+        "relationship_tone": "你们比较容易很快产生一种“这个人好像真的有在听我说话”的感觉。{{name_a}}可能会记得{{name_b}}前几天提过的事情，过后再问一句；安排事情时，也比较容易把对方的意见算进去。{{name_b}}则比较容易注意这些细节。如果发现自己说过的话真的被记住，会更愿意继续分享；如果每次表达都像石沉大海，也会比较快感觉出来。近距离荣亲舒服的地方，是互动容易有来有回，但熟得快也有一个风险：主动很容易慢慢变成默认。",
+        "a_to_b": "{{name_a}}更容易通过一些很具体的小动作让{{name_b}}感觉到自己被认真对待，比如记得一个细节、主动问后续、认真回复一段话，或者做安排前问一下对方怎么想。但如果{{name_a}}太快进入“我来帮你”“我替你考虑”的位置，还没问清楚对方需不需要，就可能从体贴变成介入。",
+        "b_to_a": "{{name_b}}并不是只负责接受。当{{name_b}}明确告诉{{name_a}}“这个我真的有感受到”“这件事其实我想自己处理”，或者主动回问对方最近怎么样，{{name_a}}就更容易知道自己的主动应该放在哪里。如果很多关心都被默默接受，却没有反馈，{{name_a}}反而可能慢慢不知道：我这样做到底是有帮助，还是只是已经被习惯了？",
+        "relationship_key": "荣亲最舒服的状态不是一个人一直主动，另一个人一直接受，而是双方都让对方知道：哪些靠近是舒服的，哪些事情我想自己来。{{name_a}}不需要因为自己比较容易主动，就自动负责所有事情；{{name_b}}也不需要等对方先问。有来有回，才比“一个人一直对另一个人好”更长久。"
+      },
+      "character_counts": {
+        "summary": 86,
+        "relationship_tone": 207,
+        "a_to_b": 141,
+        "b_to_a": 172,
+        "relationship_key": 135,
+        "body_total": 741
+      }
+    },
+    {
+      "template_key": "offset_02",
+      "forward_offset": 2,
+      "family_code": "FRIEND_DECLINE",
+      "distance_code": "NEAR",
+      "role_a_code": "FRIEND",
+      "role_a_label": "友",
+      "role_b_code": "DECLINE",
+      "role_b_label": "衰",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "{{name_a}}更容易让相处保持轻松、好商量，{{name_b}}也比较容易很快进入“不用一直端着”的状态。你们通常不需要很久，就能感觉到说话是不是自在。",
+        "relationship_tone": "你们可能很快就觉得彼此不需要太多客套。{{name_b}}更敢直接说“不想去”“这个我不同意”“我现在也没想好”；{{name_a}}则比较能接受这些不完全一致的反应，不会马上把它理解成关系出了问题。",
+        "a_to_b": "{{name_a}}更容易给人一种“你可以有自己的想法”的感觉。意见不同不一定要马上争出结果，有些事情也允许对方自己决定。这会让{{name_b}}少很多为了好相处而勉强配合的需要。",
+        "b_to_a": "{{name_b}}更容易让{{name_a}}很快看到比较真实的偏好：喜欢就是喜欢，不想就是不想，没想好也直接说。但熟得太快的时候，也容易误以为“既然我们关系这么自然，什么话都可以说”。",
+        "relationship_key": "近距离友衰最重要的是自在和分寸同时存在。可以不端着，但不等于可以忽略对方边界；聊得来，也不代表必须分享自己还不想说的事情。"
+      },
+      "character_counts": {
+        "summary": 79,
+        "relationship_tone": 100,
+        "a_to_b": 91,
+        "b_to_a": 94,
+        "relationship_key": 61,
+        "body_total": 425
+      }
+    },
+    {
+      "template_key": "offset_03",
+      "forward_offset": 3,
+      "family_code": "STABILITY_DISRUPTION",
+      "distance_code": "NEAR",
+      "role_a_code": "DISRUPTION",
+      "role_a_label": "坏",
+      "role_b_code": "STABILITY",
+      "role_b_label": "安",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "{{name_a}}更容易推动变化，{{name_b}}更希望把关系稳住。因为是近距离，这种节奏差异通常比较早就能被双方感觉到。",
+        "relationship_tone": "你们比较容易出现一种很现实的情况：{{name_a}}已经在想“要不要换一种方式”，{{name_b}}还在想“原来的安排为什么要改”。比如临时改变计划、调整联系频率、重新谈一件以前默认好的事情，{{name_a}}可能更容易先动；{{name_b}}则会更希望知道为什么、接下来会怎样。因为是近距离，这种差异通常不用相处很久就能感觉出来。真正容易让人不舒服的，不是一个喜欢变、一个不喜欢变，而是变化发生得太突然，或者稳定慢慢变成了“不许动”。",
+        "a_to_b": "{{name_a}}更容易把原来固定的东西动一动：提出新想法、改安排，或者把两个人一直没有认真谈的问题直接提出来。对{{name_b}}来说，这可能会让关系保持活力，但如果事情已经变了，自己才知道原因，就很容易先觉得节奏被打乱，而不是先理解{{name_a}}为什么这么做。",
+        "b_to_a": "{{name_b}}更容易把事情重新放回一个清楚的框架里，比如把时间、安排、边界说清楚，或者希望一件事先稳定下来再继续。这会让{{name_a}}的想法真正有落点。但如果很多事情很快就被固定成“以后只能这样”，{{name_a}}也可能越来越想打破原来的安排。所以你们很容易出现：一个越想赶快稳下来，另一个越觉得需要动一动；变化越突然，又越让另一边想把事情重新固定下来。",
+        "relationship_key": "你们真正需要解决的不是“到底听谁的”，而是变化怎么发生。{{name_a}}想调整重要事情时，先说清楚为什么想变、准备怎么改；{{name_b}}如果觉得太突然，也直接告诉对方自己具体需要什么缓冲，而不是只说“不行”。这样{{name_a}}不需要靠突然行动争取空间，{{name_b}}也不需要靠把规则定死来获得稳定。"
+      },
+      "character_counts": {
+        "summary": 64,
+        "relationship_tone": 222,
+        "a_to_b": 137,
+        "b_to_a": 185,
+        "relationship_key": 160,
+        "body_total": 768
+      }
+    },
+    {
+      "template_key": "offset_04",
+      "forward_offset": 4,
+      "family_code": "DANGER_COMPLETION",
+      "distance_code": "NEAR",
+      "role_a_code": "COMPLETION",
+      "role_a_label": "成",
+      "role_b_code": "DANGER",
+      "role_b_label": "危",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "{{name_a}}更容易很快开始想“这件事接下来怎么处理”，{{name_b}}则更容易先发现“等等，这里是不是还有什么没说清楚”。因为距离近，这两个反应常常几乎同时出现。",
+        "relationship_tone": "你们很容易在刚遇到一个问题时，就进入不同节奏。{{name_a}}可能已经开始想方案，{{name_b}}却还在确认前面的信息是不是完整。一个不是故意催，一个也不是故意挑问题，只是关注点出现得不一样。",
+        "a_to_b": "{{name_a}}更容易把悬着的事情说具体：现在到底怎么办、能不能先定一个安排、谁先做什么。对{{name_b}}来说，这能减少反复猜测；但如果自己的疑问还没说完，对方已经开始安排下一步，也容易产生“你是不是没听懂我真正担心什么”的感觉。",
+        "b_to_a": "{{name_b}}更容易注意到还没被说清楚的细节，比如双方理解是否一致、计划里有没有遗漏、某件事是不是其实还没准备好。这些问题能避免{{name_a}}太快往前走；但如果每次一准备做决定又冒出新的问题，{{name_a}}也会越来越想先得到一个能执行的答案。",
+        "relationship_key": "最有效的方法是：先把当前最重要的问题说完，再谈下一步。{{name_b}}不必一次提出所有可能性，{{name_a}}也不要一听到问题就马上进入解决模式。少一点“你到底要怎样”，多一点“你现在最卡哪一点”。"
+      },
+      "character_counts": {
+        "summary": 87,
+        "relationship_tone": 100,
+        "a_to_b": 120,
+        "b_to_a": 130,
+        "relationship_key": 103,
+        "body_total": 540
+      }
+    },
+    {
+      "template_key": "offset_05",
+      "forward_offset": 5,
+      "family_code": "DANGER_COMPLETION",
+      "distance_code": "MEDIUM",
+      "role_a_code": "DANGER",
+      "role_a_label": "危",
+      "role_b_code": "COMPLETION",
+      "role_b_label": "成",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "{{name_a}}会随着相处变多，越来越发现一些前面没谈完整的地方；{{name_b}}则会越来越希望把这些事情一项项处理掉。问题通常不是突然出现，而是慢慢积起来的。",
+        "relationship_tone": "当共同事情越来越多以后，你们更容易感觉到差异。{{name_a}}会发现：“之前那个问题其实还没结束。”{{name_b}}则会觉得：“怎么每次准备往下走，前面的事情又回来了？”真正累人的不是问题多，而是很多事情只谈到一半就继续往后走。",
+        "a_to_b": "{{name_a}}更容易注意那些没有真正收尾的地方：答应的事后来怎样了、双方是不是还持同样想法、一个安排有没有新变化。这会帮助{{name_b}}不只是把事情“做过去”，但如果所有旧问题不断重新出现，也容易产生永远没有完成感。",
+        "b_to_a": "{{name_b}}更倾向把问题拆开，一项项决定现在能先做什么。对{{name_a}}来说，这种具体处理能减少很多空想；但如果只是先往后走，前面的疑问却没真正回应，迟早还是会重新回来。",
+        "relationship_key": "中距离危成最重要的是一件事谈到能结束，再开始下一件。不要求所有不确定都消失，只要把真正会影响决定的那一项先处理清楚。"
+      },
+      "character_counts": {
+        "summary": 84,
+        "relationship_tone": 118,
+        "a_to_b": 114,
+        "b_to_a": 92,
+        "relationship_key": 58,
+        "body_total": 466
+      }
+    },
+    {
+      "template_key": "offset_06",
+      "forward_offset": 6,
+      "family_code": "STABILITY_DISRUPTION",
+      "distance_code": "MEDIUM",
+      "role_a_code": "STABILITY",
+      "role_a_label": "安",
+      "role_b_code": "DISRUPTION",
+      "role_b_label": "坏",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "{{name_a}}会越来越重视已经形成的安排，{{name_b}}则会在相处过程中不断发现“有些地方其实可以调整”。这种差异通常是熟悉以后才慢慢变明显。",
+        "relationship_tone": "一开始你们未必觉得彼此节奏差很多。真正相处久了，固定习惯越来越多以后，差异才容易出现：{{name_a}}会觉得“这样一直都挺好的”，{{name_b}}却可能开始觉得“为什么一定要一直这样”。小问题如果长期不谈，就容易变成一个越来越守、一个越来越想动。",
+        "a_to_b": "{{name_a}}更容易维持已经证明有效的做法，比如固定联系习惯、明确安排，或者希望说好的事情不要频繁改变。这会让{{name_b}}感觉关系很有落点；但如果所有旧习惯都因为“以前就是这样”而不能调整，新的需要就很难进入关系。",
+        "b_to_a": "{{name_b}}更容易在相处中提出新的做法，比如重新安排时间、改变联系方式，或者对一个旧规则提出疑问。一次两次未必有什么，但如果调整越来越频繁，{{name_a}}就会越来越想知道：到底还有什么是可以稳定下来的？",
+        "relationship_key": "中距离安坏最适合的是规则可以稳定，也可以重新谈。{{name_a}}不必把所有习惯都当成底线；{{name_b}}也不要每次觉得不合适就直接改。先说清楚“哪一部分要保留，哪一部分可以试着换”，比一个不断加规则、一个不断突破规则更省力。"
+      },
+      "character_counts": {
+        "summary": 77,
+        "relationship_tone": 127,
+        "a_to_b": 114,
+        "b_to_a": 108,
+        "relationship_key": 117,
+        "body_total": 543
+      }
+    },
+    {
+      "template_key": "offset_07",
+      "forward_offset": 7,
+      "family_code": "FRIEND_DECLINE",
+      "distance_code": "MEDIUM",
+      "role_a_code": "DECLINE",
+      "role_a_label": "衰",
+      "role_b_code": "FRIEND",
+      "role_b_label": "友",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "{{name_a}}会随着熟悉越来越敢直接表现自己的真实偏好，{{name_b}}也会越来越摸清彼此什么能聊、什么最好留一点距离。",
+        "relationship_tone": "一开始可能只是觉得合得来，真正相处久了以后，{{name_a}}才越来越少说“我都行”，而是会直接表达不同意见、自己的安排和不确定；{{name_b}}也越来越知道，哪些事情可以商量，哪些最好尊重对方自己决定。",
+        "a_to_b": "{{name_a}}越来越自然以后，{{name_b}}会更清楚看到对方真正喜欢什么、不接受什么。这能减少猜测。但如果长期都是{{name_a}}负责直接表达、{{name_b}}负责理解和配合，两个人的位置也容易慢慢固定。",
+        "b_to_a": "{{name_b}}更容易让关系保持一种不必事事一致的感觉，这会让{{name_a}}越来越敢做自己。但如果{{name_b}}总是那个“没关系、都能商量”的人，也可能让自己的需要很少被问到。",
+        "relationship_key": "中距离友衰需要防的是一个越来越会做自己，另一个越来越会迁就。熟悉以后，也要记得问一问那个平时最好说话的人：你到底怎么想？"
+      },
+      "character_counts": {
+        "summary": 65,
+        "relationship_tone": 105,
+        "a_to_b": 112,
+        "b_to_a": 96,
+        "relationship_key": 60,
+        "body_total": 438
+      }
+    },
+    {
+      "template_key": "offset_08",
+      "forward_offset": 8,
+      "family_code": "GLORY_KIN",
+      "distance_code": "MEDIUM",
+      "role_a_code": "GLORY",
+      "role_a_label": "荣",
+      "role_b_code": "KIN",
+      "role_b_label": "亲",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "{{name_a}}会越来越知道自己哪些表达能被{{name_b}}真正理解；{{name_b}}也会越来越摸清，怎样靠近对方才是真的有用。",
+        "relationship_tone": "相处久了以后，你们的默契更多来自“越来越了解”，而不是一开始就特别亲近。{{name_b}}会慢慢知道什么时候适合给建议、什么时候听完就好；{{name_a}}也越来越敢直接说“这个对我有帮助”“这个不用替我处理”。",
+        "a_to_b": "{{name_a}}越能把自己的需要说具体，{{name_b}}就越不用靠猜。比如直接告诉对方现在是想听建议，还是只想把事情说出来。这会减少很多“明明是好意，却并没有帮到点上”的情况。",
+        "b_to_a": "{{name_b}}会随着了解越来越会选择合适的回应方式，而不是遇到什么都用同一种办法。对{{name_a}}来说，这会带来一种“你是真的越来越懂我”的感觉。但长期有效的方法也很容易被双方自动重复。",
+        "relationship_key": "中距离荣亲最需要避免的是因为太熟，所以默认过去有效的方法现在永远有效。需求会变，关系里的角色也应该能变。偶尔重新问一句，比“我以为你一直喜欢这样”更可靠。"
+      },
+      "character_counts": {
+        "summary": 70,
+        "relationship_tone": 108,
+        "a_to_b": 92,
+        "b_to_a": 99,
+        "relationship_key": 77,
+        "body_total": 446
+      }
+    },
+    {
+      "template_key": "offset_09",
+      "forward_offset": 9,
+      "family_code": "KARMA_WOMB",
+      "distance_code": "NONE",
+      "role_a_code": "WOMB",
+      "role_a_label": "胎",
+      "role_b_code": "KARMA",
+      "role_b_label": "业",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "和{{name_b}}相处以后，一些以前可以先不处理的问题，会让{{name_a}}越来越意识到“我不能再一直按以前的方法回应了”。而{{name_a}}一旦真的换了做法，也会反过来改变这段关系。",
+        "relationship_tone": "你们之间比较容易出现这样的情况：过去能说“算了”的事情，现在越来越难真的算了。可能是某种安排总让同一个人配合，也可能是一件一直没说清楚的事反复出现，或者{{name_a}}慢慢发现：“以前我会接受，但现在我其实不想再这样。”重点不是谁负责让谁改变，而是过去那套相处办法开始不好用了。",
+        "a_to_b": "当{{name_a}}真的开始换一种方式回应，{{name_b}}会很直接地感受到关系正在变化。比如以前会答应的事情现在说“不”，以前会回避的问题现在愿意问清楚，或者不再默认接受某种安排。这些变化会让{{name_b}}重新面对一个现实：原来以前双方习惯的方式，并不是永远都会继续。",
+        "b_to_a": "和{{name_b}}的实际互动，更容易让{{name_a}}看见一些以前可以继续含糊的问题。可能是双方到底是什么关系、某件事为什么总由自己退一步，或者一个已经让自己不舒服的做法还要不要继续。这里真正发生的不是“被对方教会了什么”，而是{{name_a}}越来越需要自己回答：这件事我到底还愿不愿意接受？",
+        "relationship_key": "业胎最需要分清两件事：这段关系让我更了解自己，和这段关系适不适合继续，不是同一个问题。{{name_a}}因为这段经历学会说“不”、重新调整边界，是自己的选择；{{name_b}}也不因此成为“负责让你成长的人”。如果最后看清的是“这个相处方式我不要了”，那同样是一种有效的答案。"
+      },
+      "character_counts": {
+        "summary": 98,
+        "relationship_tone": 141,
+        "a_to_b": 141,
+        "b_to_a": 152,
+        "relationship_key": 140,
+        "body_total": 672
+      }
+    },
+    {
+      "template_key": "offset_10",
+      "forward_offset": 10,
+      "family_code": "GLORY_KIN",
+      "distance_code": "FAR",
+      "role_a_code": "KIN",
+      "role_a_label": "亲",
+      "role_b_code": "GLORY",
+      "role_b_label": "荣",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "{{name_a}}的主动更容易在某些重要时候显出分量，{{name_b}}也更容易因为这些具体时刻记住彼此的关系。平时不一定联系很多，但关键时候有没有回应，会很有感觉。",
+        "relationship_tone": "你们未必需要日常高频互动才感觉到关系存在。有时真正留下印象的，是对方在你需要的时候记得回一句、问一次后续，或者实际帮上一点忙。但这种模式如果长期只有“有事才出现”，也容易慢慢变成功能性的联系。",
+        "a_to_b": "{{name_a}}在重要时候的回应更容易让{{name_b}}记住，比如认真听完一个难题、帮忙找一个资源、事情过去后还记得再问一句。这种行为比平时很多客套更有分量。",
+        "b_to_a": "{{name_b}}如果事情结束以后仍然会主动联系、分享普通近况，会让{{name_a}}感觉自己不是只有“派上用场”的时候才被想起。反过来，如果总是有需要才出现，{{name_a}}也可能慢慢减少主动。",
+        "relationship_key": "远距离荣亲最值得补的是没什么事的时候也有一点联系。不用频繁，但偶尔分享普通生活，会让关键时刻的靠近来自关系本身，而不是只有功能。"
+      },
+      "character_counts": {
+        "summary": 85,
+        "relationship_tone": 96,
+        "a_to_b": 83,
+        "b_to_a": 102,
+        "relationship_key": 64,
+        "body_total": 430
+      }
+    },
+    {
+      "template_key": "offset_11",
+      "forward_offset": 11,
+      "family_code": "FRIEND_DECLINE",
+      "distance_code": "FAR",
+      "role_a_code": "FRIEND",
+      "role_a_label": "友",
+      "role_b_code": "DECLINE",
+      "role_b_label": "衰",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "你们平时不一定联系很多，但某些阶段重新碰上时，{{name_a}}比较容易让关系自然接回来，{{name_b}}也更容易很快回到“不用太客气”的状态。",
+        "relationship_tone": "这类关系可能有明显空档：一阵子各忙各的，很久没有密集联系，但重新说话时又不一定特别陌生。真正的熟悉感，往往出现在“隔了一段时间以后还能自然接着聊”。",
+        "a_to_b": "{{name_a}}更容易接受这种不连续的节奏，不一定先追问“你怎么这么久没联系”，而是可以从现在的事情继续聊。这会让{{name_b}}再靠近时少很多压力。",
+        "b_to_a": "{{name_b}}更容易在某些阶段重新把真实近况带回来，可能是生活方向变了，也可能只是突然想聊聊最近发生的普通事情。对{{name_a}}来说，这会保留一种熟悉感；但如果每次重新联系都只发生在出了状况的时候，关系也容易只剩特定用途。",
+        "relationship_key": "远距离友衰更适合平时偶尔有一点普通联系。不用高频，但不要只有出事、低落或重大变化时才重新找到对方。"
+      },
+      "character_counts": {
+        "summary": 75,
+        "relationship_tone": 74,
+        "a_to_b": 79,
+        "b_to_a": 117,
+        "relationship_key": 49,
+        "body_total": 394
+      }
+    },
+    {
+      "template_key": "offset_12",
+      "forward_offset": 12,
+      "family_code": "STABILITY_DISRUPTION",
+      "distance_code": "FAR",
+      "role_a_code": "DISRUPTION",
+      "role_a_label": "坏",
+      "role_b_code": "STABILITY",
+      "role_b_label": "安",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "{{name_a}}更容易在某些重要阶段发现旧安排需要调整，{{name_b}}则更看重已经建立起来的稳定。平时未必明显，真正遇到现实变化时才更容易看出差别。",
+        "relationship_tone": "日常相处时，你们可能并不会经常为了节奏发生摩擦。真正到了换工作、搬家、长期计划变化，或者某种旧习惯已经明显不合适的时候，{{name_a}}会更容易提出“是不是该变了”，{{name_b}}则会先考虑：原来已经建立好的东西怎么办？",
+        "a_to_b": "{{name_a}}更容易在关键阶段指出某种旧方法已经不太适用，比如过去的时间安排、联系习惯或共同计划需要重新谈。对{{name_b}}来说，真正难接住的往往不是调整本身，而是突然发现：原来对方已经想变很久了，自己却一直不知道。",
+        "b_to_a": "{{name_b}}会更容易提醒双方不要一下子把原来的东西全部推翻：哪些安排仍然有用、哪些现实条件需要考虑、改变能不能留一点过渡。这样的稳妥会帮助{{name_a}}把想法真正落下来，但旧规则如果长期不更新，也可能让小调整越来越难发生。",
+        "relationship_key": "远距离安坏最怕的是平时不谈，最后一次大改。发现某种旧方式已经开始不合适时，就早点说一点；不要等到一个人已经决定必须改变，另一个人才第一次知道问题存在。"
+      },
+      "character_counts": {
+        "summary": 79,
+        "relationship_tone": 115,
+        "a_to_b": 114,
+        "b_to_a": 118,
+        "relationship_key": 75,
+        "body_total": 501
+      }
+    },
+    {
+      "template_key": "offset_13",
+      "forward_offset": 13,
+      "family_code": "DANGER_COMPLETION",
+      "distance_code": "FAR",
+      "role_a_code": "COMPLETION",
+      "role_a_label": "成",
+      "role_b_code": "DANGER",
+      "role_b_label": "危",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "{{name_a}}更容易在真正需要作决定时把事情落到现实，{{name_b}}则更容易在这些时候发现：过去有些默认的前提其实从来没认真谈过。",
+        "relationship_tone": "平常你们可能并不会经常出现这类差异。真正到了共同计划、现实责任或重要选择面前，问题才容易一下子清楚起来。{{name_a}}开始讨论具体怎么做以后，{{name_b}}也更容易发现：原来某些关键条件双方从来没有确认过。",
+        "a_to_b": "{{name_a}}更容易在重要阶段把事情摆到桌面上：现在有哪些选择、谁能承担什么、时间怎么安排。事情一旦变具体，{{name_b}}也可能突然意识到一些以前没想到的问题。并不是对方突然变谨慎，而是很多隐藏条件直到“真的要做”时才看得见。",
+        "b_to_a": "{{name_b}}更容易在这类关键时候指出现实限制或理解差异。这能让{{name_a}}的计划更完整；但如果这些问题过去从没谈过，到了最后一步才一起出现，也会让原本准备好的方案不得不重新调整。",
+        "relationship_key": "不要等到必须决定时，才第一次认真聊前提。越重要的事情，越适合提前问：我们是不是对这件事有相同理解？还有什么会真正影响这个决定？"
+      },
+      "character_counts": {
+        "summary": 71,
+        "relationship_tone": 109,
+        "a_to_b": 119,
+        "b_to_a": 97,
+        "relationship_key": 63,
+        "body_total": 459
+      }
+    },
+    {
+      "template_key": "offset_14",
+      "forward_offset": 14,
+      "family_code": "DANGER_COMPLETION",
+      "distance_code": "FAR",
+      "role_a_code": "DANGER",
+      "role_a_label": "危",
+      "role_b_code": "COMPLETION",
+      "role_b_label": "成",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "{{name_a}}更容易在重要选择前发现一些过去没说清的条件，{{name_b}}则更倾向把这些问题重新整理成可以实际处理的事情。",
+        "relationship_tone": "平时各自相处可能没什么特别明显的问题。到了需要共同承担、作决定或者落实长期安排时，{{name_a}}会更容易发现“原来这件事我们理解得并不完全一样”，而{{name_b}}则更快开始想这些差异究竟怎么处理。",
+        "a_to_b": "{{name_a}}更容易在关键阶段看到过去默认掉的问题：责任怎么分、现实条件够不够、两个人想的是不是同一个结果。这些问题可能会让{{name_b}}原来的方案需要修改，但也避免双方在错误前提上直接往下走。",
+        "b_to_a": "{{name_b}}更容易把突然出现的问题重新拆开：哪些现在能解决、哪些需要补信息、哪些确实会改变原计划。这会帮助{{name_a}}判断自己的担心到底有多大，而不是一直停留在“感觉不太对”。",
+        "relationship_key": "你们最需要的是提前做小确认，而不是最后做一次大确认。平时多问几个具体问题，关键时候就不容易突然发现双方从一开始想的就不是同一件事。"
+      },
+      "character_counts": {
+        "summary": 66,
+        "relationship_tone": 104,
+        "a_to_b": 103,
+        "b_to_a": 96,
+        "relationship_key": 65,
+        "body_total": 434
+      }
+    },
+    {
+      "template_key": "offset_15",
+      "forward_offset": 15,
+      "family_code": "STABILITY_DISRUPTION",
+      "distance_code": "FAR",
+      "role_a_code": "STABILITY",
+      "role_a_label": "安",
+      "role_b_code": "DISRUPTION",
+      "role_b_label": "坏",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "{{name_a}}更重视已经建立起来的稳定，{{name_b}}则更容易在关键阶段发现旧方式需要更新。日常可能没什么明显冲突，但现实条件一变，双方的不同节奏就更容易出现。",
+        "relationship_tone": "平时你们也许能一直按照熟悉的方式相处。真正到了某些重要变化出现时，{{name_a}}会更想保留已经稳定下来的部分，{{name_b}}则可能觉得有些东西不改已经不行了。这个时候最容易出现的问题，是双方其实在不同时间点才意识到“关系已经需要重新调整”。",
+        "a_to_b": "{{name_a}}更容易先考虑哪些东西不要因为一次变化就全部打乱，比如长期约定、现实安排或者已经形成的生活节奏。对{{name_b}}来说，这种稳住的力量很有用；但如果所有旧方式都因为“以前一直如此”而被保留，也会觉得变化越来越难发生。",
+        "b_to_a": "{{name_b}}更容易在关键阶段提出新的方向，比如重新安排计划、改变长期习惯，或者直接指出某种模式已经不适合。对{{name_a}}来说，这种变化越晚被提出，冲击感往往越明显。",
+        "relationship_key": "你们更适合小问题小调整，不要长期维持到必须大改。{{name_b}}有新的想法早点说；{{name_a}}也可以定期看看，哪些稳定仍然真的需要，哪些只是因为做久了才觉得不能变。"
+      },
+      "character_counts": {
+        "summary": 86,
+        "relationship_tone": 126,
+        "a_to_b": 119,
+        "b_to_a": 90,
+        "relationship_key": 88,
+        "body_total": 509
+      }
+    },
+    {
+      "template_key": "offset_16",
+      "forward_offset": 16,
+      "family_code": "FRIEND_DECLINE",
+      "distance_code": "FAR",
+      "role_a_code": "DECLINE",
+      "role_a_label": "衰",
+      "role_b_code": "FRIEND",
+      "role_b_label": "友",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "{{name_a}}平时未必持续分享很多，但在某些时候会很自然地重新想到{{name_b}}；{{name_b}}则比较容易接受这种有间隔、不需要太多解释的联系节奏。",
+        "relationship_tone": "你们更像是平时各有生活，但有些时候重新联系并不会完全陌生。{{name_a}}可能隔了一段时间才重新分享近况，{{name_b}}也不一定要求先解释“为什么消失这么久”。这种松弛感很好，但联系太少以后，也可能只剩下“熟悉”，却没有新的共同内容。",
+        "a_to_b": "{{name_a}}更容易在某些阶段重新说起自己真正的变化和决定，而不需要先做很多铺垫。对{{name_b}}来说，这种直接会让关系很快恢复自然。但如果每次出现都伴随着重大事件，对方也可能慢慢把联系和“有事情发生”绑定起来。",
+        "b_to_a": "{{name_b}}更容易允许关系存在空档，不因为一段时间没联系就要求补偿或解释。这会让{{name_a}}重新靠近时比较自在。不过，如果双方都觉得“反正以后随时还能聊”，也可能谁都不主动维持现在正在发生的连接。",
+        "relationship_key": "远距离友衰最舒服的是不用黏，但也没有彻底消失。偶尔分享一点普通近况，会让你们重新联系时靠的是关系本身，而不是只靠过去的熟悉感。"
+      },
+      "character_counts": {
+        "summary": 83,
+        "relationship_tone": 122,
+        "a_to_b": 112,
+        "b_to_a": 106,
+        "relationship_key": 63,
+        "body_total": 486
+      }
+    },
+    {
+      "template_key": "offset_17",
+      "forward_offset": 17,
+      "family_code": "GLORY_KIN",
+      "distance_code": "FAR",
+      "role_a_code": "GLORY",
+      "role_a_label": "荣",
+      "role_b_code": "KIN",
+      "role_b_label": "亲",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "{{name_a}}更容易在重要时候感受到{{name_b}}是否真的把自己放在心上，而{{name_b}}也更容易在这些节点主动把关系重新接起来。",
+        "relationship_tone": "你们平时可能各有生活，并不需要一直黏在一起。真正让关系变得有感的，往往是某些具体时候：出了事情，对方有没有认真出现；事情过去以后，彼此是不是还会继续联系。",
+        "a_to_b": "{{name_a}}的回应会决定一次关键帮助最后只是“一件事”，还是会变成关系的一部分。事情过去以后记得谢谢、主动问对方近况、没有需求时也愿意聊天，都会让{{name_b}}感觉自己的主动不是一次性的工具。",
+        "b_to_a": "{{name_b}}更容易在某些关键节点主动靠近，让{{name_a}}感觉即使平时联系不多，彼此也不是完全陌生。但如果这种靠近总和“出了事”绑定，{{name_a}}也可能逐渐把关系和实际帮助绑在一起。",
+        "relationship_key": "关键时候可靠很好，但不要让关键时候成为唯一的联系理由。没有任务、没有困难时也能聊几句，才更容易让关系保持人和人的连接。"
+      },
+      "character_counts": {
+        "summary": 74,
+        "relationship_tone": 77,
+        "a_to_b": 103,
+        "b_to_a": 102,
+        "relationship_key": 59,
+        "body_total": 415
+      }
+    },
+    {
+      "template_key": "offset_18",
+      "forward_offset": 18,
+      "family_code": "KARMA_WOMB",
+      "distance_code": "NONE",
+      "role_a_code": "KARMA",
+      "role_a_label": "业",
+      "role_b_code": "WOMB",
+      "role_b_label": "胎",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "{{name_a}}更容易让一些原本可以继续拖着的问题变得具体，{{name_b}}则更容易在这些互动里重新调整自己的判断和回应方式。重点不是谁负责改变谁，而是过去能模糊处理的事情开始需要被重新看清。",
+        "relationship_tone": "你们这类关系比较容易出现一种很现实的体验：以前可以先不说的事情，相处以后越来越难继续不说。比如到底是什么关系；一件事为什么总是由同一个人配合；某个承诺到底算不算数；有些相处方式自己其实已经不舒服了，还要不要继续；哪些事以前会忍，现在不想再忍。这些问题不一定是{{name_a}}故意提出来的。更多时候是两个人真的相处以后，过去那套“先放着吧”的办法开始不好用了。",
+        "a_to_b": "和{{name_a}}相处时，一些{{name_b}}以前可能会先忍、先配合或者先不谈的事情，会更容易变得具体。可能是某次安排让{{name_b}}意识到“原来我其实不想每次都这样”，也可能是重复出现的问题让{{name_b}}开始觉得“这件事我不能再只说‘算了’”。重点不是{{name_a}}“教会”了{{name_b}}什么，而是这段互动让{{name_b}}更难继续沿用以前的反应方式。",
+        "b_to_a": "当{{name_b}}真的开始换一种方式回应，{{name_a}}也会受到影响。比如{{name_b}}以前会答应的事情开始拒绝，以前不会追问的边界开始说清楚，或者不再接受某种默认安排，{{name_a}}就必须重新面对：原来这段关系不能再按以前的方式继续。所以胎并不是等着被改变的人，{{name_b}}自己的选择，本身就会改变双方接下来怎么相处。",
+        "relationship_key": "业胎最容易让人误会的一件事，是“这段关系让我改变了很多，所以它一定很重要，也一定应该继续”。这两个结论其实不是一回事。你可以因为一段关系更清楚自己的边界，也可以因此发现“这个相处方式我以后不想再要了”。{{name_a}}不需要把自己放在“我要让你成长”的位置；{{name_b}}也不需要因为自己从中学到了东西，就觉得必须继续承受不舒服的互动。"
+      },
+      "character_counts": {
+        "summary": 100,
+        "relationship_tone": 181,
+        "a_to_b": 197,
+        "b_to_a": 175,
+        "relationship_key": 173,
+        "body_total": 826
+      }
+    },
+    {
+      "template_key": "offset_19",
+      "forward_offset": 19,
+      "family_code": "GLORY_KIN",
+      "distance_code": "MEDIUM",
+      "role_a_code": "KIN",
+      "role_a_label": "亲",
+      "role_b_code": "GLORY",
+      "role_b_label": "荣",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "{{name_a}}会在相处中越来越知道什么样的回应对{{name_b}}真正有用，{{name_b}}也会通过自己的反应让对方知道哪些靠近是舒服的。",
+        "relationship_tone": "你们更像是相处久了以后越来越“会和对方相处”。不是笼统地对人好，而是逐渐知道什么时候该问、什么时候不用追、什么时候一句具体的帮助比很多安慰更有效。",
+        "a_to_b": "{{name_a}}会越来越会根据{{name_b}}的实际反应调整自己的方式。比如以前习惯马上给建议，后来发现先听完更合适；或者知道某些事对方其实更想自己处理。这种变化会让关心越来越贴近真实需要。",
+        "b_to_a": "{{name_b}}的反馈会帮助{{name_a}}少做很多无效努力。能够直接说“这个有用”“这个我不需要”，比默默接受更容易让关系保持舒服。如果长期什么都不说，{{name_a}}就只能继续按过去的经验猜。",
+        "relationship_key": "中距离荣亲真正需要防的是一套有效分工慢慢变成固定角色。今天谁需要被回应，明天完全可以换过来。越熟悉，越不要默认“这一直就是你的职责”。"
+      },
+      "character_counts": {
+        "summary": 75,
+        "relationship_tone": 73,
+        "a_to_b": 99,
+        "b_to_a": 104,
+        "relationship_key": 67,
+        "body_total": 418
+      }
+    },
+    {
+      "template_key": "offset_20",
+      "forward_offset": 20,
+      "family_code": "FRIEND_DECLINE",
+      "distance_code": "MEDIUM",
+      "role_a_code": "FRIEND",
+      "role_a_label": "友",
+      "role_b_code": "DECLINE",
+      "role_b_label": "衰",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "{{name_a}}会在相处过程中逐渐建立一种平等、可商量的节奏，{{name_b}}也会一点点减少客气和包装。你们会通过多次互动，慢慢摸清彼此真正舒服的距离。",
+        "relationship_tone": "你们的自在感通常不是刚认识就马上出现，而是相处几次以后，越来越知道彼此什么能说、什么不用勉强。比如{{name_b}}一开始可能还会说“都可以”，熟了以后反而会直接说“这次我其实不想去”“这件事我和你想法不一样”“我现在也没想好”。{{name_a}}则更容易接受这种“不完全一致”，不急着把每一次不同意见都解释成关系出了问题。这会让相处越来越省力。",
+        "a_to_b": "{{name_a}}更容易给{{name_b}}一种“我可以有自己的想法，不需要每次都配合你”的感觉。可以意见不同，可以有各自安排，有些事情也不用全部向对方解释。不过，如果{{name_a}}为了保持“好相处”，长期什么都说没关系，自己的真实要求反而容易被藏起来。",
+        "b_to_a": "{{name_b}}熟悉以后，更容易让{{name_a}}看见真实的偏好和反应：不想去就说不想去，不认同就表达不同意见，没答案也不用硬装成已经想明白。这会减少{{name_a}}猜测。但如果慢慢形成“{{name_b}}负责直接表达，{{name_a}}负责理解和让步”，那么原本很平等的关系，也会开始失衡。",
+        "relationship_key": "中距离友衰最值得检查的是：是不是已经默默形成“一个负责做自己，一个负责好说话”的分工？{{name_a}}可以继续尊重{{name_b}}的节奏，但也要把自己的意见正常说出来；{{name_b}}可以少一点客气，同时也留意对方是不是经常为了好相处而退让。真正的轻松，不是谁都没有要求，而是两个人的要求都可以说。"
+      },
+      "character_counts": {
+        "summary": 80,
+        "relationship_tone": 175,
+        "a_to_b": 132,
+        "b_to_a": 154,
+        "relationship_key": 155,
+        "body_total": 696
+      }
+    },
+    {
+      "template_key": "offset_21",
+      "forward_offset": 21,
+      "family_code": "STABILITY_DISRUPTION",
+      "distance_code": "MEDIUM",
+      "role_a_code": "DISRUPTION",
+      "role_a_label": "坏",
+      "role_b_code": "STABILITY",
+      "role_b_label": "安",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "{{name_a}}会越来越想调整一些已经形成的相处习惯，{{name_b}}则更容易希望把有效的方式继续稳定下来。真正的差异通常是在关系有了一套固定节奏以后才出现。",
+        "relationship_tone": "相处久了以后，{{name_a}}可能越来越容易注意到“这件事是不是可以换个办法”，而{{name_b}}会更关心“为什么原本好好的要重新调整”。如果小变化一直没有被讨论，最后就容易出现一种感觉：一个人觉得自己总被限制，另一个人觉得对方总在改规则。",
+        "a_to_b": "{{name_a}}更容易提出新的安排、改变已经形成的习惯，或者把旧问题重新拿出来讨论。对{{name_b}}来说，这可以让关系不至于僵住，但如果每次刚适应一种方式，又出现新变化，也容易产生疲惫感。",
+        "b_to_a": "{{name_b}}会更自然地把有效的做法保持下来，希望重要事情有相对稳定的节奏。对{{name_a}}来说，这种稳定能减少很多反复，但如果所有变化都先被当成“没必要”，也会越来越觉得自己的想法很难真正被试一次。",
+        "relationship_key": "你们最值得练习的是不要等到积累成“你总是……”才谈。{{name_a}}想改变某件事时说具体是哪一件、为什么；{{name_b}}也区分自己是在守真正重要的边界，还是只是不习惯改变。小范围调整，比长期互相拉扯更有效。"
+      },
+      "character_counts": {
+        "summary": 83,
+        "relationship_tone": 124,
+        "a_to_b": 99,
+        "b_to_a": 106,
+        "relationship_key": 108,
+        "body_total": 520
+      }
+    },
+    {
+      "template_key": "offset_22",
+      "forward_offset": 22,
+      "family_code": "DANGER_COMPLETION",
+      "distance_code": "MEDIUM",
+      "role_a_code": "COMPLETION",
+      "role_a_label": "成",
+      "role_b_code": "DANGER",
+      "role_b_label": "危",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "{{name_a}}会越来越倾向把问题整理成可处理的步骤，{{name_b}}则随着了解加深，看见更多前面没有说清楚的地方。这种互动通常是在持续相处以后逐渐形成。",
+        "relationship_tone": "你们的差异通常不是刚认识就特别明显，而是事情越来越多以后才慢慢出现。比如一件事讨论了一阵，{{name_a}}会更容易开始想“那我们现在到底怎么做？”{{name_b}}则可能在这个时候发现“等一下，这里还有一个问题没谈”。这两个反应本来可以互相补足。一个让事情别一直悬着，一个避免太快做决定。真正容易累的，是前一件事还没谈完，后一件事又来了。",
+        "a_to_b": "{{name_a}}更容易把模糊的话题拉回现实：现在卡在哪里、能先做什么、哪些事情需要有个安排。这会减少{{name_b}}一直猜来猜去的时间。但如果{{name_b}}刚提出一个担心，{{name_a}}马上就进入“那解决办法是……”的状态，也可能让{{name_b}}觉得：我的问题好像还没真正被听懂，事情就已经继续往前了。",
+        "b_to_a": "{{name_b}}更容易注意到前面遗漏的地方，比如说好的事情有没有做到、两个人理解的是不是同一件事、某个安排现实上到底行不行。这些问题能帮助{{name_a}}少走弯路。但如果每次准备定下一件事时，又不断冒出新的条件，{{name_a}}也会越来越容易觉得：是不是永远都谈不完？",
+        "relationship_key": "你们最适合的不是一次把所有问题解决，而是一件一件结束。{{name_b}}提出顾虑时，尽量说清楚“现在最影响我决定的是哪一件事”；{{name_a}}想继续往下走时，也先确认上一件事是不是已经真的谈完。这样{{name_b}}不用不断补充问题，{{name_a}}也不会一直觉得关系停在原地。"
+      },
+      "character_counts": {
+        "summary": 81,
+        "relationship_tone": 172,
+        "a_to_b": 164,
+        "b_to_a": 140,
+        "relationship_key": 146,
+        "body_total": 703
+      }
+    },
+    {
+      "template_key": "offset_23",
+      "forward_offset": 23,
+      "family_code": "DANGER_COMPLETION",
+      "distance_code": "NEAR",
+      "role_a_code": "DANGER",
+      "role_a_label": "危",
+      "role_b_code": "COMPLETION",
+      "role_b_label": "成",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "{{name_a}}更容易先发现还有什么地方没弄清楚，{{name_b}}则更容易马上开始想下一步怎么办。距离近，让这种差异很快就会进入实际互动。",
+        "relationship_tone": "你们很容易出现这样的场景：{{name_a}}还在问“这个条件到底确定了吗”，{{name_b}}已经在想“那我们先这样做行不行”。两边其实都在解决同一件事，只是一个先补信息，一个先找办法。",
+        "a_to_b": "{{name_a}}更容易发现计划里没有被注意到的地方，比如一句话是不是理解错了、一个安排有没有现实限制。对{{name_b}}来说，这些提醒很有价值，但如果问题一直停留在“总觉得哪里不太对”，却说不清具体是什么，也会让人不知道应该先解决哪一项。",
+        "b_to_a": "{{name_b}}更容易把事情从讨论拉到行动上，比如提出一个具体方案、先处理最现实的一步。对{{name_a}}来说，这能帮助判断哪些担心真的需要处理；但节奏太快时，也可能出现“我还没想明白，就要做决定了”的压力。",
+        "relationship_key": "你们需要协调的是信息什么时候算够，什么时候可以先行动。{{name_a}}尽量把担心变成具体问题，{{name_b}}则让对方有机会把这一个问题说完。这样谨慎不会变成拖延，行动也不会变成催促。"
+      },
+      "character_counts": {
+        "summary": 73,
+        "relationship_tone": 95,
+        "a_to_b": 123,
+        "b_to_a": 108,
+        "relationship_key": 96,
+        "body_total": 495
+      }
+    },
+    {
+      "template_key": "offset_24",
+      "forward_offset": 24,
+      "family_code": "STABILITY_DISRUPTION",
+      "distance_code": "NEAR",
+      "role_a_code": "STABILITY",
+      "role_a_label": "安",
+      "role_b_code": "DISRUPTION",
+      "role_b_label": "坏",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "{{name_a}}更希望事情有一个稳定、可预期的节奏，{{name_b}}则更容易先想到“是不是可以换一种方式”。因为距离近，这种差异通常很早就能在日常相处里感觉出来。",
+        "relationship_tone": "你们很容易在一些小事情上就看出节奏不同。比如原本约好的安排，{{name_a}}会更希望照计划走；{{name_b}}则可能临时发现另一种做法更合适。问题不一定出在谁对谁错，而是一个人在确认“为什么要改”，另一个人已经开始想“怎么改会更好”。",
+        "a_to_b": "{{name_a}}更容易把事情说明确：什么时候做、怎么安排、哪些地方最好不要临时变化。这会让{{name_b}}的新想法真正有落点，但如果很多事情刚决定就变成“以后都只能这样”，{{name_b}}也可能越来越觉得没有调整余地。",
+        "b_to_a": "{{name_b}}更容易把原来的安排动一动：临时换计划、提出新的做法，或者把一直没谈的问题突然提出来。对{{name_a}}来说，新鲜感可能有，但如果变化来得太突然，更容易先产生“怎么突然变了”的不安。",
+        "relationship_key": "你们要协调的不是“到底该不该变”，而是变化之前有没有让另一方跟得上。{{name_b}}想改重要事情时先说原因；{{name_a}}不舒服时也说清自己真正担心什么。这样一个不用靠突然行动争取空间，一个也不用靠把规则定死来获得稳定。"
+      },
+      "character_counts": {
+        "summary": 85,
+        "relationship_tone": 121,
+        "a_to_b": 115,
+        "b_to_a": 102,
+        "relationship_key": 115,
+        "body_total": 538
+      }
+    },
+    {
+      "template_key": "offset_25",
+      "forward_offset": 25,
+      "family_code": "FRIEND_DECLINE",
+      "distance_code": "NEAR",
+      "role_a_code": "DECLINE",
+      "role_a_label": "衰",
+      "role_b_code": "FRIEND",
+      "role_b_label": "友",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "{{name_a}}更容易很快少一点客气和包装，{{name_b}}则更倾向让双方各有自己的节奏。这样的相处通常很容易产生“跟这个人说话没那么累”的感觉。",
+        "relationship_tone": "{{name_a}}在这段关系里比较容易早早表现出真实偏好，不用每次都回答“都可以”。{{name_b}}也不太急着要求彼此完全一致，很多事情可以商量、可以不同意。这种熟悉感很好，但双方也容易因为太自然，忘记一些边界其实仍然需要说清楚。",
+        "a_to_b": "{{name_a}}更容易直接表达反应：临时不想参加就说不想去，对一件事不同意就直接讲，甚至突然改主意也比较少掩饰。这会让{{name_b}}不需要猜，但如果所有随性都用“我们这么熟了”来解释，对方的感受也可能被忽略。",
+        "b_to_a": "{{name_b}}更容易让{{name_a}}感觉意见不同没什么大不了，不需要每次都把自己调整到对方那边。但如果{{name_b}}总为了维持轻松说“没关系”，真正的不同意见也可能长期没有进入关系。",
+        "relationship_key": "真正轻松不是谁都没有要求，而是不同要求可以直接谈。一个不要因为自然就默认对方不会介意，一个也不要因为想好相处就什么都不说。"
+      },
+      "character_counts": {
+        "summary": 77,
+        "relationship_tone": 118,
+        "a_to_b": 109,
+        "b_to_a": 100,
+        "relationship_key": 61,
+        "body_total": 465
+      }
+    },
+    {
+      "template_key": "offset_26",
+      "forward_offset": 26,
+      "family_code": "GLORY_KIN",
+      "distance_code": "NEAR",
+      "role_a_code": "GLORY",
+      "role_a_label": "荣",
+      "role_b_code": "KIN",
+      "role_b_label": "亲",
+      "influence_mode": "DIRECTIONAL",
+      "content": {
+        "summary": "{{name_b}}更容易主动把互动接下去，{{name_a}}则比较快就能感觉到：自己的话有没有被认真听进去。距离近，这种“我有回应你—我也感觉到了”的互动通常很早就会出现。",
+        "relationship_tone": "你们很容易从一些小事里判断彼此是不是在意这段互动。{{name_b}}可能记得上次聊过的话题、主动问后续，{{name_a}}也容易因为这些细节继续打开自己。舒服的时候很自然；但主动如果慢慢变成固定职责，也容易让双方产生不同期待。",
+        "a_to_b": "{{name_a}}的反应会很直接地影响{{name_b}}还愿不愿意继续主动。明确说“这个我有感受到”、主动回问一次，都会让对方知道自己的靠近是有来有回的。如果很多事情都被默默接受，{{name_b}}反而可能不知道自己做得是不是太多。",
+        "b_to_a": "{{name_b}}更容易通过具体动作让{{name_a}}感觉自己不是随便说说而已：记得细节、认真回复、安排事情时问意见。这些行为很容易增加信任；但如果主动太密、什么事都想参与，也可能让{{name_a}}觉得需要一直回应。",
+        "relationship_key": "近距离荣亲要守住的是：主动不是义务，接受也不是欠人情。两个人都可以说“这个我需要”“这个我想自己处理”，互动才不会慢慢变成固定分工。"
+      },
+      "character_counts": {
+        "summary": 88,
+        "relationship_tone": 115,
+        "a_to_b": 119,
+        "b_to_a": 113,
+        "relationship_key": 66,
+        "body_total": 501
+      }
+    }
+  ]
+}

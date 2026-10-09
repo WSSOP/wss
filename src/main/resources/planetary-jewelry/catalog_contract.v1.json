@@ -1,0 +1,43 @@
+{
+  "version": "PJ_CATALOG_V1",
+  "principles": {
+    "dynamic_admin_upload": true,
+    "product_count_hardcoded": false,
+    "product_ids_hardcoded_in_skill": false,
+    "recommendation_locked_before_catalog_query": true,
+    "out_of_stock_is_not_unpublished": true
+  },
+  "product_required_fields": ["product_id", "title", "planet_code", "remedy_type", "auto_recommendable", "publish_status", "images", "description", "admin_recommendation_priority"],
+  "sku_required_fields": ["sku_id", "product_id", "variant_attributes", "price", "inventory_quantity", "inventory_status"],
+  "enums": {
+    "remedy_type": ["YANTRA", "GEMSTONE"],
+    "publish_status": ["DRAFT", "PUBLISHED", "UNPUBLISHED", "ARCHIVED"],
+    "inventory_status": ["IN_STOCK", "LOW_STOCK", "OUT_OF_STOCK"],
+    "waitlist_status": ["WAITING", "NOTIFIED", "CANCELLED", "CONVERTED", "EXPIRED"],
+    "recommendation_source": ["PRIMARY_RESULT", "SECONDARY_RESULT", "PRODUCT_DETAIL", "MALL_BROWSE"]
+  },
+  "match_order": [
+    "planet_code must equal resolved direction",
+    "remedy_type must be allowed by modality policy",
+    "auto_recommendable must be true",
+    "publish_status must be PUBLISHED",
+    "within one direction, in-stock SKUs may display before out-of-stock SKUs",
+    "admin_recommendation_priority may sort products only within the same locked direction"
+  ],
+  "no_match_behavior": {
+    "no_product_created": "SHOW_RECOMMENDATION_WITH_RELATED_PRODUCTS_NOT_LISTED",
+    "product_exists_all_skus_out": "SHOW_OUT_OF_STOCK_AND_WAITLIST",
+    "primary_out_secondary_in": "KEEP_PRIMARY_RANK_SHOW_WAITLIST_AND_SECONDARY_ACTION"
+  },
+  "waitlist": {
+    "unique_key": ["user_id", "sku_id", "status_group_active"],
+    "frontend_count": "COUNT_DISTINCT_USER_ID_WHERE_STATUS_WAITING",
+    "subscription_requires_user_action": true,
+    "restock_trigger": "inventory transition from 0 to greater than 0",
+    "notification_once_per_restock_event": true,
+    "stock_reserved": false,
+    "resubscribe_after_new_stockout": true,
+    "channels": ["IN_APP", "PUSH_IF_AUTHORIZED"]
+  },
+  "admin_metrics": ["active_waitlist_unique_users", "new_waitlist_7d", "new_waitlist_30d", "source_breakdown", "primary_secondary_breakdown", "notification_count", "post_notification_conversion", "variant_demand"]
+}

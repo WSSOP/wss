@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wenxingdu.local/schemas/planetary-jewelry/renderer-output-v1.json",
+  "title": "Planetary Jewelry Renderer Output V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["headline", "goal_summary_text", "recommendation_cards", "why_text", "evidence_fold", "safety_line", "cta_payload"],
+  "properties": {
+    "headline": {"type": "string", "minLength": 1},
+    "goal_summary_text": {"type": "string", "minLength": 1},
+    "recommendation_cards": {
+      "type": "array",
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["rank", "title", "subtitle", "modality_label", "reason_text"],
+        "properties": {
+          "rank": {"enum": ["PRIMARY", "SECONDARY"]},
+          "title": {"type": "string"},
+          "subtitle": {"type": "string"},
+          "modality_label": {"type": "string"},
+          "reason_text": {"type": "string"}
+        }
+      }
+    },
+    "why_text": {"type": "string"},
+    "evidence_fold": {"type": "object", "required": ["title", "items"], "properties": {"title": {"const": "本次参考"}, "items": {"type": "array", "items": {"type": "string"}}}},
+    "safety_line": {"type": "string"},
+    "cta_payload": {"type": "object", "required": ["primary_action"], "properties": {"primary_action": {"type": ["object", "null"]}, "secondary_action": {"type": ["object", "null"]}}}
+  }
+}

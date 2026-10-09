@@ -1,0 +1,1708 @@
+{
+ "version": "V3.0",
+ "p2p_templates": [
+  {
+   "template_id": "P2P_SUN_TO_SUN",
+   "source_planet": "Sun",
+   "target_planet": "Sun",
+   "primary_domains": "事业 · 成长",
+   "title": "今天更适合把自己的想法说出来",
+   "one_line_summary": "你会更愿意表达立场、做决定，也更容易把注意力放到自己真正想推进的目标上。",
+   "evidence_text": "太阳 → 本命太阳"
+  },
+  {
+   "template_id": "P2P_SUN_TO_MOON",
+   "source_planet": "Sun",
+   "target_planet": "Moon",
+   "primary_domains": "爱情 · 成长",
+   "title": "今天更容易顾着目标，也顾着感受",
+   "one_line_summary": "你可能会更想按自己的判断行动，但情绪和关系需求也会不断提醒你顾及感受。",
+   "evidence_text": "太阳 → 本命月亮"
+  },
+  {
+   "template_id": "P2P_SUN_TO_MERCURY",
+   "source_planet": "Sun",
+   "target_planet": "Mercury",
+   "primary_domains": "事业 · 学业",
+   "title": "表达和判断会更有主见",
+   "one_line_summary": "今天更适合把想法说清楚、做决定，或者把零散的信息整理成明确观点。",
+   "evidence_text": "太阳 → 本命水星"
+  },
+  {
+   "template_id": "P2P_SUN_TO_VENUS",
+   "source_planet": "Sun",
+   "target_planet": "Venus",
+   "primary_domains": "爱情 · 成长",
+   "title": "今天更在意自己有没有被重视",
+   "one_line_summary": "你可能更想被看见、被重视，也更容易注意到关系里有没有尊重自己的需求。",
+   "evidence_text": "太阳 → 本命金星"
+  },
+  {
+   "template_id": "P2P_SUN_TO_MARS",
+   "source_planet": "Sun",
+   "target_planet": "Mars",
+   "primary_domains": "事业 · 成长",
+   "title": "行动会更果断一点",
+   "one_line_summary": "今天更容易快速做决定、主动推进，也更不想把时间花在反复犹豫上。",
+   "evidence_text": "太阳 → 本命火星"
+  },
+  {
+   "template_id": "P2P_SUN_TO_JUPITER",
+   "source_planet": "Sun",
+   "target_planet": "Jupiter",
+   "primary_domains": "事业 · 成长",
+   "title": "今天更容易把目光放远一点",
+   "one_line_summary": "你会更容易思考长期发展，也更愿意为一个更大的方向做决定。",
+   "evidence_text": "太阳 → 本命木星"
+  },
+  {
+   "template_id": "P2P_SUN_TO_SATURN",
+   "source_planet": "Sun",
+   "target_planet": "Saturn",
+   "primary_domains": "成长 · 事业",
+   "title": "今天更需要认真面对现实要求",
+   "one_line_summary": "规则、责任和现实限制会更有存在感，有些事情不能再只凭自己的节奏来处理。",
+   "evidence_text": "太阳 → 本命土星"
+  },
+  {
+   "template_id": "P2P_SUN_TO_RAHU",
+   "source_planet": "Sun",
+   "target_planet": "Rahu",
+   "primary_domains": "事业 · 成长",
+   "title": "今天更想证明自己能做到",
+   "one_line_summary": "你会更在意表现、竞争和突破，也更容易对“再往前一点”产生明显冲动。",
+   "evidence_text": "太阳 → 本命北交点"
+  },
+  {
+   "template_id": "P2P_SUN_TO_KETU",
+   "source_planet": "Sun",
+   "target_planet": "Ketu",
+   "primary_domains": "成长 · 事业",
+   "title": "一些原本很在意的目标会开始松动",
+   "one_line_summary": "今天可能没那么想继续证明自己，也更容易重新看待一个原本很执着的方向。",
+   "evidence_text": "太阳 → 本命南交点"
+  },
+  {
+   "template_id": "P2P_MOON_TO_SUN",
+   "source_planet": "Moon",
+   "target_planet": "Sun",
+   "primary_domains": "事业 · 爱情",
+   "title": "今天更容易把感受带进表达里",
+   "one_line_summary": "你的情绪和自我表达会连得更紧，想说什么、想做什么都会更直接一点。",
+   "evidence_text": "月亮 → 本命太阳"
+  },
+  {
+   "template_id": "P2P_MOON_TO_MOON",
+   "source_planet": "Moon",
+   "target_planet": "Moon",
+   "primary_domains": "爱情 · 成长",
+   "title": "今天会更在意自己舒不舒服",
+   "one_line_summary": "情绪、安全感和日常感受都会更明显，你会更容易察觉自己真正需要什么。",
+   "evidence_text": "月亮 → 本命月亮"
+  },
+  {
+   "template_id": "P2P_MOON_TO_MERCURY",
+   "source_planet": "Moon",
+   "target_planet": "Mercury",
+   "primary_domains": "学业 · 爱情",
+   "title": "今天更适合把感受说清楚",
+   "one_line_summary": "思考会带着更多情绪和直觉，也更容易通过聊天、记录或表达把想法理顺。",
+   "evidence_text": "月亮 → 本命水星"
+  },
+  {
+   "template_id": "P2P_MOON_TO_VENUS",
+   "source_planet": "Moon",
+   "target_planet": "Venus",
+   "primary_domains": "爱情 · 事业",
+   "title": "今天更想靠近让自己舒服的人",
+   "one_line_summary": "亲密感、好感和对舒服氛围的需求会更明显，也更愿意表达喜欢和关心。",
+   "evidence_text": "月亮 → 本命金星"
+  },
+  {
+   "template_id": "P2P_MOON_TO_MARS",
+   "source_planet": "Moon",
+   "target_planet": "Mars",
+   "primary_domains": "爱情 · 事业",
+   "title": "今天的反应会比平时快一点",
+   "one_line_summary": "情绪一上来就更容易马上行动或回应，耐心可能比平时少一些。",
+   "evidence_text": "月亮 → 本命火星"
+  },
+  {
+   "template_id": "P2P_MOON_TO_JUPITER",
+   "source_planet": "Moon",
+   "target_planet": "Jupiter",
+   "primary_domains": "成长 · 爱情",
+   "title": "今天更容易把事情想开一点",
+   "one_line_summary": "情绪会更有余地，也更容易从积极、宽一点的角度理解眼前的问题。",
+   "evidence_text": "月亮 → 本命木星"
+  },
+  {
+   "template_id": "P2P_MOON_TO_SATURN",
+   "source_planet": "Moon",
+   "target_planet": "Saturn",
+   "primary_domains": "爱情 · 成长",
+   "title": "今天更适合把情绪慢一点处理",
+   "one_line_summary": "你可能会比平时更克制，也更容易把责任、现实和安全感问题放在心上。",
+   "evidence_text": "月亮 → 本命土星"
+  },
+  {
+   "template_id": "P2P_MOON_TO_RAHU",
+   "source_planet": "Moon",
+   "target_planet": "Rahu",
+   "primary_domains": "爱情 · 学业",
+   "title": "今天会更容易想多一点",
+   "one_line_summary": "情绪、想象和对外界回应的敏感度都会上升，一件小事也可能在脑子里转很久。",
+   "evidence_text": "月亮 → 本命北交点"
+  },
+  {
+   "template_id": "P2P_MOON_TO_KETU",
+   "source_planet": "Moon",
+   "target_planet": "Ketu",
+   "primary_domains": "爱情 · 成长",
+   "title": "今天更需要把注意力收回来一点",
+   "one_line_summary": "你可能会突然不太想解释、不太想互动，或者需要比平时更多独处时间。",
+   "evidence_text": "月亮 → 本命南交点"
+  },
+  {
+   "template_id": "P2P_MERCURY_TO_SUN",
+   "source_planet": "Mercury",
+   "target_planet": "Sun",
+   "primary_domains": "事业 · 学业",
+   "title": "今天更适合把想法说清楚",
+   "one_line_summary": "思路会更容易组织起来，也更适合把观点写下来、讲明白或做成具体计划。",
+   "evidence_text": "水星 → 本命太阳"
+  },
+  {
+   "template_id": "P2P_MERCURY_TO_MOON",
+   "source_planet": "Mercury",
+   "target_planet": "Moon",
+   "primary_domains": "学业 · 爱情",
+   "title": "把感受说清楚会容易一点",
+   "one_line_summary": "今天更适合通过聊天、记录或分析，把原本有点模糊的感受理顺。",
+   "evidence_text": "水星 → 本命月亮"
+  },
+  {
+   "template_id": "P2P_MERCURY_TO_MERCURY",
+   "source_planet": "Mercury",
+   "target_planet": "Mercury",
+   "primary_domains": "学业 · 事业",
+   "title": "今天很适合整理信息和做判断",
+   "one_line_summary": "脑子会转得更快，学习、沟通和处理信息都会更容易进入状态。",
+   "evidence_text": "水星 → 本命水星"
+  },
+  {
+   "template_id": "P2P_MERCURY_TO_VENUS",
+   "source_planet": "Mercury",
+   "target_planet": "Venus",
+   "primary_domains": "爱情 · 事业",
+   "title": "今天更适合把关系里的话说开",
+   "one_line_summary": "沟通会更轻松一点，也更容易找到让双方都舒服的表达方式。",
+   "evidence_text": "水星 → 本命金星"
+  },
+  {
+   "template_id": "P2P_MERCURY_TO_MARS",
+   "source_planet": "Mercury",
+   "target_planet": "Mars",
+   "primary_domains": "事业 · 爱情",
+   "title": "今天说话会更快、更直接",
+   "one_line_summary": "反应和表达都会更快，处理问题会更直接，但争辩感也可能跟着上来。",
+   "evidence_text": "水星 → 本命火星"
+  },
+  {
+   "template_id": "P2P_MERCURY_TO_JUPITER",
+   "source_planet": "Mercury",
+   "target_planet": "Jupiter",
+   "primary_domains": "学业 · 事业",
+   "title": "今天很适合把知识串成体系",
+   "one_line_summary": "你会更容易从大量信息里看见整体结构，也更适合学习、总结和解释复杂问题。",
+   "evidence_text": "水星 → 本命木星"
+  },
+  {
+   "template_id": "P2P_MERCURY_TO_SATURN",
+   "source_planet": "Mercury",
+   "target_planet": "Saturn",
+   "primary_domains": "事业 · 学业",
+   "title": "今天适合把计划做得更细",
+   "one_line_summary": "思考会更有结构，也更适合处理需要耐心、步骤和现实检查的事情。",
+   "evidence_text": "水星 → 本命土星"
+  },
+  {
+   "template_id": "P2P_MERCURY_TO_RAHU",
+   "source_planet": "Mercury",
+   "target_planet": "Rahu",
+   "primary_domains": "事业 · 学业",
+   "title": "新信息会特别容易抓住你的注意力",
+   "one_line_summary": "今天对新工具、新观点和趋势会更敏感，但也更容易被太多信息同时拉走。",
+   "evidence_text": "水星 → 本命北交点"
+  },
+  {
+   "template_id": "P2P_MERCURY_TO_KETU",
+   "source_planet": "Mercury",
+   "target_planet": "Ketu",
+   "primary_domains": "学业 · 成长",
+   "title": "今天更适合把问题往深处想",
+   "one_line_summary": "你可能不太满足于简单答案，更想追到背后的逻辑、原因和隐藏结构。",
+   "evidence_text": "水星 → 本命南交点"
+  },
+  {
+   "template_id": "P2P_VENUS_TO_SUN",
+   "source_planet": "Venus",
+   "target_planet": "Sun",
+   "primary_domains": "事业 · 爱情",
+   "title": "今天更容易让人感受到你的亲和力",
+   "one_line_summary": "表达会更柔和一些，也更容易在社交、合作和关系里给人舒服的感觉。",
+   "evidence_text": "金星 → 本命太阳"
+  },
+  {
+   "template_id": "P2P_VENUS_TO_MOON",
+   "source_planet": "Venus",
+   "target_planet": "Moon",
+   "primary_domains": "爱情 · 成长",
+   "title": "今天更容易感受到被照顾和被理解",
+   "one_line_summary": "关系里的温度、陪伴感和放松感都会更明显，也更愿意让自己慢下来。",
+   "evidence_text": "金星 → 本命月亮"
+  },
+  {
+   "template_id": "P2P_VENUS_TO_MERCURY",
+   "source_planet": "Venus",
+   "target_planet": "Mercury",
+   "primary_domains": "事业 · 爱情",
+   "title": "今天说话更容易让人听得进去",
+   "one_line_summary": "沟通会更柔和、顺畅，也更适合协商、表达欣赏和处理需要分寸感的话题。",
+   "evidence_text": "金星 → 本命水星"
+  },
+  {
+   "template_id": "P2P_VENUS_TO_VENUS",
+   "source_planet": "Venus",
+   "target_planet": "Venus",
+   "primary_domains": "爱情 · 成长",
+   "title": "今天很适合享受关系里的好感觉",
+   "one_line_summary": "好感、吸引力和对愉悦生活的需求都会更明显，也更容易感受到关系中的回应。",
+   "evidence_text": "金星 → 本命金星"
+  },
+  {
+   "template_id": "P2P_VENUS_TO_MARS",
+   "source_planet": "Venus",
+   "target_planet": "Mars",
+   "primary_domains": "爱情 · 事业",
+   "title": "今天更愿意主动靠近和推进",
+   "one_line_summary": "喜欢一个人、想推进一件事时，会更愿意主动一点，也更容易出现明显的互动火花。",
+   "evidence_text": "金星 → 本命火星"
+  },
+  {
+   "template_id": "P2P_VENUS_TO_JUPITER",
+   "source_planet": "Venus",
+   "target_planet": "Jupiter",
+   "primary_domains": "爱情 · 成长",
+   "title": "今天更容易看到关系里值得珍惜的部分",
+   "one_line_summary": "心态会更宽一些，也更愿意从善意、包容和长期价值去看待人与关系。",
+   "evidence_text": "金星 → 本命木星"
+  },
+  {
+   "template_id": "P2P_VENUS_TO_SATURN",
+   "source_planet": "Venus",
+   "target_planet": "Saturn",
+   "primary_domains": "事业 · 成长",
+   "title": "今天更适合把关系和责任谈清楚",
+   "one_line_summary": "你会更愿意用温和但实际的方式处理规则、承诺和长期安排。",
+   "evidence_text": "金星 → 本命土星"
+  },
+  {
+   "template_id": "P2P_VENUS_TO_RAHU",
+   "source_planet": "Venus",
+   "target_planet": "Rahu",
+   "primary_domains": "爱情 · 事业",
+   "title": "今天更容易被新鲜感吸引",
+   "one_line_summary": "某个人、某种风格或新的体验会特别抓眼球，但感觉变强不代表它一定更适合你。",
+   "evidence_text": "金星 → 本命北交点"
+  },
+  {
+   "template_id": "P2P_VENUS_TO_KETU",
+   "source_planet": "Venus",
+   "target_planet": "Ketu",
+   "primary_domains": "爱情 · 成长",
+   "title": "今天会更想重新衡量一段关系",
+   "one_line_summary": "一些原本有吸引力的人和事，今天可能没那么抓住你，也更容易重新看清自己的真实需要。",
+   "evidence_text": "金星 → 本命南交点"
+  },
+  {
+   "template_id": "P2P_MARS_TO_SUN",
+   "source_planet": "Mars",
+   "target_planet": "Sun",
+   "primary_domains": "事业 · 成长",
+   "title": "今天更适合主动往前推一步",
+   "one_line_summary": "行动力、决断感和竞争心都会更明显，遇到事情时不太想继续等。",
+   "evidence_text": "火星 → 本命太阳"
+  },
+  {
+   "template_id": "P2P_MARS_TO_MOON",
+   "source_planet": "Mars",
+   "target_planet": "Moon",
+   "primary_domains": "爱情 · 成长",
+   "title": "今天情绪一上来，反应也会更快",
+   "one_line_summary": "你可能更容易烦躁、急着回应，或者很难把不舒服的感觉先放一放。",
+   "evidence_text": "火星 → 本命月亮"
+  },
+  {
+   "template_id": "P2P_MARS_TO_MERCURY",
+   "source_planet": "Mars",
+   "target_planet": "Mercury",
+   "primary_domains": "事业 · 爱情",
+   "title": "今天脑子和嘴都会快一点",
+   "one_line_summary": "反应速度会提高，处理问题更直接，但也更容易说得太快、太锋利。",
+   "evidence_text": "火星 → 本命水星"
+  },
+  {
+   "template_id": "P2P_MARS_TO_VENUS",
+   "source_planet": "Mars",
+   "target_planet": "Venus",
+   "primary_domains": "爱情 · 成长",
+   "title": "吸引力变强，摩擦也更容易出现",
+   "one_line_summary": "喜欢、欲望和互动火花会更明显，但彼此节奏不一样时也更容易擦枪走火。",
+   "evidence_text": "火星 → 本命金星"
+  },
+  {
+   "template_id": "P2P_MARS_TO_MARS",
+   "source_planet": "Mars",
+   "target_planet": "Mars",
+   "primary_domains": "事业 · 成长",
+   "title": "今天很适合集中力量把事情推起来",
+   "one_line_summary": "行动、竞争和执行都会明显提速，很适合把卡住的事情真正往前推进。",
+   "evidence_text": "火星 → 本命火星"
+  },
+  {
+   "template_id": "P2P_MARS_TO_JUPITER",
+   "source_planet": "Mars",
+   "target_planet": "Jupiter",
+   "primary_domains": "事业 · 成长",
+   "title": "今天更敢把一个大目标真正做起来",
+   "one_line_summary": "信心和行动力会一起增强，很多原本只停在计划里的事情更容易真正开始。",
+   "evidence_text": "火星 → 本命木星"
+  },
+  {
+   "template_id": "P2P_MARS_TO_SATURN",
+   "source_planet": "Mars",
+   "target_planet": "Saturn",
+   "primary_domains": "成长 · 事业",
+   "title": "越想推进，越会感觉到阻力",
+   "one_line_summary": "今天可能出现“我已经很用力了，但事情还是不够快”的感觉，耐心会比蛮力更重要。",
+   "evidence_text": "火星 → 本命土星"
+  },
+  {
+   "template_id": "P2P_MARS_TO_RAHU",
+   "source_planet": "Mars",
+   "target_planet": "Rahu",
+   "primary_domains": "爱情 · 事业",
+   "title": "冲劲会变强，也更容易冒进",
+   "one_line_summary": "你会更想突破、竞争、抢先一步，但越兴奋越要留意风险和后果。",
+   "evidence_text": "火星 → 本命北交点"
+  },
+  {
+   "template_id": "P2P_MARS_TO_KETU",
+   "source_planet": "Mars",
+   "target_planet": "Ketu",
+   "primary_domains": "爱情 · 成长",
+   "title": "今天更容易觉得有些事不值得再硬撑",
+   "one_line_summary": "有些原本一直在推进的事情，可能突然让你觉得累、烦，甚至想直接停下来。",
+   "evidence_text": "火星 → 本命南交点"
+  },
+  {
+   "template_id": "P2P_JUPITER_TO_SUN",
+   "source_planet": "Jupiter",
+   "target_planet": "Sun",
+   "primary_domains": "成长 · 事业",
+   "title": "今天更容易相信自己的判断",
+   "one_line_summary": "你会更愿意站出来表达想法，也更容易把注意力放到更大的目标上。",
+   "evidence_text": "木星 → 本命太阳"
+  },
+  {
+   "template_id": "P2P_JUPITER_TO_MOON",
+   "source_planet": "Jupiter",
+   "target_planet": "Moon",
+   "primary_domains": "成长 · 爱情",
+   "title": "你的情绪空间正在变得更宽",
+   "one_line_summary": "今天更容易把事情想开一点，也更愿意理解自己的感受和别人的立场。",
+   "evidence_text": "木星 → 本命月亮"
+  },
+  {
+   "template_id": "P2P_JUPITER_TO_MERCURY",
+   "source_planet": "Jupiter",
+   "target_planet": "Mercury",
+   "primary_domains": "学业 · 事业",
+   "title": "思路正在被打开",
+   "one_line_summary": "今天更适合学习、沟通和整理复杂信息，也更容易突然想通一些之前卡住的问题。",
+   "evidence_text": "木星 → 本命水星"
+  },
+  {
+   "template_id": "P2P_JUPITER_TO_VENUS",
+   "source_planet": "Jupiter",
+   "target_planet": "Venus",
+   "primary_domains": "爱情 · 事业",
+   "title": "今天更容易感受到关系里的善意",
+   "one_line_summary": "你会更容易感受到好感、回应和相处中的舒服，也更愿意主动表达欣赏。",
+   "evidence_text": "木星 → 本命金星"
+  },
+  {
+   "template_id": "P2P_JUPITER_TO_MARS",
+   "source_planet": "Jupiter",
+   "target_planet": "Mars",
+   "primary_domains": "事业 · 成长",
+   "title": "行动力正在找到更大的方向",
+   "one_line_summary": "今天不只是想得更多，也更容易真的开始行动。",
+   "evidence_text": "木星 → 本命火星"
+  },
+  {
+   "template_id": "P2P_JUPITER_TO_JUPITER",
+   "source_planet": "Jupiter",
+   "target_planet": "Jupiter",
+   "primary_domains": "成长 · 学业",
+   "title": "你正在看见更大的可能性",
+   "one_line_summary": "今天更容易把目光从眼前的问题移开，重新思考自己下一步真正想往哪里走。",
+   "evidence_text": "木星 → 本命木星"
+  },
+  {
+   "template_id": "P2P_JUPITER_TO_SATURN",
+   "source_planet": "Jupiter",
+   "target_planet": "Saturn",
+   "primary_domains": "事业 · 成长",
+   "title": "长期建设正在获得更大的空间",
+   "one_line_summary": "今天适合把想法落到现实安排里，尤其是那些需要时间才能看到结果的事情。",
+   "evidence_text": "木星 → 本命土星"
+  },
+  {
+   "template_id": "P2P_JUPITER_TO_RAHU",
+   "source_planet": "Jupiter",
+   "target_planet": "Rahu",
+   "primary_domains": "成长 · 事业",
+   "title": "你会更想突破现在的边界",
+   "one_line_summary": "今天更容易被新的机会、新方向或更大胆的可能性吸引。",
+   "evidence_text": "木星 → 本命北交点"
+  },
+  {
+   "template_id": "P2P_JUPITER_TO_KETU",
+   "source_planet": "Jupiter",
+   "target_planet": "Ketu",
+   "primary_domains": "成长 · 学业",
+   "title": "你会更想弄清楚什么真正重要",
+   "one_line_summary": "今天更适合往深处想，而不是急着追求一个表面的结果。",
+   "evidence_text": "木星 → 本命南交点"
+  },
+  {
+   "template_id": "P2P_SATURN_TO_SUN",
+   "source_planet": "Saturn",
+   "target_planet": "Sun",
+   "primary_domains": "成长 · 事业",
+   "title": "今天更适合稳住自己的位置",
+   "one_line_summary": "你可能会更在意责任、结果和别人怎么看你，也更容易感到自己必须把事情做好。",
+   "evidence_text": "土星 → 本命太阳"
+  },
+  {
+   "template_id": "P2P_SATURN_TO_MOON",
+   "source_planet": "Saturn",
+   "target_planet": "Moon",
+   "primary_domains": "爱情 · 成长",
+   "title": "情绪更需要一点缓冲空间",
+   "one_line_summary": "今天可能比平时更容易觉得累、冷下来，或者不太想解释自己的感受。",
+   "evidence_text": "土星 → 本命月亮"
+  },
+  {
+   "template_id": "P2P_SATURN_TO_MERCURY",
+   "source_planet": "Saturn",
+   "target_planet": "Mercury",
+   "primary_domains": "成长 · 学业",
+   "title": "今天更适合慢一点想清楚",
+   "one_line_summary": "今天不一定想得快，但更适合把细节看清楚、把计划做得实际一点。",
+   "evidence_text": "土星 → 本命水星"
+  },
+  {
+   "template_id": "P2P_SATURN_TO_VENUS",
+   "source_planet": "Saturn",
+   "target_planet": "Venus",
+   "primary_domains": "爱情 · 成长",
+   "title": "关系里的现实问题更难忽略",
+   "one_line_summary": "今天更容易注意到一段关系里真正需要承担和解决的部分，而不只是感受好不好。",
+   "evidence_text": "土星 → 本命金星"
+  },
+  {
+   "template_id": "P2P_SATURN_TO_MARS",
+   "source_planet": "Saturn",
+   "target_planet": "Mars",
+   "primary_domains": "成长 · 事业",
+   "title": "想往前冲，但节奏需要放慢",
+   "one_line_summary": "今天可能会有“很想推进，却总有东西卡着”的感觉，耐心会比速度更重要。",
+   "evidence_text": "土星 → 本命火星"
+  },
+  {
+   "template_id": "P2P_SATURN_TO_JUPITER",
+   "source_planet": "Saturn",
+   "target_planet": "Jupiter",
+   "primary_domains": "成长 · 事业",
+   "title": "理想需要经过现实检验",
+   "one_line_summary": "今天更适合重新检查一个计划到底能不能长期成立，而不是只看它听起来有多好。",
+   "evidence_text": "土星 → 本命木星"
+  },
+  {
+   "template_id": "P2P_SATURN_TO_SATURN",
+   "source_planet": "Saturn",
+   "target_planet": "Saturn",
+   "primary_domains": "成长 · 事业",
+   "title": "该认真整理长期计划了",
+   "one_line_summary": "一些拖了很久的责任、边界和长期安排，今天会更值得你重新梳理。",
+   "evidence_text": "土星 → 本命土星"
+  },
+  {
+   "template_id": "P2P_SATURN_TO_RAHU",
+   "source_planet": "Saturn",
+   "target_planet": "Rahu",
+   "primary_domains": "成长 · 事业",
+   "title": "突破之前，先看清现实条件",
+   "one_line_summary": "你还是会想改变现状，但今天更容易遇到必须认真评估的限制、成本和规则。",
+   "evidence_text": "土星 → 本命北交点"
+  },
+  {
+   "template_id": "P2P_SATURN_TO_KETU",
+   "source_planet": "Saturn",
+   "target_planet": "Ketu",
+   "primary_domains": "成长 · 爱情",
+   "title": "你会更想减少不必要的负担",
+   "one_line_summary": "今天更容易意识到，有些责任、关系模式或旧习惯已经消耗了太多精力。",
+   "evidence_text": "土星 → 本命南交点"
+  },
+  {
+   "template_id": "P2P_RAHU_TO_SUN",
+   "source_planet": "Rahu",
+   "target_planet": "Sun",
+   "primary_domains": "事业 · 成长",
+   "title": "今天更想让自己被看见",
+   "one_line_summary": "你会更在意表现、认可和突破，也更容易产生“我应该再往前一点”的冲动。",
+   "evidence_text": "北交点 → 本命太阳"
+  },
+  {
+   "template_id": "P2P_RAHU_TO_MOON",
+   "source_planet": "Rahu",
+   "target_planet": "Moon",
+   "primary_domains": "爱情 · 学业",
+   "title": "今天的情绪反应会更明显",
+   "one_line_summary": "一些原本不算大的感受，今天可能会变得特别明显，也更容易反复揣测别人的回应。",
+   "evidence_text": "北交点 → 本命月亮"
+  },
+  {
+   "template_id": "P2P_RAHU_TO_MERCURY",
+   "source_planet": "Rahu",
+   "target_planet": "Mercury",
+   "primary_domains": "学业 · 事业",
+   "title": "脑子里的新想法会明显变多",
+   "one_line_summary": "今天很容易被新信息、新观点和不一样的思路吸引，思考速度也会更活跃。",
+   "evidence_text": "北交点 → 本命水星"
+  },
+  {
+   "template_id": "P2P_RAHU_TO_VENUS",
+   "source_planet": "Rahu",
+   "target_planet": "Venus",
+   "primary_domains": "爱情 · 事业",
+   "title": "关系里的吸引和期待都在变强",
+   "one_line_summary": "今天更容易对某个人、某段关系或某种生活方式产生很强的兴趣，但感觉强烈不等于关系已经稳定。",
+   "evidence_text": "北交点 → 本命金星"
+  },
+  {
+   "template_id": "P2P_RAHU_TO_MARS",
+   "source_planet": "Rahu",
+   "target_planet": "Mars",
+   "primary_domains": "事业 · 爱情",
+   "title": "今天更容易想马上行动",
+   "one_line_summary": "冲劲、竞争心和冒险感都会更明显，遇到机会时更容易先做再想。",
+   "evidence_text": "北交点 → 本命火星"
+  },
+  {
+   "template_id": "P2P_RAHU_TO_JUPITER",
+   "source_planet": "Rahu",
+   "target_planet": "Jupiter",
+   "primary_domains": "学业 · 事业",
+   "title": "越确信，越值得再确认一次",
+   "one_line_summary": "今天更容易对一个观点、机会或方向产生强烈信心，但越确信，越值得多检查一次。",
+   "evidence_text": "北交点 → 本命木星"
+  },
+  {
+   "template_id": "P2P_RAHU_TO_SATURN",
+   "source_planet": "Rahu",
+   "target_planet": "Saturn",
+   "primary_domains": "事业 · 成长",
+   "title": "你会更想把事情做得更大",
+   "one_line_summary": "野心和长期压力会同时变得更明显，你可能更愿意为一个目标持续投入。",
+   "evidence_text": "北交点 → 本命土星"
+  },
+  {
+   "template_id": "P2P_RAHU_TO_RAHU",
+   "source_planet": "Rahu",
+   "target_planet": "Rahu",
+   "primary_domains": "事业 · 成长",
+   "title": "今天更想试一条不一样的路",
+   "one_line_summary": "对改变、升级和走出原有路径的渴望会变得更明显，但不必急着一次改变所有事情。",
+   "evidence_text": "北交点 → 本命北交点"
+  },
+  {
+   "template_id": "P2P_RAHU_TO_KETU",
+   "source_planet": "Rahu",
+   "target_planet": "Ketu",
+   "primary_domains": "爱情 · 成长",
+   "title": "一边想往前，一边又想放下",
+   "one_line_summary": "今天容易在“我还想争取”和“算了，我不想再执着”之间来回摇摆。",
+   "evidence_text": "北交点 → 本命南交点"
+  },
+  {
+   "template_id": "P2P_KETU_TO_SUN",
+   "source_planet": "Ketu",
+   "target_planet": "Sun",
+   "primary_domains": "成长 · 事业",
+   "title": "今天更适合重新想想自己真正要什么",
+   "one_line_summary": "一些原本很在意的目标或评价，今天可能没那么能推动你了。",
+   "evidence_text": "南交点 → 本命太阳"
+  },
+  {
+   "template_id": "P2P_KETU_TO_MOON",
+   "source_planet": "Ketu",
+   "target_planet": "Moon",
+   "primary_domains": "爱情 · 成长",
+   "title": "今天更需要一点安静的空间",
+   "one_line_summary": "你可能不太想解释太多，也更需要一点自己的空间来消化感受。",
+   "evidence_text": "南交点 → 本命月亮"
+  },
+  {
+   "template_id": "P2P_KETU_TO_MERCURY",
+   "source_planet": "Ketu",
+   "target_planet": "Mercury",
+   "primary_domains": "成长 · 学业",
+   "title": "今天更适合把一个问题想深",
+   "one_line_summary": "你未必很想处理大量信息，但更容易对一个问题追得更深。",
+   "evidence_text": "南交点 → 本命水星"
+  },
+  {
+   "template_id": "P2P_KETU_TO_VENUS",
+   "source_planet": "Ketu",
+   "target_planet": "Venus",
+   "primary_domains": "爱情 · 成长",
+   "title": "今天更容易看清自己真正喜欢什么",
+   "one_line_summary": "一些原本让你很在意的人和事，今天可能会让你重新判断它们到底值不值得投入。",
+   "evidence_text": "南交点 → 本命金星"
+  },
+  {
+   "template_id": "P2P_KETU_TO_MARS",
+   "source_planet": "Ketu",
+   "target_planet": "Mars",
+   "primary_domains": "成长 · 事业",
+   "title": "不是所有事情都值得继续用力",
+   "one_line_summary": "今天更容易对某些原本很想推进的事情失去冲劲，也更适合重新分配自己的力气。",
+   "evidence_text": "南交点 → 本命火星"
+  },
+  {
+   "template_id": "P2P_KETU_TO_JUPITER",
+   "source_planet": "Ketu",
+   "target_planet": "Jupiter",
+   "primary_domains": "成长 · 学业",
+   "title": "今天更适合往深处找答案",
+   "one_line_summary": "比起追求更多机会，你可能更想理解一件事真正的意义和底层逻辑。",
+   "evidence_text": "南交点 → 本命木星"
+  },
+  {
+   "template_id": "P2P_KETU_TO_SATURN",
+   "source_planet": "Ketu",
+   "target_planet": "Saturn",
+   "primary_domains": "成长 · 事业",
+   "title": "有些责任可以重新整理了",
+   "one_line_summary": "今天更容易意识到，哪些长期负担已经不应该继续靠惯性承担。",
+   "evidence_text": "南交点 → 本命土星"
+  },
+  {
+   "template_id": "P2P_KETU_TO_RAHU",
+   "source_planet": "Ketu",
+   "target_planet": "Rahu",
+   "primary_domains": "成长 · 爱情",
+   "title": "你可能没那么想继续追了",
+   "one_line_summary": "一些原本很想得到、很想突破的事情，今天可能突然失去一部分吸引力。",
+   "evidence_text": "南交点 → 本命北交点"
+  },
+  {
+   "template_id": "P2P_KETU_TO_KETU",
+   "source_planet": "Ketu",
+   "target_planet": "Ketu",
+   "primary_domains": "成长 · 学业",
+   "title": "今天很适合做一次内在整理",
+   "one_line_summary": "旧习惯、旧想法和一些长期没有处理的内在问题，今天更容易重新浮出来让你看清。",
+   "evidence_text": "南交点 → 本命南交点"
+  }
+ ],
+ "p2h_templates": [
+  {
+   "template_id": "P2H_SUN_TO_H1",
+   "source_planet": "Sun",
+   "target_house": 1,
+   "primary_domains": "事业 · 成长",
+   "title": "今天更适合把自己的立场站稳",
+   "one_line_summary": "自我表达、目标感和行动意愿都会更明显，也更容易想按自己的判断做决定。",
+   "evidence_text": "太阳 → 本命第1宫"
+  },
+  {
+   "template_id": "P2H_SUN_TO_H2",
+   "source_planet": "Sun",
+   "target_house": 2,
+   "primary_domains": "事业 · 成长",
+   "title": "今天更想把钱和资源安排得更清楚",
+   "one_line_summary": "你会更在意收入、资源和自己的价值是否被认可，也更想主动做出安排。",
+   "evidence_text": "太阳 → 本命第2宫"
+  },
+  {
+   "template_id": "P2H_SUN_TO_H3",
+   "source_planet": "Sun",
+   "target_house": 3,
+   "primary_domains": "事业 · 学业",
+   "title": "今天更敢表达，也更愿意主动尝试",
+   "one_line_summary": "沟通、行动和学习新技能都会更有主动性，适合把想法真正说出来、做出来。",
+   "evidence_text": "太阳 → 本命第3宫"
+  },
+  {
+   "template_id": "P2H_SUN_TO_H4",
+   "source_planet": "Sun",
+   "target_house": 4,
+   "primary_domains": "成长 · 爱情",
+   "title": "今天更在意自己的生活是不是稳定",
+   "one_line_summary": "家庭、居住和安全感会更进入你的关注中心，也更想主动整理生活基础。",
+   "evidence_text": "太阳 → 本命第4宫"
+  },
+  {
+   "template_id": "P2H_SUN_TO_H5",
+   "source_planet": "Sun",
+   "target_house": 5,
+   "primary_domains": "学业 · 成长",
+   "title": "今天更想把兴趣和创意表达出来",
+   "one_line_summary": "创造力、表现欲和学习动力都会更明显，也更愿意让别人看到自己的作品和想法。",
+   "evidence_text": "太阳 → 本命第5宫"
+  },
+  {
+   "template_id": "P2H_SUN_TO_H6",
+   "source_planet": "Sun",
+   "target_house": 6,
+   "primary_domains": "事业 · 成长",
+   "title": "今天更适合把工作里的难题正面解决",
+   "one_line_summary": "任务、竞争和日常问题会更需要你主动处理，也更容易进入“先把问题解决”的状态。",
+   "evidence_text": "太阳 → 本命第6宫"
+  },
+  {
+   "template_id": "P2H_SUN_TO_H7",
+   "source_planet": "Sun",
+   "target_house": 7,
+   "primary_domains": "爱情 · 成长",
+   "title": "关系里更容易出现谁来做主的问题",
+   "one_line_summary": "伴侣、合作和一对一互动会更考验双方能不能平衡自己的立场。",
+   "evidence_text": "太阳 → 本命第7宫"
+  },
+  {
+   "template_id": "P2H_SUN_TO_H8",
+   "source_planet": "Sun",
+   "target_house": 8,
+   "primary_domains": "成长 · 事业",
+   "title": "今天更适合面对那些不好回避的问题",
+   "one_line_summary": "风险、共享资源、控制感和深层变化会更有存在感，也更需要认真处理。",
+   "evidence_text": "太阳 → 本命第8宫"
+  },
+  {
+   "template_id": "P2H_SUN_TO_H9",
+   "source_planet": "Sun",
+   "target_house": 9,
+   "primary_domains": "学业 · 成长",
+   "title": "今天更想确认自己真正相信什么",
+   "one_line_summary": "学习、信念和长期方向会更有存在感，也更愿意形成自己的判断。",
+   "evidence_text": "太阳 → 本命第9宫"
+  },
+  {
+   "template_id": "P2H_SUN_TO_H10",
+   "source_planet": "Sun",
+   "target_house": 10,
+   "primary_domains": "事业 · 成长",
+   "title": "今天事业上的存在感会更强",
+   "one_line_summary": "职位、责任、目标和公开表现都会更值得关注，也更容易想主动承担更重要的角色。",
+   "evidence_text": "太阳 → 本命第10宫"
+  },
+  {
+   "template_id": "P2H_SUN_TO_H11",
+   "source_planet": "Sun",
+   "target_house": 11,
+   "primary_domains": "事业 · 成长",
+   "title": "今天更想让一个长期目标见到结果",
+   "one_line_summary": "人脉、收益和成果会更进入关注中心，也更愿意主动组织资源去实现目标。",
+   "evidence_text": "太阳 → 本命第11宫"
+  },
+  {
+   "template_id": "P2H_SUN_TO_H12",
+   "source_planet": "Sun",
+   "target_house": 12,
+   "primary_domains": "成长 · 事业",
+   "title": "今天更适合先退到幕后整理一下",
+   "one_line_summary": "外在表现欲可能下降，休息、收尾和幕后事务会更值得关注。",
+   "evidence_text": "太阳 → 本命第12宫"
+  },
+  {
+   "template_id": "P2H_MOON_TO_H1",
+   "source_planet": "Moon",
+   "target_house": 1,
+   "primary_domains": "爱情 · 成长",
+   "title": "今天更容易跟着自己的状态走",
+   "one_line_summary": "情绪、身体感受和当下需求都会更明显，你会更容易知道自己现在舒不舒服。",
+   "evidence_text": "月亮 → 本命第1宫"
+  },
+  {
+   "template_id": "P2H_MOON_TO_H2",
+   "source_planet": "Moon",
+   "target_house": 2,
+   "primary_domains": "爱情 · 事业",
+   "title": "今天会更在意钱能不能带来安全感",
+   "one_line_summary": "金钱、家庭和资源安排更容易影响心情，也更想让生活保持一种稳定感。",
+   "evidence_text": "月亮 → 本命第2宫"
+  },
+  {
+   "template_id": "P2H_MOON_TO_H3",
+   "source_planet": "Moon",
+   "target_house": 3,
+   "primary_domains": "学业 · 爱情",
+   "title": "今天更想聊天、走动和接收信息",
+   "one_line_summary": "沟通、短途事务和学习小技能会更活跃，也更容易被周围环境带动情绪。",
+   "evidence_text": "月亮 → 本命第3宫"
+  },
+  {
+   "template_id": "P2H_MOON_TO_H4",
+   "source_planet": "Moon",
+   "target_house": 4,
+   "primary_domains": "爱情 · 成长",
+   "title": "今天更需要熟悉和安心的感觉",
+   "one_line_summary": "家庭、居住和内在安全感会特别重要，也更适合把生活节奏调得舒服一点。",
+   "evidence_text": "月亮 → 本命第4宫"
+  },
+  {
+   "template_id": "P2H_MOON_TO_H5",
+   "source_planet": "Moon",
+   "target_house": 5,
+   "primary_domains": "爱情 · 学业",
+   "title": "今天更容易被喜欢的人和事打动",
+   "one_line_summary": "恋爱、兴趣、创作和学习体验会更有情绪参与感，也更愿意表达喜欢。",
+   "evidence_text": "月亮 → 本命第5宫"
+  },
+  {
+   "template_id": "P2H_MOON_TO_H6",
+   "source_planet": "Moon",
+   "target_house": 6,
+   "primary_domains": "事业 · 爱情",
+   "title": "日常小事更容易影响心情",
+   "one_line_summary": "工作、任务和生活节奏中的琐碎变化，会更直接地影响你的情绪和耐心。",
+   "evidence_text": "月亮 → 本命第6宫"
+  },
+  {
+   "template_id": "P2H_MOON_TO_H7",
+   "source_planet": "Moon",
+   "target_house": 7,
+   "primary_domains": "爱情 · 成长",
+   "title": "今天会更在意对方怎么回应你",
+   "one_line_summary": "伴侣、合作和一对一互动会更影响情绪，也更需要被理解和被回应。",
+   "evidence_text": "月亮 → 本命第7宫"
+  },
+  {
+   "template_id": "P2H_MOON_TO_H8",
+   "source_planet": "Moon",
+   "target_house": 8,
+   "primary_domains": "爱情 · 成长",
+   "title": "今天更容易碰到藏得比较深的情绪",
+   "one_line_summary": "信任、共享资源和隐藏的不安会更容易被触发，也更想弄清自己真正担心什么。",
+   "evidence_text": "月亮 → 本命第8宫"
+  },
+  {
+   "template_id": "P2H_MOON_TO_H9",
+   "source_planet": "Moon",
+   "target_house": 9,
+   "primary_domains": "学业 · 成长",
+   "title": "今天更想从新的视角理解生活",
+   "one_line_summary": "学习、旅行、信念和长期方向会更容易受到当下感受启发，也更愿意接触不同经验。",
+   "evidence_text": "月亮 → 本命第9宫"
+  },
+  {
+   "template_id": "P2H_MOON_TO_H10",
+   "source_planet": "Moon",
+   "target_house": 10,
+   "primary_domains": "事业 · 成长",
+   "title": "今天工作状态更容易被别人看见",
+   "one_line_summary": "事业、责任和公开表现会更受情绪影响，也更在意外界对你的反馈。",
+   "evidence_text": "月亮 → 本命第10宫"
+  },
+  {
+   "template_id": "P2H_MOON_TO_H11",
+   "source_planet": "Moon",
+   "target_house": 11,
+   "primary_domains": "爱情 · 事业",
+   "title": "今天更想和熟悉的人保持连接",
+   "one_line_summary": "朋友、社群和长期目标会更容易带来情绪反馈，也更需要圈子里的支持感。",
+   "evidence_text": "月亮 → 本命第11宫"
+  },
+  {
+   "template_id": "P2H_MOON_TO_H12",
+   "source_planet": "Moon",
+   "target_house": 12,
+   "primary_domains": "成长 · 爱情",
+   "title": "今天更需要休息和安静一点",
+   "one_line_summary": "独处、睡眠、情绪恢复和幕后状态会更重要，也更容易想暂时减少外界刺激。",
+   "evidence_text": "月亮 → 本命第12宫"
+  },
+  {
+   "template_id": "P2H_MERCURY_TO_H1",
+   "source_planet": "Mercury",
+   "target_house": 1,
+   "primary_domains": "学业 · 事业",
+   "title": "今天脑子会更活跃，也更想表达自己",
+   "one_line_summary": "思考、表达和信息处理都会更快，也更容易把想法直接说出来。",
+   "evidence_text": "水星 → 本命第1宫"
+  },
+  {
+   "template_id": "P2H_MERCURY_TO_H2",
+   "source_planet": "Mercury",
+   "target_house": 2,
+   "primary_domains": "事业 · 学业",
+   "title": "今天更适合把钱和实际价值算清楚",
+   "one_line_summary": "收入、资源、价格和实际价值会更容易进入思考，也适合处理需要计算和比较的事情。",
+   "evidence_text": "水星 → 本命第2宫"
+  },
+  {
+   "template_id": "P2H_MERCURY_TO_H3",
+   "source_planet": "Mercury",
+   "target_house": 3,
+   "primary_domains": "学业 · 事业",
+   "title": "今天特别适合沟通、学习和练技能",
+   "one_line_summary": "写作、表达、信息处理和短期学习都会更顺，也更容易快速进入状态。",
+   "evidence_text": "水星 → 本命第3宫"
+  },
+  {
+   "template_id": "P2H_MERCURY_TO_H4",
+   "source_planet": "Mercury",
+   "target_house": 4,
+   "primary_domains": "学业 · 爱情",
+   "title": "今天更适合把家里的事情说清楚",
+   "one_line_summary": "家庭、居住和内在感受更容易进入沟通，也更适合整理生活里的实际安排。",
+   "evidence_text": "水星 → 本命第4宫"
+  },
+  {
+   "template_id": "P2H_MERCURY_TO_H5",
+   "source_planet": "Mercury",
+   "target_house": 5,
+   "primary_domains": "学业 · 成长",
+   "title": "今天很适合学习、创作和玩点新点子",
+   "one_line_summary": "理解力、表达欲和创意都会更活跃，也更容易从兴趣里学到东西。",
+   "evidence_text": "水星 → 本命第5宫"
+  },
+  {
+   "template_id": "P2H_MERCURY_TO_H6",
+   "source_planet": "Mercury",
+   "target_house": 6,
+   "primary_domains": "事业 · 学业",
+   "title": "今天更适合把工作里的细节拆清楚",
+   "one_line_summary": "任务、流程和具体问题会更适合逐项分析，也更容易找到可执行的解决办法。",
+   "evidence_text": "水星 → 本命第6宫"
+  },
+  {
+   "template_id": "P2H_MERCURY_TO_H7",
+   "source_planet": "Mercury",
+   "target_house": 7,
+   "primary_domains": "事业 · 爱情",
+   "title": "今天很适合把合作和关系里的话谈清楚",
+   "one_line_summary": "一对一沟通、协商和条件讨论会更顺，也更适合减少误会。",
+   "evidence_text": "水星 → 本命第7宫"
+  },
+  {
+   "template_id": "P2H_MERCURY_TO_H8",
+   "source_planet": "Mercury",
+   "target_house": 8,
+   "primary_domains": "学业 · 成长",
+   "title": "今天更适合研究那些不容易看懂的信息",
+   "one_line_summary": "共享资源、风险、秘密和深层问题会更容易进入你的分析范围。",
+   "evidence_text": "水星 → 本命第8宫"
+  },
+  {
+   "template_id": "P2H_MERCURY_TO_H9",
+   "source_planet": "Mercury",
+   "target_house": 9,
+   "primary_domains": "学业 · 成长",
+   "title": "今天很适合把知识放进更大的框架里",
+   "one_line_summary": "高等学习、远方信息和长期判断都会更活跃，也更容易把零散知识串起来。",
+   "evidence_text": "水星 → 本命第9宫"
+  },
+  {
+   "template_id": "P2H_MERCURY_TO_H10",
+   "source_planet": "Mercury",
+   "target_house": 10,
+   "primary_domains": "事业 · 学业",
+   "title": "今天工作里的沟通和判断会特别重要",
+   "one_line_summary": "汇报、信息、计划和专业表达更容易直接影响工作推进和别人对你的判断。",
+   "evidence_text": "水星 → 本命第10宫"
+  },
+  {
+   "template_id": "P2H_MERCURY_TO_H11",
+   "source_planet": "Mercury",
+   "target_house": 11,
+   "primary_domains": "事业 · 爱情",
+   "title": "今天更适合通过人脉和信息推进目标",
+   "one_line_summary": "社群、朋友、资源和长期目标之间的连接会更活跃，也更容易得到有用信息。",
+   "evidence_text": "水星 → 本命第11宫"
+  },
+  {
+   "template_id": "P2H_MERCURY_TO_H12",
+   "source_planet": "Mercury",
+   "target_house": 12,
+   "primary_domains": "学业 · 成长",
+   "title": "今天更适合安静整理脑子里的东西",
+   "one_line_summary": "幕后思考、独立研究和信息整理会更有价值，也更容易想一个人消化很多事情。",
+   "evidence_text": "水星 → 本命第12宫"
+  },
+  {
+   "template_id": "P2H_VENUS_TO_H1",
+   "source_planet": "Venus",
+   "target_house": 1,
+   "primary_domains": "爱情 · 成长",
+   "title": "今天更容易显得有亲和力",
+   "one_line_summary": "个人魅力、审美和与人相处的柔和感会更明显，也更愿意把自己照顾得好一点。",
+   "evidence_text": "金星 → 本命第1宫"
+  },
+  {
+   "template_id": "P2H_VENUS_TO_H2",
+   "source_planet": "Venus",
+   "target_house": 2,
+   "primary_domains": "事业 · 爱情",
+   "title": "今天更适合把钱花在真正有价值的地方",
+   "one_line_summary": "金钱、消费、审美和生活品质会更值得关注，也更容易想让自己过得舒服一点。",
+   "evidence_text": "金星 → 本命第2宫"
+  },
+  {
+   "template_id": "P2H_VENUS_TO_H3",
+   "source_planet": "Venus",
+   "target_house": 3,
+   "primary_domains": "爱情 · 事业",
+   "title": "今天说话会更柔和，也更容易聊得来",
+   "one_line_summary": "沟通、短途互动和日常联系会更轻松，适合表达喜欢、协调关系和处理社交。",
+   "evidence_text": "金星 → 本命第3宫"
+  },
+  {
+   "template_id": "P2H_VENUS_TO_H4",
+   "source_planet": "Venus",
+   "target_house": 4,
+   "primary_domains": "爱情 · 成长",
+   "title": "今天更想把家里和生活过得舒服一点",
+   "one_line_summary": "居住、家庭、陪伴和安全感会更容易带来满足，也更愿意改善自己的生活环境。",
+   "evidence_text": "金星 → 本命第4宫"
+  },
+  {
+   "template_id": "P2H_VENUS_TO_H5",
+   "source_planet": "Venus",
+   "target_house": 5,
+   "primary_domains": "爱情 · 成长",
+   "title": "今天很适合谈恋爱、创作和做喜欢的事",
+   "one_line_summary": "心动、愉悦、兴趣和创造力都会更活跃，也更愿意享受轻松的互动。",
+   "evidence_text": "金星 → 本命第5宫"
+  },
+  {
+   "template_id": "P2H_VENUS_TO_H6",
+   "source_planet": "Venus",
+   "target_house": 6,
+   "primary_domains": "事业 · 爱情",
+   "title": "今天更适合把工作里的小摩擦协调好",
+   "one_line_summary": "日常任务、同事互动和生活习惯会更需要平衡，太想维持舒服反而可能拖延问题。",
+   "evidence_text": "金星 → 本命第6宫"
+  },
+  {
+   "template_id": "P2H_VENUS_TO_H7",
+   "source_planet": "Venus",
+   "target_house": 7,
+   "primary_domains": "爱情 · 事业",
+   "title": "今天关系和合作里的好感会特别明显",
+   "one_line_summary": "伴侣、合作和一对一互动更容易进入舒服、愿意靠近和愿意协商的状态。",
+   "evidence_text": "金星 → 本命第7宫"
+  },
+  {
+   "template_id": "P2H_VENUS_TO_H8",
+   "source_planet": "Venus",
+   "target_house": 8,
+   "primary_domains": "成长 · 爱情",
+   "title": "今天更适合谈关系里更深的信任和共享",
+   "one_line_summary": "亲密、共享资源和隐秘感会更值得关注，也更容易想靠近关系里更深的一层。",
+   "evidence_text": "金星 → 本命第8宫"
+  },
+  {
+   "template_id": "P2H_VENUS_TO_H9",
+   "source_planet": "Venus",
+   "target_house": 9,
+   "primary_domains": "成长 · 爱情",
+   "title": "今天更容易被美好的远方和新体验吸引",
+   "one_line_summary": "旅行、文化、学习和不同生活方式会更有吸引力，也更愿意和喜欢的人分享新体验。",
+   "evidence_text": "金星 → 本命第9宫"
+  },
+  {
+   "template_id": "P2H_VENUS_TO_H10",
+   "source_planet": "Venus",
+   "target_house": 10,
+   "primary_domains": "事业 · 爱情",
+   "title": "今天更容易通过人际和形象为工作加分",
+   "one_line_summary": "合作感、公开形象和别人对你的好感会更有存在感，也更适合处理需要协调的事业事务。",
+   "evidence_text": "金星 → 本命第10宫"
+  },
+  {
+   "template_id": "P2H_VENUS_TO_H11",
+   "source_planet": "Venus",
+   "target_house": 11,
+   "primary_domains": "事业 · 爱情",
+   "title": "今天更容易在人脉和社交里得到好回应",
+   "one_line_summary": "朋友、圈子、资源和长期目标之间的互动会更顺，也更适合通过社交连接机会。",
+   "evidence_text": "金星 → 本命第11宫"
+  },
+  {
+   "template_id": "P2H_VENUS_TO_H12",
+   "source_planet": "Venus",
+   "target_house": 12,
+   "primary_domains": "爱情 · 成长",
+   "title": "今天更想享受一点安静和私密感",
+   "one_line_summary": "独处、私密关系、休息和消费享受会更有吸引力，也更容易想暂时离开日常节奏。",
+   "evidence_text": "金星 → 本命第12宫"
+  },
+  {
+   "template_id": "P2H_MARS_TO_H1",
+   "source_planet": "Mars",
+   "target_house": 1,
+   "primary_domains": "事业 · 成长",
+   "title": "今天更想直接行动，不太想等",
+   "one_line_summary": "行动力、竞争心和自我推进感都会增强，也更容易快速做决定。",
+   "evidence_text": "火星 → 本命第1宫"
+  },
+  {
+   "template_id": "P2H_MARS_TO_H2",
+   "source_planet": "Mars",
+   "target_house": 2,
+   "primary_domains": "事业 · 爱情",
+   "title": "钱和价值问题更容易变得直接",
+   "one_line_summary": "收入、消费、家庭资源和价值感会更容易进入行动和争执，也更想快速做出决定。",
+   "evidence_text": "火星 → 本命第2宫"
+  },
+  {
+   "template_id": "P2H_MARS_TO_H3",
+   "source_planet": "Mars",
+   "target_house": 3,
+   "primary_domains": "事业 · 成长",
+   "title": "今天更敢说，也更敢做",
+   "one_line_summary": "沟通、行动、技能训练和主动尝试都会提速，也更愿意自己把事情往前推。",
+   "evidence_text": "火星 → 本命第3宫"
+  },
+  {
+   "template_id": "P2H_MARS_TO_H4",
+   "source_planet": "Mars",
+   "target_house": 4,
+   "primary_domains": "爱情 · 成长",
+   "title": "家里更容易出现急躁和摩擦",
+   "one_line_summary": "家庭、居住和安全感问题会更容易触发脾气，也更想马上改变让自己不舒服的状态。",
+   "evidence_text": "火星 → 本命第4宫"
+  },
+  {
+   "template_id": "P2H_MARS_TO_H5",
+   "source_planet": "Mars",
+   "target_house": 5,
+   "primary_domains": "爱情 · 成长",
+   "title": "心动和竞争感都更容易变强",
+   "one_line_summary": "恋爱、兴趣、创作和想赢的感觉都会更活跃，但也更容易因为期待落空而急躁。",
+   "evidence_text": "火星 → 本命第5宫"
+  },
+  {
+   "template_id": "P2H_MARS_TO_H6",
+   "source_planet": "Mars",
+   "target_house": 6,
+   "primary_domains": "事业 · 成长",
+   "title": "今天很适合攻克难题、清掉积压",
+   "one_line_summary": "执行、竞争和解决问题的能力都会更强，特别适合处理那些一直拖着的麻烦。",
+   "evidence_text": "火星 → 本命第6宫"
+  },
+  {
+   "template_id": "P2H_MARS_TO_H7",
+   "source_planet": "Mars",
+   "target_house": 7,
+   "primary_domains": "爱情 · 事业",
+   "title": "关系里更容易硬碰硬",
+   "one_line_summary": "伴侣、合作和一对一互动里的主导欲会增强，也更容易因为节奏和立场不同产生冲突。",
+   "evidence_text": "火星 → 本命第7宫"
+  },
+  {
+   "template_id": "P2H_MARS_TO_H8",
+   "source_planet": "Mars",
+   "target_house": 8,
+   "primary_domains": "成长 · 爱情",
+   "title": "复杂问题更容易进入高压状态",
+   "one_line_summary": "共享资源、风险、控制和隐藏冲突会更容易被触发，也更想迅速把问题处理掉。",
+   "evidence_text": "火星 → 本命第8宫"
+  },
+  {
+   "template_id": "P2H_MARS_TO_H9",
+   "source_planet": "Mars",
+   "target_house": 9,
+   "primary_domains": "成长 · 学业",
+   "title": "今天更想用行动验证自己的观点",
+   "one_line_summary": "信念、学习和长期方向会带上更强的行动感，也更容易坚持自己的立场。",
+   "evidence_text": "火星 → 本命第9宫"
+  },
+  {
+   "template_id": "P2H_MARS_TO_H10",
+   "source_planet": "Mars",
+   "target_house": 10,
+   "primary_domains": "事业 · 成长",
+   "title": "今天事业上的推进力会特别强",
+   "one_line_summary": "目标、责任、竞争和公开表现都会被行动力带动，更适合把工作真正往前推。",
+   "evidence_text": "火星 → 本命第10宫"
+  },
+  {
+   "template_id": "P2H_MARS_TO_H11",
+   "source_planet": "Mars",
+   "target_house": 11,
+   "primary_domains": "事业 · 成长",
+   "title": "今天更想把目标尽快推到结果",
+   "one_line_summary": "人脉、收益和长期目标会更有行动感，也更愿意主动组织资源、争取成果。",
+   "evidence_text": "火星 → 本命第11宫"
+  },
+  {
+   "template_id": "P2H_MARS_TO_H12",
+   "source_planet": "Mars",
+   "target_house": 12,
+   "primary_domains": "成长 · 事业",
+   "title": "今天容易忙很多，却不一定马上看到结果",
+   "one_line_summary": "行动力更容易用在幕后、收尾或隐性消耗上，也更需要留意休息和精力边界。",
+   "evidence_text": "火星 → 本命第12宫"
+  },
+  {
+   "template_id": "P2H_JUPITER_TO_H1",
+   "source_planet": "Jupiter",
+   "target_house": 1,
+   "primary_domains": "成长 · 事业",
+   "title": "今天更容易对自己有信心",
+   "one_line_summary": "你会更愿意主动一点，也更容易觉得自己有空间去尝试新的选择。",
+   "evidence_text": "木星 → 本命第1宫"
+  },
+  {
+   "template_id": "P2H_JUPITER_TO_H2",
+   "source_planet": "Jupiter",
+   "target_house": 2,
+   "primary_domains": "事业 · 成长",
+   "title": "今天更适合把资源用在值得的地方",
+   "one_line_summary": "你会更容易思考金钱、资源和长期价值，也更愿意把投入放到真正重要的事情上。",
+   "evidence_text": "木星 → 本命第2宫"
+  },
+  {
+   "template_id": "P2H_JUPITER_TO_H3",
+   "source_planet": "Jupiter",
+   "target_house": 3,
+   "primary_domains": "学业 · 事业",
+   "title": "今天更愿意主动学习和表达",
+   "one_line_summary": "沟通、学习新技能和主动尝试都会更顺手一些，也更愿意把想法真正说出来。",
+   "evidence_text": "木星 → 本命第3宫"
+  },
+  {
+   "template_id": "P2H_JUPITER_TO_H4",
+   "source_planet": "Jupiter",
+   "target_house": 4,
+   "primary_domains": "成长 · 爱情",
+   "title": "今天更想把生活基础安顿好一点",
+   "one_line_summary": "家庭、居住环境和内在安全感会更值得关注，也更容易想改善自己的生活状态。",
+   "evidence_text": "木星 → 本命第4宫"
+  },
+  {
+   "template_id": "P2H_JUPITER_TO_H5",
+   "source_planet": "Jupiter",
+   "target_house": 5,
+   "primary_domains": "学业 · 成长",
+   "title": "灵感、兴趣和表达欲都更容易打开",
+   "one_line_summary": "今天更适合学习、创作、培养兴趣，也更愿意把自己真正喜欢的东西表达出来。",
+   "evidence_text": "木星 → 本命第5宫"
+  },
+  {
+   "template_id": "P2H_JUPITER_TO_H6",
+   "source_planet": "Jupiter",
+   "target_house": 6,
+   "primary_domains": "成长 · 事业",
+   "title": "今天更适合把日常问题重新整理一下",
+   "one_line_summary": "工作、任务和生活秩序会更值得梳理，也更容易看到一个问题还有别的处理方式。",
+   "evidence_text": "木星 → 本命第6宫"
+  },
+  {
+   "template_id": "P2H_JUPITER_TO_H7",
+   "source_planet": "Jupiter",
+   "target_house": 7,
+   "primary_domains": "爱情 · 成长",
+   "title": "合作和关系更容易打开新的空间",
+   "one_line_summary": "今天更适合沟通、协商和建立连接，也更愿意从双方都能受益的角度看关系。",
+   "evidence_text": "木星 → 本命第7宫"
+  },
+  {
+   "template_id": "P2H_JUPITER_TO_H8",
+   "source_planet": "Jupiter",
+   "target_house": 8,
+   "primary_domains": "成长 · 学业",
+   "title": "今天更适合把复杂问题看深一点",
+   "one_line_summary": "一些隐藏、复杂或不容易马上看懂的问题，会更值得你耐心研究。",
+   "evidence_text": "木星 → 本命第8宫"
+  },
+  {
+   "template_id": "P2H_JUPITER_TO_H9",
+   "source_planet": "Jupiter",
+   "target_house": 9,
+   "primary_domains": "学业 · 成长",
+   "title": "今天更容易看到更远的方向",
+   "one_line_summary": "学习、视野和长期方向都会更容易打开，适合把自己从眼前事务里稍微拉远一点。",
+   "evidence_text": "木星 → 本命第9宫"
+  },
+  {
+   "template_id": "P2H_JUPITER_TO_H10",
+   "source_planet": "Jupiter",
+   "target_house": 10,
+   "primary_domains": "事业 · 成长",
+   "title": "事业上更容易看到新的发展空间",
+   "one_line_summary": "今天更容易思考职位、责任和长期发展，也更愿意主动争取更大的成长机会。",
+   "evidence_text": "木星 → 本命第10宫"
+  },
+  {
+   "template_id": "P2H_JUPITER_TO_H11",
+   "source_planet": "Jupiter",
+   "target_house": 11,
+   "primary_domains": "事业 · 成长",
+   "title": "人脉和目标更容易带来新机会",
+   "one_line_summary": "今天更适合连接资源、拓展圈子和推进长期目标，也更容易从他人那里获得支持。",
+   "evidence_text": "木星 → 本命第11宫"
+  },
+  {
+   "template_id": "P2H_JUPITER_TO_H12",
+   "source_planet": "Jupiter",
+   "target_house": 12,
+   "primary_domains": "成长 · 学业",
+   "title": "今天更适合把脚步放慢一点",
+   "one_line_summary": "独处、休息、幕后整理和向内思考会更有价值，也更适合暂时减少外界噪音。",
+   "evidence_text": "木星 → 本命第12宫"
+  },
+  {
+   "template_id": "P2H_SATURN_TO_H1",
+   "source_planet": "Saturn",
+   "target_house": 1,
+   "primary_domains": "成长 · 爱情",
+   "title": "今天更需要稳住自己的节奏",
+   "one_line_summary": "责任、自我要求和现实感都会更明显，很多事情会提醒你先把基础站稳。",
+   "evidence_text": "土星 → 本命第1宫"
+  },
+  {
+   "template_id": "P2H_SATURN_TO_H2",
+   "source_planet": "Saturn",
+   "target_house": 2,
+   "primary_domains": "成长 · 爱情",
+   "title": "今天更适合把钱和资源算清楚",
+   "one_line_summary": "你会更在意预算、储备和现实安全感，也更适合认真整理自己的资源安排。",
+   "evidence_text": "土星 → 本命第2宫"
+  },
+  {
+   "template_id": "P2H_SATURN_TO_H3",
+   "source_planet": "Saturn",
+   "target_house": 3,
+   "primary_domains": "事业 · 成长",
+   "title": "今天更适合把一件事练扎实",
+   "one_line_summary": "沟通、技能和执行会更需要耐心，但持续做下去反而更容易形成真正的能力。",
+   "evidence_text": "土星 → 本命第3宫"
+  },
+  {
+   "template_id": "P2H_SATURN_TO_H4",
+   "source_planet": "Saturn",
+   "target_house": 4,
+   "primary_domains": "爱情 · 成长",
+   "title": "家庭和安全感问题更难忽略",
+   "one_line_summary": "今天更容易感到家庭、居住或内在压力需要被认真处理。",
+   "evidence_text": "土星 → 本命第4宫"
+  },
+  {
+   "template_id": "P2H_SATURN_TO_H5",
+   "source_planet": "Saturn",
+   "target_house": 5,
+   "primary_domains": "爱情 · 成长",
+   "title": "兴趣和关系都需要多一点耐心",
+   "one_line_summary": "恋爱、创作或兴趣上的轻松感可能下降，但也更适合看清什么值得长期投入。",
+   "evidence_text": "土星 → 本命第5宫"
+  },
+  {
+   "template_id": "P2H_SATURN_TO_H6",
+   "source_planet": "Saturn",
+   "target_house": 6,
+   "primary_domains": "事业 · 成长",
+   "title": "今天很适合把日常秩序重新立起来",
+   "one_line_summary": "工作、责任和生活习惯会更需要纪律，但也最容易通过持续整理看到效果。",
+   "evidence_text": "土星 → 本命第6宫"
+  },
+  {
+   "template_id": "P2H_SATURN_TO_H7",
+   "source_planet": "Saturn",
+   "target_house": 7,
+   "primary_domains": "爱情 · 成长",
+   "title": "关系里的现实问题需要认真谈了",
+   "one_line_summary": "承诺、距离、责任和相处规则会更有存在感，关系不太适合继续只靠感觉维持。",
+   "evidence_text": "土星 → 本命第7宫"
+  },
+  {
+   "template_id": "P2H_SATURN_TO_H8",
+   "source_planet": "Saturn",
+   "target_house": 8,
+   "primary_domains": "成长 · 爱情",
+   "title": "有些深层压力需要慢慢处理",
+   "one_line_summary": "共享资源、信任和长期积累的问题会更难回避，但也更适合做彻底整理。",
+   "evidence_text": "土星 → 本命第8宫"
+  },
+  {
+   "template_id": "P2H_SATURN_TO_H9",
+   "source_planet": "Saturn",
+   "target_house": 9,
+   "primary_domains": "成长 · 学业",
+   "title": "长期方向更需要认真校准",
+   "one_line_summary": "学习、信念和未来规划会更强调现实性，很多想法需要经过时间和行动验证。",
+   "evidence_text": "土星 → 本命第9宫"
+  },
+  {
+   "template_id": "P2H_SATURN_TO_H10",
+   "source_planet": "Saturn",
+   "target_house": 10,
+   "primary_domains": "事业 · 成长",
+   "title": "事业上的责任感会明显变重",
+   "one_line_summary": "工作、职位和长期目标会更要求你承担责任，也更适合认真搭建职业基础。",
+   "evidence_text": "土星 → 本命第10宫"
+  },
+  {
+   "template_id": "P2H_SATURN_TO_H11",
+   "source_planet": "Saturn",
+   "target_house": 11,
+   "primary_domains": "事业 · 成长",
+   "title": "长期目标需要更现实地推进",
+   "one_line_summary": "人脉、收益和目标会更强调质量与持续性，不太适合只追求数量和热闹。",
+   "evidence_text": "土星 → 本命第11宫"
+  },
+  {
+   "template_id": "P2H_SATURN_TO_H12",
+   "source_planet": "Saturn",
+   "target_house": 12,
+   "primary_domains": "成长 · 事业",
+   "title": "今天更需要给自己留出恢复空间",
+   "one_line_summary": "疲惫、支出、幕后责任和想独处的感觉会更明显，很多事情需要慢一点处理。",
+   "evidence_text": "土星 → 本命第12宫"
+  },
+  {
+   "template_id": "P2H_RAHU_TO_H1",
+   "source_planet": "Rahu",
+   "target_house": 1,
+   "primary_domains": "事业 · 成长",
+   "title": "今天更想试试不一样的自己",
+   "one_line_summary": "你会更想尝试新的形象、方向或做事方式，也更在意自己能不能走出原来的限制。",
+   "evidence_text": "北交点 → 本命第1宫"
+  },
+  {
+   "template_id": "P2H_RAHU_TO_H2",
+   "source_planet": "Rahu",
+   "target_house": 2,
+   "primary_domains": "事业 · 成长",
+   "title": "今天更容易被新的赚钱方式吸引",
+   "one_line_summary": "金钱、收入和价值感会更容易被新机会吸引，也更想尝试不同的资源配置方式。",
+   "evidence_text": "北交点 → 本命第2宫"
+  },
+  {
+   "template_id": "P2H_RAHU_TO_H3",
+   "source_planet": "Rahu",
+   "target_house": 3,
+   "primary_domains": "事业 · 学业",
+   "title": "新点子和表达欲都会明显变强",
+   "one_line_summary": "今天更容易被新工具、新信息和不同的表达方式吸引，也更敢主动尝试。",
+   "evidence_text": "北交点 → 本命第3宫"
+  },
+  {
+   "template_id": "P2H_RAHU_TO_H4",
+   "source_planet": "Rahu",
+   "target_house": 4,
+   "primary_domains": "爱情 · 成长",
+   "title": "今天更想改变熟悉的生活状态",
+   "one_line_summary": "家庭、居住和安全感上的不满足会更容易被放大，也更想换一种生活方式。",
+   "evidence_text": "北交点 → 本命第4宫"
+  },
+  {
+   "template_id": "P2H_RAHU_TO_H5",
+   "source_planet": "Rahu",
+   "target_house": 5,
+   "primary_domains": "爱情 · 学业",
+   "title": "兴趣和心动都更容易突然升温",
+   "one_line_summary": "恋爱、创作和新鲜体验会特别吸引你，但感觉来得快时也更需要多一点观察。",
+   "evidence_text": "北交点 → 本命第5宫"
+  },
+  {
+   "template_id": "P2H_RAHU_TO_H6",
+   "source_planet": "Rahu",
+   "target_house": 6,
+   "primary_domains": "事业 · 成长",
+   "title": "今天更想把难题直接解决掉",
+   "one_line_summary": "竞争、任务和现实问题会更抓注意力，也更容易进入想快速突破障碍的状态。",
+   "evidence_text": "北交点 → 本命第6宫"
+  },
+  {
+   "template_id": "P2H_RAHU_TO_H7",
+   "source_planet": "Rahu",
+   "target_house": 7,
+   "primary_domains": "爱情 · 事业",
+   "title": "关系里的吸引和不确定感都会变强",
+   "one_line_summary": "一对一关系会特别抓住注意力，心动、投射和想确认答案的需求都可能明显增加。",
+   "evidence_text": "北交点 → 本命第7宫"
+  },
+  {
+   "template_id": "P2H_RAHU_TO_H8",
+   "source_planet": "Rahu",
+   "target_house": 8,
+   "primary_domains": "学业 · 成长",
+   "title": "今天更容易被复杂问题吸引",
+   "one_line_summary": "风险、共享资源、秘密和深层问题会特别抓注意力，也更想弄清事情背后的真相。",
+   "evidence_text": "北交点 → 本命第8宫"
+  },
+  {
+   "template_id": "P2H_RAHU_TO_H9",
+   "source_planet": "Rahu",
+   "target_house": 9,
+   "primary_domains": "学业 · 成长",
+   "title": "今天更想接触不一样的观点和路径",
+   "one_line_summary": "新知识、远方、不同文化和非传统思路都会更有吸引力，也更容易想跳出原来的框架。",
+   "evidence_text": "北交点 → 本命第9宫"
+  },
+  {
+   "template_id": "P2H_RAHU_TO_H10",
+   "source_planet": "Rahu",
+   "target_house": 10,
+   "primary_domains": "事业 · 成长",
+   "title": "事业上的突破欲会特别明显",
+   "one_line_summary": "你会更想被看见、做得更大或换一条更快的路，事业野心和竞争感都会提高。",
+   "evidence_text": "北交点 → 本命第10宫"
+  },
+  {
+   "template_id": "P2H_RAHU_TO_H11",
+   "source_planet": "Rahu",
+   "target_house": 11,
+   "primary_domains": "事业 · 成长",
+   "title": "人脉和目标都更容易被放大",
+   "one_line_summary": "你会更想连接更多机会、扩大圈子和加快目标兑现，也更容易被高增长可能性吸引。",
+   "evidence_text": "北交点 → 本命第11宫"
+  },
+  {
+   "template_id": "P2H_RAHU_TO_H12",
+   "source_planet": "Rahu",
+   "target_house": 12,
+   "primary_domains": "成长 · 学业",
+   "title": "幕后、远方和未知会更有吸引力",
+   "one_line_summary": "独处、海外、隐藏的事情或暂时逃离原有节奏的想法会更明显，也更容易增加支出和分心。",
+   "evidence_text": "北交点 → 本命第12宫"
+  },
+  {
+   "template_id": "P2H_KETU_TO_H1",
+   "source_planet": "Ketu",
+   "target_house": 1,
+   "primary_domains": "成长 · 事业",
+   "title": "今天更想把注意力从外界收回来",
+   "one_line_summary": "你可能没那么想证明自己，也更容易重新思考什么样的状态才真正适合你。",
+   "evidence_text": "南交点 → 本命第1宫"
+  },
+  {
+   "template_id": "P2H_KETU_TO_H2",
+   "source_planet": "Ketu",
+   "target_house": 2,
+   "primary_domains": "成长 · 爱情",
+   "title": "今天更适合重新整理资源和价值",
+   "one_line_summary": "你会更容易发现，有些花费、资源或旧有价值标准已经不太适合现在的自己。",
+   "evidence_text": "南交点 → 本命第2宫"
+  },
+  {
+   "template_id": "P2H_KETU_TO_H3",
+   "source_planet": "Ketu",
+   "target_house": 3,
+   "primary_domains": "学业 · 成长",
+   "title": "今天更适合减少噪音，把一件事做深",
+   "one_line_summary": "沟通和信息量可能会减少一些，但独立思考、研究和深度练习会更有价值。",
+   "evidence_text": "南交点 → 本命第3宫"
+  },
+  {
+   "template_id": "P2H_KETU_TO_H4",
+   "source_planet": "Ketu",
+   "target_house": 4,
+   "primary_domains": "爱情 · 成长",
+   "title": "今天更需要一点自己的空间",
+   "one_line_summary": "家庭、居住和情绪安全感上的黏着感会降低，也更想安静整理自己的状态。",
+   "evidence_text": "南交点 → 本命第4宫"
+  },
+  {
+   "template_id": "P2H_KETU_TO_H5",
+   "source_planet": "Ketu",
+   "target_house": 5,
+   "primary_domains": "学业 · 成长",
+   "title": "今天更适合把兴趣往深处发展",
+   "one_line_summary": "恋爱、创作和兴趣上的外放热情可能降低，但更容易进入研究、沉浸和重新筛选。",
+   "evidence_text": "南交点 → 本命第5宫"
+  },
+  {
+   "template_id": "P2H_KETU_TO_H6",
+   "source_planet": "Ketu",
+   "target_house": 6,
+   "primary_domains": "事业 · 成长",
+   "title": "今天更适合减少无效消耗",
+   "one_line_summary": "工作、任务和日常问题会更适合做减法，把精力留给真正必须处理的部分。",
+   "evidence_text": "南交点 → 本命第6宫"
+  },
+  {
+   "template_id": "P2H_KETU_TO_H7",
+   "source_planet": "Ketu",
+   "target_house": 7,
+   "primary_domains": "爱情 · 成长",
+   "title": "关系里会更想拉开一点距离",
+   "one_line_summary": "伴侣、合作和一对一互动中的投入感可能下降，也更容易重新思考自己还想不想继续。",
+   "evidence_text": "南交点 → 本命第7宫"
+  },
+  {
+   "template_id": "P2H_KETU_TO_H8",
+   "source_planet": "Ketu",
+   "target_house": 8,
+   "primary_domains": "学业 · 成长",
+   "title": "今天更适合研究深层和隐藏的问题",
+   "one_line_summary": "复杂、隐秘和需要长期理解的内容会更有吸引力，也更容易进入深度思考状态。",
+   "evidence_text": "南交点 → 本命第8宫"
+  },
+  {
+   "template_id": "P2H_KETU_TO_H9",
+   "source_planet": "Ketu",
+   "target_house": 9,
+   "primary_domains": "学业 · 成长",
+   "title": "今天更适合重新整理自己的信念",
+   "one_line_summary": "高等学习、哲学和长期方向会更偏向反思，也更容易质疑过去一直相信的东西。",
+   "evidence_text": "南交点 → 本命第9宫"
+  },
+  {
+   "template_id": "P2H_KETU_TO_H10",
+   "source_planet": "Ketu",
+   "target_house": 10,
+   "primary_domains": "事业 · 成长",
+   "title": "今天可能没那么想追外在成绩",
+   "one_line_summary": "职位、认可和外在成就的吸引力会下降一些，也更容易重新思考事业到底为什么值得做。",
+   "evidence_text": "南交点 → 本命第10宫"
+  },
+  {
+   "template_id": "P2H_KETU_TO_H11",
+   "source_planet": "Ketu",
+   "target_house": 11,
+   "primary_domains": "事业 · 成长",
+   "title": "今天更想筛掉无效的人脉和目标",
+   "one_line_summary": "社交、收益和长期目标会更适合做减法，也更容易看清哪些连接其实已经没有价值。",
+   "evidence_text": "南交点 → 本命第11宫"
+  },
+  {
+   "template_id": "P2H_KETU_TO_H12",
+   "source_planet": "Ketu",
+   "target_house": 12,
+   "primary_domains": "成长 · 学业",
+   "title": "今天很适合做一次深度清理",
+   "one_line_summary": "休息、结束、独处和精神性主题会特别明显，也更适合把旧阶段慢慢放下。",
+   "evidence_text": "南交点 → 本命第12宫"
+  }
+ ]
+}

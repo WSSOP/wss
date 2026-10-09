@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.dct.zpback.mapper.MallCustomRequestMapper">
+
+    <sql id="cols">
+        request_id, user_id, product_id, payload, status, created_at, updated_at
+    </sql>
+
+    <insert id="insert" parameterType="cn.dct.zpback.entity.MallCustomRequest">
+        INSERT INTO mall_custom_request (request_id, user_id, product_id, payload, status)
+        VALUES (#{requestId}, #{userId}, #{productId}, #{payload}, #{status})
+    </insert>
+
+    <select id="listByUser" resultType="cn.dct.zpback.entity.MallCustomRequest">
+        SELECT <include refid="cols"/> FROM mall_custom_request
+        WHERE user_id = #{userId}
+        ORDER BY created_at DESC
+    </select>
+
+</mapper>

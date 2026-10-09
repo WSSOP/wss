@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+    问星渡｜商城订单
+
+    §2.10 用户主状态固定：待付款 -> 待发货 -> 已发货 -> 已完成，前台无【确认收货】。
+    所有 UPDATE 都带前置状态条件，保证状态机只能单向推进，
+    支付回调 / 发货 / 完成不会把已终态订单再改回去。
+-->
+<mapper namespace="cn.dct.zpback.mapper.MallOrderMapper">
+
+    <sql id="cols">
+        order_id, user_id, order_no, trade_group, group_key,
+        goods_amount, freight_amount, discount_amount, payable_amount,
+        address_snapshot, payment_channel, order_status, stock_locked_until,
+        paid_at, cancelled_at, shipped_at, completed_at, remark, source,
+        created_at, updated_at
+    </sql>
+
+    <insert id="insert" parameterType="cn.dct.zpback.entity.MallOrder">
+        INSERT INTO mall_order (
+            order_id, user_id, order_no, trade_group, group_key,
+            goods_amount, freight_amount, discount_amount, payable_amount,
+            address_snapshot, payment_channel, order_status, stock_locked_until,
+            remark, source
+        ) VALUES (
+            #{orderId}, #{userId}, #{orderNo}, #{tradeGroup}, #{groupKey},
+            #{goodsAmount}, #{freightAmount}, #{discountAmount}, #{payableAmount},
+            #{addressSnapshot}, #{paymentChannel}, #{orderStatus}, #{stockLockedUntil},
+            #{remark}, #{source}
+        )
+    </insert>
+
+    <select id="findById" resultType="cn.dct.zpback.entity.MallOrder">
+        SELECT <include refid="cols"/> FROM mall_order
+        WHERE order_id = #{orderId}
+    </select>
+
+    <select id="findByOrderNo" resultType="cn.dct.zpback.entity.MallOrder">
+        SELECT <include refid="cols"/> FROM mall_order
+        WHERE order_no = #{orderNo} LIMIT 1
+    </select>
+
+    <select id="listByUser" resultType="cn.dct.zpback.entity.MallOrder">
+        SELECT <include refid="cols"/> FROM mall_order
+        WHERE user_id = #{userId}
+        <if test="status != null"> AND order_status = #{status} </if>
+        ORDER BY created_at DESC
+    </select>
+
+    <!-- 状态机单向：只有 PENDING_PAYMENT 能进 PAID -->
+    <update id="markPaid">
+        UPDATE mall_order
+        SET order_status = 'PAID', payment_channel = #{paymentChannel}, paid_at = CURRENT_TIMESTAMP
+        WHERE order_id = #{orderId} AND order_status = 'PENDING_PAYMENT'
+    </update>
+
+    <update id="cancel">
+        UPDATE mall_order
+        SET order_status = 'CANCELLED', cancelled_at = CURRENT_TIMESTAMP
+        WHERE order_id = #{orderId} AND order_status = 'PENDING_PAYMENT'
+    </update>
+
+    <update id="markShipped">
+        UPDATE mall_order
+        SET order_status = 'SHIPPED', shipped_at = CURRENT_TIMESTAMP
+        WHERE order_id = #{orderId} AND order_status = 'PAID'
+    </update>
+
+    <update id="markCompleted">
+        UPDATE mall_order
+        SET order_status = 'COMPLETED', completed_at = CURRENT_TIMESTAMP
+        WHERE order_id = #{orderId} AND order_status = 'SHIPPED'
+    </update>
+
+</mapper>

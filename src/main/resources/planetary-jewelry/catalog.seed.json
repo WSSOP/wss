@@ -1,0 +1,129 @@
+{
+  "version": "PJ_CATALOG_V1",
+  "note": "V1 内置种子目录。正式环境由运营后台动态上传（06_商品后台与补货订阅），此文件只保证商品数量不写死在代码里。",
+  "products": [
+    {
+      "product_id": "p_sun_yantra_001",
+      "title": "太阳主题 · 行动提醒护身符",
+      "planet_code": "SUN",
+      "remedy_type": "YANTRA",
+      "auto_recommendable": true,
+      "publish_status": "PUBLISHED",
+      "admin_recommendation_priority": 90,
+      "gift_available": true,
+      "images": ["/static/jewelry/sun_yantra_001.png"],
+      "description": "用于日常仪式与自我提醒的太阳主题 Yantra，不含天然宝石。",
+      "skus": [
+        {"sku_id": "s_sun_yantra_001_std", "variant_attributes": {"form": "吊坠", "material": "合金"}, "price": 268.0, "inventory_quantity": 0, "inventory_status": "OUT_OF_STOCK"},
+        {"sku_id": "s_sun_yantra_001_gold", "variant_attributes": {"form": "吊坠", "material": "镀金"}, "price": 428.0, "inventory_quantity": 0, "inventory_status": "OUT_OF_STOCK"}
+      ]
+    },
+    {
+      "product_id": "p_sun_gem_001",
+      "title": "太阳主题 · 红宝石戒指",
+      "planet_code": "SUN",
+      "remedy_type": "GEMSTONE",
+      "auto_recommendable": true,
+      "publish_status": "PUBLISHED",
+      "admin_recommendation_priority": 70,
+      "gift_available": true,
+      "images": ["/static/jewelry/sun_gem_001.png"],
+      "description": "仅在星盘门槛通过时展示的红宝石主题戒指。",
+      "skus": [
+        {"sku_id": "s_sun_gem_001_r9", "variant_attributes": {"ring_size": "9 号"}, "price": 3680.0, "inventory_quantity": 3, "inventory_status": "IN_STOCK"}
+      ]
+    },
+    {
+      "product_id": "p_moon_yantra_001",
+      "title": "月亮主题 · 内在节律手链",
+      "planet_code": "MOON",
+      "remedy_type": "YANTRA",
+      "auto_recommendable": true,
+      "publish_status": "PUBLISHED",
+      "admin_recommendation_priority": 80,
+      "gift_available": true,
+      "images": ["/static/jewelry/moon_yantra_001.png"],
+      "description": "月亮主题 Yantra 手链，用于日常佩戴提醒。",
+      "skus": [
+        {"sku_id": "s_moon_yantra_001_m", "variant_attributes": {"wrist": "M 号"}, "price": 238.0, "inventory_quantity": 12, "inventory_status": "IN_STOCK"},
+        {"sku_id": "s_moon_yantra_001_l", "variant_attributes": {"wrist": "L 号"}, "price": 238.0, "inventory_quantity": 8, "inventory_status": "IN_STOCK"}
+      ]
+    },
+    {
+      "product_id": "p_mars_yantra_001",
+      "title": "火星主题 · 推进与边界指环",
+      "planet_code": "MARS",
+      "remedy_type": "YANTRA",
+      "auto_recommendable": true,
+      "publish_status": "PUBLISHED",
+      "admin_recommendation_priority": 60,
+      "gift_available": false,
+      "images": ["/static/jewelry/mars_yantra_001.png"],
+      "description": "火星主题 Yantra，象征启动与边界的日常提醒。",
+      "skus": [
+        {"sku_id": "s_mars_yantra_001_8", "variant_attributes": {"ring_size": "8 号"}, "price": 288.0, "inventory_quantity": 2, "inventory_status": "LOW_STOCK"}
+      ]
+    },
+    {
+      "product_id": "p_mars_gem_001",
+      "title": "火星主题 · 红珊瑚戒指",
+      "planet_code": "MARS",
+      "remedy_type": "GEMSTONE",
+      "auto_recommendable": false,
+      "publish_status": "PUBLISHED",
+      "admin_recommendation_priority": 99,
+      "gift_available": true,
+      "images": ["/static/jewelry/mars_gem_001.png"],
+      "description": "运营手动关闭自动推荐的火星宝石款，任何模式都不得自动展示。",
+      "skus": [
+        {"sku_id": "s_mars_gem_001_9", "variant_attributes": {"ring_size": "9 号"}, "price": 5280.0, "inventory_quantity": 5, "inventory_status": "IN_STOCK"}
+      ]
+    },
+    {
+      "product_id": "p_mercury_yantra_001",
+      "title": "水星主题 · 沟通提醒吊坠",
+      "planet_code": "MERCURY",
+      "remedy_type": "YANTRA",
+      "auto_recommendable": true,
+      "publish_status": "ARCHIVED",
+      "admin_recommendation_priority": 50,
+      "gift_available": true,
+      "images": [],
+      "description": "已归档的历史商品：不得展示、不接受新订阅。",
+      "skus": [
+        {"sku_id": "s_mercury_yantra_001_std", "variant_attributes": {"form": "吊坠"}, "price": 258.0, "inventory_quantity": 4, "inventory_status": "IN_STOCK"}
+      ]
+    },
+    {
+      "product_id": "p_jupiter_yantra_001",
+      "title": "木星主题 · 方向感护身符",
+      "planet_code": "JUPITER",
+      "remedy_type": "YANTRA",
+      "auto_recommendable": true,
+      "publish_status": "PUBLISHED",
+      "admin_recommendation_priority": 85,
+      "gift_available": true,
+      "images": ["/static/jewelry/jupiter_yantra_001.png"],
+      "description": "木星主题 Yantra，象征方向与成长的日常提醒。",
+      "skus": [
+        {"sku_id": "s_jupiter_yantra_001_std", "variant_attributes": {"form": "吊坠", "material": "合金"}, "price": 308.0, "inventory_quantity": 1, "inventory_status": "LOW_STOCK"}
+      ]
+    },
+    {
+      "product_id": "p_saturn_yantra_001",
+      "title": "土星主题 · 稳定节律手串",
+      "planet_code": "SATURN",
+      "remedy_type": "YANTRA",
+      "auto_recommendable": true,
+      "publish_status": "PUBLISHED",
+      "admin_recommendation_priority": 40,
+      "gift_available": true,
+      "images": ["/static/jewelry/saturn_yantra_001.png"],
+      "description": "土星主题 Yantra，用于纪律与长期坚持的日常提醒。",
+      "skus": [
+        {"sku_id": "s_saturn_yantra_001_std", "variant_attributes": {"wrist": "M 号"}, "price": 268.0, "inventory_quantity": 0, "inventory_status": "OUT_OF_STOCK"},
+        {"sku_id": "s_saturn_yantra_001_plus", "variant_attributes": {"wrist": "M 号", "bundle": "双份"}, "price": 468.0, "inventory_quantity": 6, "inventory_status": "IN_STOCK"}
+      ]
+    }
+  ]
+}

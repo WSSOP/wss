@@ -1,0 +1,34 @@
+{
+  "version": "PJ_RECOMMENDATION_POLICY_V1",
+  "candidate_raw_score_min": 8,
+  "gemstone_raw_score_min": 12,
+  "max_goal_candidates_before_gate": 4,
+  "max_recommendations": 2,
+  "primary_secondary_must_use_distinct_planets": true,
+  "inventory_may_change_rank": false,
+  "price_may_change_rank": false,
+  "merchandising_priority_may_change_rank": false,
+  "rank_score": {
+    "formula": "raw_goal_score + structural_bonus + support_modifier + dasha_tiebreaker - downgrade_penalty",
+    "structural_bonus_by_base_tier": {"0": 0, "1": 1, "2": 3, "3": 5, "4": 8},
+    "support_modifier_max": 4,
+    "dasha_tiebreaker_max": 2,
+    "downgrade_penalty_max": 6
+  },
+  "mode_rules": {
+    "SELF_ASSESSMENT": {
+      "gemstone": {"requires_data_quality": "FULL_CHART", "base_tier_min": 3, "raw_score_min": 12, "supporting_roots_min": 2, "hard_block_allowed": false},
+      "yantra_preferred": {"base_tier_min": 2, "raw_score_min": 8, "hard_block_allowed": false},
+      "yantra_only": {"base_tier_min": 1, "raw_score_min": 12, "hard_block_allowed": false}
+    },
+    "GIFT_BLESSING": {
+      "default_modality": "YANTRA_PREFERRED",
+      "gemstone": {"requires_data_quality": "FULL_CHART", "base_tier_min": 4, "raw_score_min": 12, "mixed_ownership_review_allowed": false, "hard_block_allowed": false},
+      "gemstone_trikona_exception": {"base_tier": 3, "requires": ["DIGNITY_STABLE", "DASHA_ACTIVE_SUITABLE"]},
+      "partial_chart_modality": "BLESSING_THEME_ONLY"
+    }
+  },
+  "tie_break_order": ["DIRECT_PRIORITY_SCORE", "BASE_TIER", "FEWER_DOWNGRADES", "MORE_SUPPORT_ROOTS", "CANONICAL_PLANET_ORDER"],
+  "canonical_planet_order": ["SUN", "MOON", "MARS", "MERCURY", "JUPITER", "VENUS", "SATURN"],
+  "no_result": {"status": "NO_AUTOMATIC_RECOMMENDATION", "product_cta_allowed": false}
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.dct.zpback.mapper.ReportGiftEntitlementMapper">
+
+    <resultMap id="BaseResultMap" type="cn.dct.zpback.entity.ReportGiftEntitlement">
+        <id column="id" property="id"/>
+        <result column="report_instance_id" property="reportInstanceId"/>
+        <result column="user_id" property="userId"/>
+        <result column="benefit_type" property="benefitType"/>
+        <result column="used" property="used"/>
+        <result column="used_at" property="usedAt"/>
+        <result column="used_by_request_id" property="usedByRequestId"/>
+        <result column="created_at" property="createdAt"/>
+        <result column="expire_at" property="expireAt"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id, report_instance_id, user_id, benefit_type, used,
+        used_at, used_by_request_id, created_at, expire_at
+    </sql>
+
+    <select id="selectByReportId" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List"/>
+        FROM report_gift_entitlement
+        WHERE report_instance_id = #{reportInstanceId}
+        LIMIT 1
+    </select>
+
+    <insert id="insert" parameterType="cn.dct.zpback.entity.ReportGiftEntitlement">
+        INSERT INTO report_gift_entitlement (report_instance_id, user_id, benefit_type, used, expire_at)
+        VALUES (#{reportInstanceId}, #{userId}, #{benefitType}, #{used}, #{expireAt})
+    </insert>
+
+    <update id="markUsed">
+        UPDATE report_gift_entitlement
+        SET used = 1, used_at = NOW(), used_by_request_id = #{requestId}
+        WHERE id = #{id}
+    </update>
+
+</mapper>
